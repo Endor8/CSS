@@ -1,0 +1,385 @@
+/*  AGENT_SHEET   */
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document url-prefix("http://www.camp-firefox.de/forum"),
+               url-prefix("https://www.camp-firefox.de/forum"){
+.forumbg.announcement, #storage-notice{
+display: none !important;}
+
+.container-16{
+width: auto !important;
+}
+
+#panel{
+width: auto !important;
+}
+
+#corners-top{
+width: auto !important;
+}
+
+#header{
+width: auto !important;
+}
+
+#page-body{
+width: auto !important;
+}
+
+#page-header, #page-footer{
+width: auto !important;
+}
+
+/* HTML, #phpbb, #wrap {background: #E9F5FE !important;} */
+
+/*
+dl.forum_unread {
+     background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/neu.ico") !important; }
+dl.forum_read {
+     background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/alt.ico") !important;}
+dl.forum_unread_locked {
+     background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/closed.ico") !important;}
+dl.forum_read_locked {
+     background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/closed.ico") !important;}
+dl.forum_unread_subforum {
+     background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/neu.ico") !important;}
+dl.forum_read_subforum {
+     background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/alt.ico") !important;}
+dl.topic_unread {
+     background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/neu.ico") !important;}
+dl.topic_read {
+     background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/alt.ico") !important;}
+dl.topic_unread_hot {
+     background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/neu.ico") !important;}
+dl.topic_read_mine {
+    background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/alt.ico") !important;}
+dl.topic_unread_mine {
+    background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/neu.ico") !important;}
+dl.topic_read_hot_mine {
+    background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/topic_read_hot_mine.gif") !important;}
+dl.topic_moved {
+    background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/topic_moved.gif") !important;}
+dl.sticky_read {
+    background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/impalt.ico") !important;}
+dl.topic_read_locked_mine {
+    background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/closed.ico") !important;}
+dl.topic_read_locked{
+    background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/closed.ico") !important;}
+dl.topic_unread_locked {
+    background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/closed.ico") !important;}
+dl.topic_read_hot {
+    background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/topic_read_hot.gif") !important;}
+dl.topic_unread_hot_mine {
+    background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/neu.ico") !important;}
+dl.sticky_read {
+    background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/impalt.ico") !important;}
+dl.sticky_unread {
+    background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/impneu.ico") !important;}
+dl.sticky_read_mine {
+    background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/impalt.ico") !important;}
+dl.sticky_unread_mine {
+    background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/impneu.ico") !important;}
+dl.global_read_locked_mine {
+    background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/closed.ico") !important;}
+dl.global_read_locked {
+    background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/closed.ico") !important;}
+dl.sticky_read_locked {
+    background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/closed.ico") !important;}
+dl.sticky_unread_locked {
+    background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/closed.ico") !important;}
+dl.sticky_unread_locked_mine {
+    background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/closed.ico") !important;}
+dl.announce_read {
+    background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/alt.ico") !important;}
+dl.announce_unread {
+    background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/neu.ico") !important;}
+dl.announce_read_locked {
+    background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/closed.ico") !important;}
+dl.announce_unread_locked {
+    background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/closed.ico") !important;}
+dl.topic_unread_locked_mine {
+    background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/closed.ico") !important;}
+dl.announce_read_mine {
+    background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/alt.ico") !important;}
+dl.announce_unread_mine {
+    background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/neu.ico") !important;}
+dl.announce_read_locked_mine {
+    background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/closed.ico") !important;}
+dl.announce_unread_locked_mine {
+    background-image: url("https://dl.dropbox.com/u/15467633/Firefox/Icons/closed.ico") !important;}*/
+
+.topic-starter {color: #dc143c !important; font-weight: bold !important; text-decoration:none!important;}
+ 
+.topic-starter:hover {color: #ff8c00 !important; font-weight: bold !important;}
+
+}
+
+
+@-moz-document url-prefix("http://www.camp-firefox.de/forum/posting.php"),
+               url-prefix("https://www.camp-firefox.de/forum/posting.php")
+{
+#subject {width:1055px !important; margin-left: -120px !important;}
+
+#postingbox > DIV > FIELDSET > DL > DT {margin-top:3px !important; }
+}
+
+@-moz-document url-prefix("http://www.camp-firefox.de/forum/viewforum.php"),
+			   url-prefix("http://www.camp-firefox.de/forum/search.php"),
+			   url-prefix("https://www.camp-firefox.de/forum/viewforum.php"),
+			   url-prefix("https://www.camp-firefox.de/forum/search.php")
+{
+
+#search_keywords{  
+-moz-appearance: none !important;
+border-radius: 14px !important;
+padding-right: 8px !important;
+padding-left:  8px !important;
+margin-right:  7px !important;
+height: 24px! important;
+}
+
+.search-box {margin-left: 7px !important;}
+
+
+INPUT[type="submit"][value="Suche"][class="button2"] {margin-top: -2px !important;}
+
+#add_keywords{  
+-moz-appearance: none !important;
+border-radius: 14px !important;
+padding-right: 8px !important;
+padding-left:  8px !important;
+margin-right:  4px !important;
+margin-left:  4px !important;
+height: 24px! important;
+margin-top: -2px !important;}
+}
+
+@-moz-document url-prefix("http://www.camp-firefox.de/forum/viewtopic.php"),
+               url-prefix("https://www.camp-firefox.de/forum/viewtopic.php")
+{
+#message-box{
+width: auto !important;
+margin-left: 25px !important;
+margin-right: 25px !important;
+} 
+
+#qr_postform > DIV > DIV > FIELDSET:nth-child(2) > DL > DT {margin-top:3px !important; }
+
+#subject{width:1279px !important;
+margin-left: -90px !important;}
+
+#message-box .inputbox {width:1220px !important; min-height: 200px !important;}
+
+h2+.fields1 label{margin:0 0 0 28px !important;}
+}
+
+
+@-moz-document url-prefix("http://www.camp-firefox.de/forum"),
+               url-prefix("https://www.camp-firefox.de/forum")
+{
+div.headerbar {
+display:block !important;
+width: auto !important;
+margin-left: 25px !important;
+margin-right: 25px !important;}
+
+div#mcs_header_bg {
+display: none !important;}
+
+div#header_bg {
+display: none !important;}
+}
+
+@-moz-document url-prefix("http://www.camp-firefox.de/forum/viewtopic.php"),
+               url-prefix("https://www.camp-firefox.de/forum/search.php"),
+               url-prefix("https://www.camp-firefox.de/forum/viewtopic.php"),
+               url-prefix("http://www.camp-firefox.de/forum/search.php"),				  
+               url-prefix("http://forums.informaction.com/viewtopic.php"),
+               url-prefix("http://www.thunderbird-mail.de/forum/viewtopic.php"),
+               url-prefix("http://www.sunbird-kalender.de/forum/viewtopic.php"),
+               url-prefix("https://adblockplus.org/forum/viewtopic.php"),
+               url-prefix("https://forums.lanik.us/viewtopic.php"),
+               url-prefix("http://www.pc-notfallklinik.de/viewtopic.php"),			   
+               url-prefix("http://forum.videolan.org/viewforum.php"),
+               url-prefix("http://forum.videolan.org/viewtopic.php"),
+               url-prefix("http://sourceforge.net/apps/phpbb/dafizilla/viewtopic.php"),
+               url-prefix("http://hilfe.tvbrowser.org/viewtopic.php"),
+               url-prefix("http://www.formel1.de/forum/viewtopic.php"),
+               url-prefix("http://forums.getfoxyproxy.org/viewtopic.php"),
+               url-prefix("https://area52.wintstar.de/phpBB/viewtopic.php"),
+               url-prefix("https://forums.informaction.com/viewtopic.php"),
+			   url-prefix("https://forum.sf-fan.de/viewtopic.php"),
+			   url-prefix("https://forum.sf-fan.de/search.php"){
+   .postbody {
+   float:right !important;
+   border-left: 1px solid #e0e0e0 !important;
+   padding-left:22px !important;
+   width: 80% !important;
+   }
+
+   .postprofile {
+   float: left !important;
+   border: none !important;
+   width: 16% !important;
+   }
+
+   .edit-icon{
+   float: right !important;}
+
+   .online {
+   background-position: 15% 4px !important;}
+   }
+
+   @-moz-document url-prefix("http://www.camp-firefox.de/forum/ucp.php"),
+                  url-prefix("https://www.camp-firefox.de/forum/ucp.php")
+   {
+   .postbody {
+   float:right !important;
+   border-left: 1px solid #e0e0e0 !important;
+   padding-left:22px !important;
+   width: 80% !important; }
+
+   .postprofile {
+   float: left !important;
+   border: none !important;
+   width: 16% !important; }
+   
+   .online {background-position: 13.6% 4px !important;}
+   
+   #cp-menu > DIV:nth-child(2) {min-height: 370px !important;}
+   }
+   
+   @-moz-document url-prefix("http://www.camp-firefox.de/forum/ucp.php?i=pm&mode=compose"),
+                  url-prefix("https://www.camp-firefox.de/forum/ucp.php?i=pm&mode=compose")
+   {
+   #cp-menu > DIV:nth-child(2) {min-height: 518px !important;}	  
+
+   #subject{width:832px !important; margin-left: -125px !important;}
+   
+   #postingbox > DIV > FIELDSET > DL > DT {margin-top:3px !important; }
+
+   }
+     
+   @-moz-document
+   url-prefix("http://www.camp-firefox.de/forum/"),
+   url-prefix("http://www.camp-firefox.de/forum/viewtopic.php"),
+   url-prefix("http://www.camp-firefox.de/forum/index.php"),
+   url-prefix("http://www.camp-firefox.de/forum/viewforum.php"),
+   url-prefix("https://www.camp-firefox.de/forum/"),
+   url-prefix("https://www.camp-firefox.de/forum/viewtopic.php"),
+   url-prefix("https://www.camp-firefox.de/forum/index.php"),
+   url-prefix("https://www.camp-firefox.de/forum/viewforum.php"){
+	
+   #cf-site-name{font-size:24px !important; margin-top: 10px !important; color: #FFFFFF !important;}
+   #cf-site-slogan{font-size:16px !important;color: #FFFFFF !important;}
+   
+   #cf-header-logo > A > IMG{height:0px!important;}
+
+   #cf-header-logo > A{
+   height:100px!important;
+   background: url("data:image/png;base64,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") no-repeat !important;
+   background-position:10px 2px!important;}
+      
+   #cf-topbar{display: none !important;}
+
+   #cf-navbar, #phpbb_alert, #darkenwrapper, #loading_indicator {display:none !important;}
+   
+   #cf-header{margin-left: 0px !important; background: none!important;}
+   
+   #cf-site-info {margin-left: -60px !important;}
+   
+   #wrap, #cf-header-bg {max-width: none !important;  }
+   
+   .clearfix {margin-top: -37px !important; }
+   
+   #cf-header-bg{margin-left: 15px !important; margin-top: 5px !important; 
+   margin-right: 15px !important; border-radius: 8px !important; }
+   
+   #cf-header-bg {background: #0D96DA !important; }
+   
+   #page-header {margin-top: -30px !important; }
+   
+   #cf-header-bg, #cf-header{max-height:80px !important;}
+      
+   }
+
+
+   @-moz-document domain("camp-firefox.de") {
+
+
+   A[style=""][class="topictitle"]{
+   color:transparent!important;
+   background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAAQCAYAAABHjGx4AAAEM0lEQVRIidWXX0xTVxzHP/fe0gqUQqFSitKCCKLyT7dUsNscCTMLJDMuM2bxwbiHJWbMZdmLL/JAlhizp0W3lyXby7KYPfCwqNkfnIGJ/Jkbf8RIU0CLCBVYaakt7b1t7x74ExlmXpIx4ufp3Ht/v3O+33PuOfkdQVVVAC51NjcCHwLVgJUXm8dAH/Bpk6ulE0BQVZVLnc3ngbObKm3jONvkarkgXLx5rhG4stlqNpAEUCMCH/wfoxn1Jk7XNlPjqAfgxP4znNh/Zk17A5CAT3TAS+vJKsouY1/+QSxGG6jgCz2ky9vGTHjy30cTdUiiDr1kAEBAQFWTa9rP41jl+0iijsv9X65HtksH5GqNrs4/yCtFb/IkNs/AZBcLSgSbyc6R8pN83XuBpEaxAN/++fkz289DL21BEnWa45co0JyRlmKk1lFPWA5xuf8LovEFAAanurGk55FcOr0t6XnUFb9FTrqV+WiA3vFfGfnr7pr+zKlbObSjkTxTAVElwn2/m1ven1ESMgICr+1oZKelnERS4cboD3jnPByvOo05zQJAk6uFjrFrDE51a9IvajVqN+9EEnUM+X5fMbnMbNgHqKRIeo7sPUk0HuGb3s+YCI5yeNc7ZG7JXhWfIuo5Wn6K7LRcur3XeTTvpcLmpHZp/5ZYyqmwORmY7KLL20ZZ7j4Aury/EJZDLCgR2jytPPC7tcpH84oa9SYAnsSCANSXvE1ZbjUASkLmq57zOMylpKakc9f3B7FEFPf0IJW2GuxZOxkPjKz0VZi9izS9kfbRq9zx9QCwzVRIcc5eOsauIYoSAJlbshme7sc9MwDAeGAEOR5DEnUMT/drNrkuo9F4dNGwIROANk8rbZ5WjpafYltmEZIgYTJkAdCw+91VuSrqqueMpT6CUf/Ku1AsgDVjOwCemSEc5lJ2W/exK7eK2w/b6X14Y13G/olmoxPBMVRVZY91P/2PbqEk5TUxC0oYgKv3vuO+f3jVt6d/3+W4ZcMgkGHI4klsHoCEGucn9/f0jF/ncOkxnPY6Bqd6iMYjayZNKzoWy6XnlnyBhVnu+HqotNVwvPo0w9N9KAkFc+pWYHHVxgMjKAmZCpuTqXnvmr28zHhghHhCwWmvQyelkJuej9Fgott7HYCq/FrkeIyR2SEicoh4UlmZ2IgcwpqxHYMulWQy8cwJfwZuqeG9Q68DpVqivXMewnKInHQrxTl7sJuLWVDCuGcGeTDnRknIPA5NUGgupdbxBrWOepz2OjyzQ8STcSrzDzAZ9DLmv4cvNEFeRgEllnKMhkz6HnVye6IDUAnH5jlgr+PVHQ0Igkj76BX8kWkAQnIQu7kEZ0Edwaif2YhPi/QfhYs3zx0EbgKClowXEBmoFJtcLbdYLOjjmyxoI5CBj5pcLW7hqWvay8DHgAtwbKK4/wIv8BuL1zQ3wN8NuqY9i/ldGgAAAABJRU5ErkJggg==")no-repeat !important;
+   background-position:0px 0px!important;}
+
+
+   A[style=""][class="topictitle"]:hover{
+   background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAAQCAYAAABHjGx4AAADMklEQVRIid2XTUiUURSGn28Uk1LBJJVgLCJLXERSVOSugsA2ugiphU0t2owY2aKg0NwUCBFk5rIohGzRKsofkAqJEqnchCMU4k+OpgTl6DRTvi1Og41afgPZ3wuHe88973fuOXfuOZdBEpIQHBC0CoIC/eMSFDwQFMfyiyV58S8IbrnktCQcwQHgHv8vvgC7PID/t2zn9UI4DBcumB4ImMyf/3okAac8wLaEPisthceP4eNH+PAB2tpgmwsXK1aYZGSY7jgwO7twvhS6u6G3N6GQgeJkINs1vboaLl2CkRG4fBkmJqC4GDo6ICcHolH3W2/atPh8KWRkQGqqe77Bi+uizs2VwmHp7VspKyvetnWr5PHYvKhIevZMmpmRXr2SDh609Y0bJUm6etX0wkKps9N4Q0PStWtSerrZkpJMn5gwW0mJrT9/rjhUVbluSu4T9fnMeW3tjznp6dL4uHT/vpSZKTU0SNGolJ8fn2hamhQMSmNjUnW11NxstoYG83P4sOnnzkkVFVJLi63v3y+NjtoB+HzShg3LkOjZs7b50aOm37w5d7KhkJSSIpWXm15WZpydO033++MTPXTI5pWVxnMcaXjYbsv3h3r9upSXFx9HX580MJDwM+Nxfcvfv7cxL8/GigprIo8ewcqVkJIC69eb7e5dc//0qenzG03Mx+vXNkowOAjZ2ebz9m24cwd8PnjzBs6fT7QmF8B9op2dFtCxY5CWtjhnfNzG0lILOCZNTfG8d+9s9Hq/ReGBdetgeNj2CIehvBwKCuDlS6ithTVrjOu2O89DMjAG5CzJ7OuDxkaorIQXL+DGDQiFLBiwANvbbc3vh64umJxc3FdrK8zM2C+1apU9T2vXQk2N2U+etKerpQWCQUt8aspswSDs2AGrV0MkMrf+cwQQ3HN91x1HOn5c6umRpqelT5+k/n7pypU5zt69Une31W0MhYVWa9GoVF9vvH37zE8oZI2prk5KTjab1ys9fGgdORCYq3mQ9uyRBgelSEQ6csRtjd5yBLuBLsBxczT/ICLAFg/SE+AM8PkPB7QciAAnkAJ89zdtu6BZMJBo6/4LZUBwS7A5lt9XH75IarGAogIAAAAASUVORK5CYII=")no-repeat !important;
+   background-position:0px 0px!important;}
+   }
+
+@-moz-document url("https://www.camp-firefox.de/forum/feed.php"),
+               url("https://www.camp-firefox.de/forum/feed.php?mode=topics"),
+			   url("https://www.camp-firefox.de/forum/feed.php?f=1"),
+               url("https://www.camp-firefox.de/forum/feed.php?f=2"),
+			   url("https://www.camp-firefox.de/forum/feed.php?f=3"),
+               url("https://www.camp-firefox.de/forum/feed.php?f=4"),
+               url("https://www.camp-firefox.de/forum/feed.php?f=5"),
+			   url("https://www.camp-firefox.de/forum/feed.php?f=6"),
+               url("https://www.camp-firefox.de/forum/feed.php?f=7"),
+               url("https://www.camp-firefox.de/forum/feed.php?f=8"),
+			   url("https://www.camp-firefox.de/forum/feed.php?f=9"),
+               url("https://www.camp-firefox.de/forum/feed.php?f=10"),
+               url("https://www.camp-firefox.de/forum/feed.php?f=11"),
+               url("https://www.camp-firefox.de/forum/feed.php?f=12"),  
+               url("https://www.camp-firefox.de/forum/feed.php?f=13"),
+               url("https://www.camp-firefox.de/forum/feed.php?f=14"),
+               url("https://www.camp-firefox.de/forum/feed.php?f=15"),
+			   url("https://www.camp-firefox.de/forum/feed.php?f=16")
+			   {
+	body {margin-top: 60px !important;}
+	#feedHeader {margin-top: 10px !important;}
+	#feedHeaderContainer {max-height: 110px !important;}
+}
+
+@-moz-document domain("www.camp-firefox.de") {
+
+.profile-contact .dropdown {
+display: -moz-box !important; }
+
+.profile-contact .dropdown-contents.contact-icons{
+border:none!important;
+margin-top:-16px!important;
+margin-right:-54px!important;
+margin-left: -116px !important;
+width:auto!important;
+box-shadow:none!important;
+background:transparent!important;}
+
+.contact-icons a{
+border:none!important;}
+
+
+.profile-contact .pointer,
+.profile-contact .dropdown-trigger.dropdown-toggle{
+display:none!important;}
+
+  /* nur Sören sein Avatar und die Icons*/
+
+.contact-icon.phpbb_twitter-icon{
+margin-right:-10px!important;
+margin-top:-20px!important;
+ }
+
+A[title="Twitter"]:hover,
+A[title="E-Mail senden"]:hover,
+A[title="Website"]:hover,
+A[title="Private Nachricht senden"]:hover,
+A[title="Facebook"]:hover,
+A[title="ICQ"]:hover{
+background:transparent!important;}
+
+.post.has-profile.bg1.online, .post.has-profile.bg1, .post.has-profile.bg2{min-height:260px !important;}
+
+}
+
+

@@ -1,0 +1,268 @@
+          @-moz-document url-prefix("http://www.camp-firefox.de/forum/index.php"),
+		                 url-prefix("https://www.camp-firefox.de/forum/index.php"){
+
+                 #page-body > UL > LI:last-child > A{
+                 background: #F7F7F7 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAArrAAAK6wGCiw1aAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAACkklEQVR42mL8//8/AyEwr+bR/69fvzL8+/cPzH/69ClD91p3BqBeRoAAYmEgAvz48YMhtVmTgZ0bwu/L+QOmGRkZ/wMEEFYDlrW8+v/hwwcw++/fvwycnJxwzegAIIBY0J0qJCTEICoiyqBrIcYgp8vAwMnHwMDCxsDw7y8DA8i3TEwMDL9//4brAQggFANAtvnl8zB8/8zA8PkNA8PHVwwMX94zMDADVf3+wcAgqQ4xBBkABBDL7Mr7/1lZWRl0zWTAJn94ycDw7gkDg6AUA8OV/cAAe/yU4eOnj+AAVFNTY3BJZmNgBEIYAAggJpCmkAIZBkNPiAv4RBkYZLQYGLbNec7Axc/AICIiwsDFxQWWO3bsGENv7mkGawdjuAEAAQQ24O1jVKcdWc7AoKwlyfD03nuGd+/eMfz+9Zvh86fPDG6eDgziEuIMF87cgKsFCCCm79+/M1zY+xVsACyeH9x/wPD8wUeGZ8+fMXz79o3h7bu3DD5hNgy2McBwkJBkuHjxItwAgABi+vrlK8Odu3cYvn1EuODTp08MX799ZXD212Z4/OQxg1eQBYOxDwPD/rkMDGvXrWX4+BGhGCCAmFqWOzCAXLFr3geGP3/+gEObCRhXr1+/ZpDTY2Con+/AYOgN0bxixSpwQHNzIxIFQAAxgZIjyMRXr16DJUEGKCgogA2Y23AZnAZgmkFeBCXpU6dOwQ0ACCBGUF4AJckFtU8Ynr94zhCYYMLw+ycDw/JZ+8GGcHBwgJPyz58/wZpfvnzJcORZA9wAgABihGWmlqQT4AwD8saTJ08YVpxKYdDjKWKQlpZmYGZmZvjx/Qc4UK/9mATXDHI9QADBDQC5goEEANIMogECiAldgBTNIAAQYAC+ji0TVBj3sQAAAABJRU5ErkJggg==") no-repeat !important;
+                 color:#BC2A4D !important;
+                 font-size:12px!important;
+                 font-weight:bold !important;
+                 padding-top: 4px !important;
+                 padding-bottom: 4px !important;
+                 text-decoration:none!important;
+                 padding-right:33px!important;
+                 padding-left:10px!important;
+                 border-color: #A6A4A4 !important;
+                 border-style: outset !important;
+                 border-width:1px !important;
+                 background-position:207px 3px!important;
+                 border-radius:4px!important;
+				 margin-right: 3px !important;
+				 margin-bottom: 5px !important;
+				 line-height: 3!important;}
+                 
+				 #page-body > UL > LI:last-child > A:hover{
+                    
+                 background: #E2F0FC  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAArrAAAK6wGCiw1aAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAACkklEQVR42mL8//8/AyEwr+bR/69fvzL8+/cPzH/69ClD91p3BqBeRoAAYmEgAvz48YMhtVmTgZ0bwu/L+QOmGRkZ/wMEEFYDlrW8+v/hwwcw++/fvwycnJxwzegAIIBY0J0qJCTEICoiyqBrIcYgp8vAwMnHwMDCxsDw7y8DA8i3TEwMDL9//4brAQggFANAtvnl8zB8/8zA8PkNA8PHVwwMX94zMDADVf3+wcAgqQ4xBBkABBDL7Mr7/1lZWRl0zWTAJn94ycDw7gkDg6AUA8OV/cAAe/yU4eOnj+AAVFNTY3BJZmNgBEIYAAggJpCmkAIZBkNPiAv4RBkYZLQYGLbNec7Axc/AICIiwsDFxQWWO3bsGENv7mkGawdjuAEAAQQ24O1jVKcdWc7AoKwlyfD03nuGd+/eMfz+9Zvh86fPDG6eDgziEuIMF87cgKsFCCCm79+/M1zY+xVsACyeH9x/wPD8wUeGZ8+fMXz79o3h7bu3DD5hNgy2McBwkJBkuHjxItwAgABi+vrlK8Odu3cYvn1EuODTp08MX799ZXD212Z4/OQxg1eQBYOxDwPD/rkMDGvXrWX4+BGhGCCAmFqWOzCAXLFr3geGP3/+gEObCRhXr1+/ZpDTY2Con+/AYOgN0bxixSpwQHNzIxIFQAAxgZIjyMRXr16DJUEGKCgogA2Y23AZnAZgmkFeBCXpU6dOwQ0ACCBGUF4AJckFtU8Ynr94zhCYYMLw+ycDw/JZ+8GGcHBwgJPyz58/wZpfvnzJcORZA9wAgABihGWmlqQT4AwD8saTJ08YVpxKYdDjKWKQlpZmYGZmZvjx/Qc4UK/9mATXDHI9QADBDQC5goEEANIMogECiAldgBTNIAAQYAC+ji0TVBj3sQAAAABJRU5ErkJggg==") no-repeat !important;
+                 color:#BC2A4D !important;
+                 font-size:12px!important;
+                 font-weight:bold !important;
+                 padding-top: 4px !important;
+                 padding-bottom: 4px !important;
+                 text-decoration:none!important;
+                 padding-right:33px!important;
+                 padding-left:10px!important;
+                 background-position:207px 3px!important;
+                 border-color: #A6A4A4 !important;
+                 border-style: inset !important;
+                 border-width:1px !important;
+                 border-radius:4px!important;
+				 line-height: 3 !important;}
+				 
+				 #page-body > DIV:nth-child(4) > A,
+                 #page-body > DIV:nth-child(3) > A{
+                 background: #F7F7F7 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAArrAAAK6wGCiw1aAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAACkklEQVR42mL8//8/AyEwr+bR/69fvzL8+/cPzH/69ClD91p3BqBeRoAAYmEgAvz48YMhtVmTgZ0bwu/L+QOmGRkZ/wMEEFYDlrW8+v/hwwcw++/fvwycnJxwzegAIIBY0J0qJCTEICoiyqBrIcYgp8vAwMnHwMDCxsDw7y8DA8i3TEwMDL9//4brAQggFANAtvnl8zB8/8zA8PkNA8PHVwwMX94zMDADVf3+wcAgqQ4xBBkABBDL7Mr7/1lZWRl0zWTAJn94ycDw7gkDg6AUA8OV/cAAe/yU4eOnj+AAVFNTY3BJZmNgBEIYAAggJpCmkAIZBkNPiAv4RBkYZLQYGLbNec7Axc/AICIiwsDFxQWWO3bsGENv7mkGawdjuAEAAQQ24O1jVKcdWc7AoKwlyfD03nuGd+/eMfz+9Zvh86fPDG6eDgziEuIMF87cgKsFCCCm79+/M1zY+xVsACyeH9x/wPD8wUeGZ8+fMXz79o3h7bu3DD5hNgy2McBwkJBkuHjxItwAgABi+vrlK8Odu3cYvn1EuODTp08MX799ZXD212Z4/OQxg1eQBYOxDwPD/rkMDGvXrWX4+BGhGCCAmFqWOzCAXLFr3geGP3/+gEObCRhXr1+/ZpDTY2Con+/AYOgN0bxixSpwQHNzIxIFQAAxgZIjyMRXr16DJUEGKCgogA2Y23AZnAZgmkFeBCXpU6dOwQ0ACCBGUF4AJckFtU8Ynr94zhCYYMLw+ycDw/JZ+8GGcHBwgJPyz58/wZpfvnzJcORZA9wAgABihGWmlqQT4AwD8saTJ08YVpxKYdDjKWKQlpZmYGZmZvjx/Qc4UK/9mATXDHI9QADBDQC5goEEANIMogECiAldgBTNIAAQYAC+ji0TVBj3sQAAAABJRU5ErkJggg==") no-repeat !important;
+                 color:#BC2A4D !important;
+                 font-size:12px!important;
+                 font-weight:bold !important;
+                 padding-top: 4px !important;
+                 padding-bottom: 4px !important;
+                 text-decoration:none!important;
+                 padding-right:33px!important;
+                 padding-left:10px!important;
+                 border-color: #A6A4A4 !important;
+                 border-style: outset !important;
+                 border-width:1px !important;
+                 background-position:207px 3px!important;
+                 border-radius:4px!important;
+				 margin-right: 3px !important;
+				 margin-bottom: 5px !important;}
+					
+                 #page-body > DIV:nth-child(4) > A:hover,
+				 #page-body > DIV:nth-child(3) > A:hover{                   
+                 background: #E2F0FC  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAArrAAAK6wGCiw1aAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAACkklEQVR42mL8//8/AyEwr+bR/69fvzL8+/cPzH/69ClD91p3BqBeRoAAYmEgAvz48YMhtVmTgZ0bwu/L+QOmGRkZ/wMEEFYDlrW8+v/hwwcw++/fvwycnJxwzegAIIBY0J0qJCTEICoiyqBrIcYgp8vAwMnHwMDCxsDw7y8DA8i3TEwMDL9//4brAQggFANAtvnl8zB8/8zA8PkNA8PHVwwMX94zMDADVf3+wcAgqQ4xBBkABBDL7Mr7/1lZWRl0zWTAJn94ycDw7gkDg6AUA8OV/cAAe/yU4eOnj+AAVFNTY3BJZmNgBEIYAAggJpCmkAIZBkNPiAv4RBkYZLQYGLbNec7Axc/AICIiwsDFxQWWO3bsGENv7mkGawdjuAEAAQQ24O1jVKcdWc7AoKwlyfD03nuGd+/eMfz+9Zvh86fPDG6eDgziEuIMF87cgKsFCCCm79+/M1zY+xVsACyeH9x/wPD8wUeGZ8+fMXz79o3h7bu3DD5hNgy2McBwkJBkuHjxItwAgABi+vrlK8Odu3cYvn1EuODTp08MX799ZXD212Z4/OQxg1eQBYOxDwPD/rkMDGvXrWX4+BGhGCCAmFqWOzCAXLFr3geGP3/+gEObCRhXr1+/ZpDTY2Con+/AYOgN0bxixSpwQHNzIxIFQAAxgZIjyMRXr16DJUEGKCgogA2Y23AZnAZgmkFeBCXpU6dOwQ0ACCBGUF4AJckFtU8Ynr94zhCYYMLw+ycDw/JZ+8GGcHBwgJPyz58/wZpfvnzJcORZA9wAgABihGWmlqQT4AwD8saTJ08YVpxKYdDjKWKQlpZmYGZmZvjx/Qc4UK/9mATXDHI9QADBDQC5goEEANIMogECiAldgBTNIAAQYAC+ji0TVBj3sQAAAABJRU5ErkJggg==") no-repeat !important;
+                 color:#BC2A4D !important;
+                 font-size:12px!important;
+                 font-weight:bold !important;
+                 padding-top: 4px !important;
+                 padding-bottom: 4px !important;
+                 text-decoration:none!important;
+                 padding-right:33px!important;
+                 padding-left:10px!important;
+                 background-position:207px 3px!important;
+                 border-color: #A6A4A4 !important;
+                 border-style: inset !important;
+                 border-width:1px !important;
+                 border-radius:4px!important;}				 
+				 
+				 }
+				 
+				 @-moz-document url-prefix("http://www.camp-firefox.de/forum/viewforum.php?f=1"),
+								url-prefix("http://www.camp-firefox.de/forum/viewforum.php?f=2"),
+								url-prefix("http://www.camp-firefox.de/forum/viewforum.php?f=3"),
+								url-prefix("http://www.camp-firefox.de/forum/viewforum.php?f=4"),
+								url-prefix("http://www.camp-firefox.de/forum/viewforum.php?f=5"),
+								url-prefix("http://www.camp-firefox.de/forum/viewforum.php?f=6"),
+								url-prefix("http://www.camp-firefox.de/forum/viewforum.php?f=7"),
+								url-prefix("http://www.camp-firefox.de/forum/viewforum.php?f=8"),
+								url-prefix("http://www.camp-firefox.de/forum/viewforum.php?f=9"),
+								url-prefix("http://www.camp-firefox.de/forum/viewforum.php?f=10"),
+								url-prefix("http://www.camp-firefox.de/forum/viewforum.php?f=11"),
+								url-prefix("https://www.camp-firefox.de/forum/viewforum.php?f=1"),
+								url-prefix("https://www.camp-firefox.de/forum/viewforum.php?f=2"),
+								url-prefix("https://www.camp-firefox.de/forum/viewforum.php?f=3"),
+								url-prefix("https://www.camp-firefox.de/forum/viewforum.php?f=4"),
+								url-prefix("https://www.camp-firefox.de/forum/viewforum.php?f=5"),
+								url-prefix("https://www.camp-firefox.de/forum/viewforum.php?f=6"),
+								url-prefix("https://www.camp-firefox.de/forum/viewforum.php?f=7"),
+								url-prefix("https://www.camp-firefox.de/forum/viewforum.php?f=8"),
+								url-prefix("https://www.camp-firefox.de/forum/viewforum.php?f=9"),
+								url-prefix("https://www.camp-firefox.de/forum/viewforum.php?f=10"),
+								url-prefix("https://www.camp-firefox.de/forum/viewforum.php?f=11"){
+				 #page-body > UL > LI > A{
+                 background: #F7F7F7 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAArrAAAK6wGCiw1aAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAACkklEQVR42mL8//8/AyEwr+bR/69fvzL8+/cPzH/69ClD91p3BqBeRoAAYmEgAvz48YMhtVmTgZ0bwu/L+QOmGRkZ/wMEEFYDlrW8+v/hwwcw++/fvwycnJxwzegAIIBY0J0qJCTEICoiyqBrIcYgp8vAwMnHwMDCxsDw7y8DA8i3TEwMDL9//4brAQggFANAtvnl8zB8/8zA8PkNA8PHVwwMX94zMDADVf3+wcAgqQ4xBBkABBDL7Mr7/1lZWRl0zWTAJn94ycDw7gkDg6AUA8OV/cAAe/yU4eOnj+AAVFNTY3BJZmNgBEIYAAggJpCmkAIZBkNPiAv4RBkYZLQYGLbNec7Axc/AICIiwsDFxQWWO3bsGENv7mkGawdjuAEAAQQ24O1jVKcdWc7AoKwlyfD03nuGd+/eMfz+9Zvh86fPDG6eDgziEuIMF87cgKsFCCCm79+/M1zY+xVsACyeH9x/wPD8wUeGZ8+fMXz79o3h7bu3DD5hNgy2McBwkJBkuHjxItwAgABi+vrlK8Odu3cYvn1EuODTp08MX799ZXD212Z4/OQxg1eQBYOxDwPD/rkMDGvXrWX4+BGhGCCAmFqWOzCAXLFr3geGP3/+gEObCRhXr1+/ZpDTY2Con+/AYOgN0bxixSpwQHNzIxIFQAAxgZIjyMRXr16DJUEGKCgogA2Y23AZnAZgmkFeBCXpU6dOwQ0ACCBGUF4AJckFtU8Ynr94zhCYYMLw+ycDw/JZ+8GGcHBwgJPyz58/wZpfvnzJcORZA9wAgABihGWmlqQT4AwD8saTJ08YVpxKYdDjKWKQlpZmYGZmZvjx/Qc4UK/9mATXDHI9QADBDQC5goEEANIMogECiAldgBTNIAAQYAC+ji0TVBj3sQAAAABJRU5ErkJggg==") no-repeat !important;
+                 color:#BC2A4D !important;
+                 font-size:12px!important;
+                 font-weight:bold !important;
+                 padding-top: 4px !important;
+                 padding-bottom: 4px !important;
+                 text-decoration:none!important;
+                 padding-right:33px!important;
+                 padding-left:10px!important;
+                 border-color: #A6A4A4 !important;
+                 border-style: outset !important;
+                 border-width:1px !important;
+                 background-position:238px 3px!important;
+                 border-radius:4px!important;
+				 margin-right: 3px !important;
+				 margin-bottom: 5px !important;
+				 line-height: 3 !important; }
+                 
+				 #page-body > UL > LI:last-child > A:hover{                   
+                 background: #E2F0FC  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAArrAAAK6wGCiw1aAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAACkklEQVR42mL8//8/AyEwr+bR/69fvzL8+/cPzH/69ClD91p3BqBeRoAAYmEgAvz48YMhtVmTgZ0bwu/L+QOmGRkZ/wMEEFYDlrW8+v/hwwcw++/fvwycnJxwzegAIIBY0J0qJCTEICoiyqBrIcYgp8vAwMnHwMDCxsDw7y8DA8i3TEwMDL9//4brAQggFANAtvnl8zB8/8zA8PkNA8PHVwwMX94zMDADVf3+wcAgqQ4xBBkABBDL7Mr7/1lZWRl0zWTAJn94ycDw7gkDg6AUA8OV/cAAe/yU4eOnj+AAVFNTY3BJZmNgBEIYAAggJpCmkAIZBkNPiAv4RBkYZLQYGLbNec7Axc/AICIiwsDFxQWWO3bsGENv7mkGawdjuAEAAQQ24O1jVKcdWc7AoKwlyfD03nuGd+/eMfz+9Zvh86fPDG6eDgziEuIMF87cgKsFCCCm79+/M1zY+xVsACyeH9x/wPD8wUeGZ8+fMXz79o3h7bu3DD5hNgy2McBwkJBkuHjxItwAgABi+vrlK8Odu3cYvn1EuODTp08MX799ZXD212Z4/OQxg1eQBYOxDwPD/rkMDGvXrWX4+BGhGCCAmFqWOzCAXLFr3geGP3/+gEObCRhXr1+/ZpDTY2Con+/AYOgN0bxixSpwQHNzIxIFQAAxgZIjyMRXr16DJUEGKCgogA2Y23AZnAZgmkFeBCXpU6dOwQ0ACCBGUF4AJckFtU8Ynr94zhCYYMLw+ycDw/JZ+8GGcHBwgJPyz58/wZpfvnzJcORZA9wAgABihGWmlqQT4AwD8saTJ08YVpxKYdDjKWKQlpZmYGZmZvjx/Qc4UK/9mATXDHI9QADBDQC5goEEANIMogECiAldgBTNIAAQYAC+ji0TVBj3sQAAAABJRU5ErkJggg==") no-repeat !important;
+                 color:#BC2A4D !important;
+                 font-size:12px!important;
+                 font-weight:bold !important;
+                 padding-top: 4px !important;
+                 padding-bottom: 4px !important;
+                 text-decoration:none!important;
+                 padding-right:33px!important;
+                 padding-left:10px!important;
+                 background-position:238px 3px!important;
+                 border-color: #A6A4A4 !important;
+                 border-style: inset !important;
+                 border-width:1px !important;
+                 border-radius:4px!important;
+				 line-height: 3 !important;}
+				 
+				 #page-body > DIV:nth-child(3) > DIV:nth-child(3) > A,
+				 #page-body > DIV:nth-child(5) > DIV:last-child > A:first-child,
+				 #page-body > DIV:nth-child(3) > DIV:last-child > A:first-child{
+                 background: #F7F7F7 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAArrAAAK6wGCiw1aAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAACkklEQVR42mL8//8/AyEwr+bR/69fvzL8+/cPzH/69ClD91p3BqBeRoAAYmEgAvz48YMhtVmTgZ0bwu/L+QOmGRkZ/wMEEFYDlrW8+v/hwwcw++/fvwycnJxwzegAIIBY0J0qJCTEICoiyqBrIcYgp8vAwMnHwMDCxsDw7y8DA8i3TEwMDL9//4brAQggFANAtvnl8zB8/8zA8PkNA8PHVwwMX94zMDADVf3+wcAgqQ4xBBkABBDL7Mr7/1lZWRl0zWTAJn94ycDw7gkDg6AUA8OV/cAAe/yU4eOnj+AAVFNTY3BJZmNgBEIYAAggJpCmkAIZBkNPiAv4RBkYZLQYGLbNec7Axc/AICIiwsDFxQWWO3bsGENv7mkGawdjuAEAAQQ24O1jVKcdWc7AoKwlyfD03nuGd+/eMfz+9Zvh86fPDG6eDgziEuIMF87cgKsFCCCm79+/M1zY+xVsACyeH9x/wPD8wUeGZ8+fMXz79o3h7bu3DD5hNgy2McBwkJBkuHjxItwAgABi+vrlK8Odu3cYvn1EuODTp08MX799ZXD212Z4/OQxg1eQBYOxDwPD/rkMDGvXrWX4+BGhGCCAmFqWOzCAXLFr3geGP3/+gEObCRhXr1+/ZpDTY2Con+/AYOgN0bxixSpwQHNzIxIFQAAxgZIjyMRXr16DJUEGKCgogA2Y23AZnAZgmkFeBCXpU6dOwQ0ACCBGUF4AJckFtU8Ynr94zhCYYMLw+ycDw/JZ+8GGcHBwgJPyz58/wZpfvnzJcORZA9wAgABihGWmlqQT4AwD8saTJ08YVpxKYdDjKWKQlpZmYGZmZvjx/Qc4UK/9mATXDHI9QADBDQC5goEEANIMogECiAldgBTNIAAQYAC+ji0TVBj3sQAAAABJRU5ErkJggg==") no-repeat !important;
+                 color:#BC2A4D !important;
+                 font-size:12px!important;
+                 font-weight:bold !important;
+                 padding-top: 4px !important;
+                 padding-bottom: 4px !important;
+                 text-decoration:none!important;
+                 padding-right:33px!important;
+                 padding-left:10px!important;
+                 border-color: #A6A4A4 !important;
+                 border-style: outset !important;
+                 border-width:1px !important;
+                 background-position:220px 3px!important;
+                 border-radius:4px!important;
+				 margin-right: 3px !important;
+				 margin-bottom: 5px !important;
+				 }
+				 
+				 
+                 #page-body > DIV:nth-child(3) > DIV:nth-child(3) > A:hover,
+				 #page-body > DIV:nth-child(4) > DIV:last-child > A:hover,
+				 #page-body > DIV:nth-child(5) > DIV:last-child > A:first-child:hover,
+				 #page-body > DIV:nth-child(3) > DIV:last-child > A:first-child:hover{
+                   
+                 background: #E2F0FC  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAArrAAAK6wGCiw1aAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAACkklEQVR42mL8//8/AyEwr+bR/69fvzL8+/cPzH/69ClD91p3BqBeRoAAYmEgAvz48YMhtVmTgZ0bwu/L+QOmGRkZ/wMEEFYDlrW8+v/hwwcw++/fvwycnJxwzegAIIBY0J0qJCTEICoiyqBrIcYgp8vAwMnHwMDCxsDw7y8DA8i3TEwMDL9//4brAQggFANAtvnl8zB8/8zA8PkNA8PHVwwMX94zMDADVf3+wcAgqQ4xBBkABBDL7Mr7/1lZWRl0zWTAJn94ycDw7gkDg6AUA8OV/cAAe/yU4eOnj+AAVFNTY3BJZmNgBEIYAAggJpCmkAIZBkNPiAv4RBkYZLQYGLbNec7Axc/AICIiwsDFxQWWO3bsGENv7mkGawdjuAEAAQQ24O1jVKcdWc7AoKwlyfD03nuGd+/eMfz+9Zvh86fPDG6eDgziEuIMF87cgKsFCCCm79+/M1zY+xVsACyeH9x/wPD8wUeGZ8+fMXz79o3h7bu3DD5hNgy2McBwkJBkuHjxItwAgABi+vrlK8Odu3cYvn1EuODTp08MX799ZXD212Z4/OQxg1eQBYOxDwPD/rkMDGvXrWX4+BGhGCCAmFqWOzCAXLFr3geGP3/+gEObCRhXr1+/ZpDTY2Con+/AYOgN0bxixSpwQHNzIxIFQAAxgZIjyMRXr16DJUEGKCgogA2Y23AZnAZgmkFeBCXpU6dOwQ0ACCBGUF4AJckFtU8Ynr94zhCYYMLw+ycDw/JZ+8GGcHBwgJPyz58/wZpfvnzJcORZA9wAgABihGWmlqQT4AwD8saTJ08YVpxKYdDjKWKQlpZmYGZmZvjx/Qc4UK/9mATXDHI9QADBDQC5goEEANIMogECiAldgBTNIAAQYAC+ji0TVBj3sQAAAABJRU5ErkJggg==") no-repeat !important;
+                 color:#BC2A4D !important;
+                 font-size:12px!important;
+                 font-weight:bold !important;
+                 padding-top: 4px !important;
+                 padding-bottom: 4px !important;
+                 text-decoration:none!important;
+                 padding-right:33px!important;
+                 padding-left:10px!important;
+                 background-position:220px 3px!important;
+                 border-color: #A6A4A4 !important;
+                 border-style: inset !important;
+                 border-width:1px !important;
+                 border-radius:4px!important;}
+				 
+				 }
+				 
+				 @-moz-document url-prefix("http://www.camp-firefox.de/forum/viewforum.php?f=1"),
+				                url-prefix("https://www.camp-firefox.de/forum/viewforum.php?f=1"){
+				 			 
+				 #page-body > DIV:nth-child(2) > P > A  {margin-bottom: -40px !important;}
+				 }
+				 
+				 
+
+/* @-moz-document domain("www.camp-firefox.de") {
+
+#quick-links > DIV > UL > LI:nth-child(6){
+height:8px!important;}
+
+#quick-links > DIV > UL > LI:nth-child(8){
+height:6px!important;}
+
+#quick-links > DIV > UL > LI:nth-child(2){
+height:10px!important;}
+
+#quick-links > DIV > UL > LI:nth-child(10){
+height:10px!important;}
+
+#quick-links > DIV > UL > LI:nth-child(11){
+height:10px!important;}
+
+#quick-links > DIV > UL > LI:nth-child(8) > A,
+#quick-links > DIV > UL > LI:nth-child(10)> A,
+#quick-links > DIV > UL > LI:nth-child(2) > A{
+margin-top:-3px!important;}
+
+#quick-links > DIV > UL > LI:nth-child(2)>a{
+position:relative;
+top: 45px;
+}
+
+A[role="menuitem"][href="./search.php?search_id=unanswered"]{
+top: 23px!important;
+}
+
+#quick-links > DIV > UL > LI:nth-child(3)>a{
+position:relative;
+top: -21px;
+}
+
+#quick-links > DIV > UL > LI:nth-child(4)>a{
+position:relative;
+top: -21px;
+}
+
+#quick-links > DIV > UL > LI:nth-child(3) > A, 
+#quick-links > DIV > UL > LI:nth-child(4) > A, 
+#quick-links > DIV > UL > LI:nth-child(8) > A {color: red !important;}
+
+#quick-links > DIV > UL > LI:nth-child(3) > A:hover, 
+#quick-links > DIV > UL > LI:nth-child(4) > A:hover, 
+#quick-links > DIV > UL > LI:nth-child(8) > A:hover{color: #cd6600 !important;}
+
+.small-icon.icon-search-self{
+   background-position: 0 32%!important;}
+
+.small-icon.icon-search-active{
+   background-position: 0 70%!important;}
+
+} */
+
+
+/* @-moz-document domain("www.camp-firefox.de") {
+
+#quick-links > DIV > UL > LI:nth-child(2)>a{
+position:relative;
+top: 45px;
+}
+
+A[role="menuitem"][href="./search.php?search_id=unanswered"]{
+top: 23px!important;
+}
+
+#quick-links > DIV > UL > LI:nth-child(3)>a{
+position:relative;
+top: -21px;
+}
+
+#quick-links > DIV > UL > LI:nth-child(4)>a{
+position:relative;
+top: -21px;
+}
+
+} */

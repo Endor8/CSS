@@ -1,0 +1,22 @@
+
+	@-moz-document url-prefix("http://www.camp-firefox.de/forum/") {
+
+    #keywords  {
+    border-radius: 16px !important; }
+
+
+    input.search {
+       background-image: none;
+       background-repeat: no-repeat;
+       background-position: 8px !important;}
+
+    #search_keywords > DIV{
+    padding-left: 50px!important;}
+	
+	#search_keywords.anonymous-div{
+    margin-left: 18px !important;}
+	
+	#search_keywords {min-width: 200px !important; }
+	
+	.inputbox.search {margin-left: 18px !important;}
+        }

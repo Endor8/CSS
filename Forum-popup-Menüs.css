@@ -1,0 +1,38 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("camp-firefox.de") {
+	
+*:hover > .dropdown {
+  display: block !important;
+  opacity: 1 !important;
+  transition-delay: 4s !important;}
+
+#username_logged_in .dropdown-contents  {margin-left: -87px !important;}
+
+#notification_list_button .dropdown-contents{margin-top: -20px!important;}
+
+
+/* .profile-contact:hover .dropdown.hidden {
+   display:block!important;
+}
+
+.dropdown-container.dropdown-button-control.topic-tools:hover .dropdown.hidden {
+   display:block!important;
+}
+
+#quick-links:hover .dropdown.hidden {
+   display:block!important;
+}
+ DIV:hover .dropdown.hidden{
+   display:block!important;
+}
+#jumpbox:hover .dropdown.hidden {
+   display:block!important;
+}
+
+#notification_list_button:hover .dropdown.hidden {
+   display:block!important;
+} */
+
+}
+
