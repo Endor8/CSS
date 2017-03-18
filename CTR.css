@@ -1,6 +1,6 @@
 
 /*  AGENT_SHEET   */
-/*  Letzte Änderung am 16.03.2017   19.55 Uhr   EDV Oldi Version + Endors Senf   */
+/*  Letzte Änderung am 18.03.2017   17.35 Uhr   EDV Oldi Version + Endors Senf   */
 	@-moz-document url-prefix("chrome://classic_theme_restorer/content/options.xul"){	
 
 	#ClassicTRoptions {min-width: 730px !important; /* min-height: 470px !important; */ }
@@ -871,6 +871,12 @@
 	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC1UlEQVQ4jZ2TXUhTYRyH/yl0FZFE0EXQRR9XURZdFAl11U0XBd0aOSrrqg8o6IM+LHNb0sxyaqVO51o7uiRWVlaEtbm+5pxOy0JF2VYZlmzHnb2e7fx/XRxnGEHQD56b9+LheXl5ieZu3h/8e/vN3Vf2lgVkgymIIlOQDaYgDKaAWnjuRWfh0Zs7TpU1LS4oKMgjokV/sICIiPaVvk+53yTQ0SfQ0Se4o0/A051k090RPlvRzo3NEt9tuQ/J7YHU6mHJ7YHk9sDhbA0QUQ4dLAmg9skEqtp/U/1oAiUNw6i09eJ9MIbPwwpGRlWdMZ3mOxKIaDUdLnmLCikCiysCiyvCFlcEFinC560DqG58h1DvEI+O/kA0Fkc0FudoLIFoLIFGu5OJKJ+uVD1HozQ0B5s0hNuOXrjuvcQr32sEukMIhsIIhsLomaHeZgcR5VOLuw2apiGTySCdTnM6nYaqqpxIyOgf+IDOV172+vzwdvnh7fKzt8sPr88PW5NDL3C6WsDM6I/1wdJ7EafDxbjQcwwdn9qzUsxIMT09DSEEmBkOp6QX2B1O9MfCOBDeiaPfdqFz3I1zX4pgGNwOZ6gZQghWFAVTU1OQZZnj8Tg0TftdUG+z48jzQ9g5sB77otsQTXzC2cge7B7ciO1PN0FJKSyEwIyEZVmGpmm4VWfTBbW367D53ga0jtbjZ/IrpqZ/YlIZx8eJAFY8XIqx72Oz+YqiIJlMgplhrb2lX8FafRPb7mzFysdLsMW3CpOp7yju2Y21z5Yjr2khZEXmTCYDVVUhhOBUKgVmRuUNq15QecOKtmAbchtyML+FMDQ5iI1P1iDHTjj+4DiYefaVsiWapuFqRaUusFy7DmZGna8Oy2qWIbcmF3k1eTjhOQGhCrA+zMBZodFcrhFRPl02mjuN5nIYzeW4ZDTi5MUzuFBWiuzZXzGVs8Gwv4eI1mU/5Uoiyv8PVv0CvmyKTNnmJ+8AAAAASUVORK5CYII=") no-repeat !important;
 	background-position:0px 0px!important;}
 	
+	#ctraddon_pw_altdlprogbar  .checkbox-label {   
+	padding-left: 20px !important;
+	padding-top: 1px !important;
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADOklEQVQ4jW2SXUhbBxTHD2V7at/cw9qu7GUfD4NtjKyFlX10ncJaoR1ldpMpdRZbVutws3atiKIjQ2Xi/GDSD0Wzhqso2loGsRhSm6AXQ8JNSDAhIckS7r0oSiIN2VD224Mf0LIf/OFw/pz/4cAREZFTnX+UdjxcLPQ5g/Q5g/S5gvS7QvS7Qtv1Xj/EgDNA/ehsQHY5aR0p6nJozCVyjIdMbH4du2ag7MiuGdj8OkPeDL+raSZCK3hSG5zrGAmKiEiJdfRY1+MYLc44bc4YnfMJut0pejzb+tWdxPo4QetcnEbHMlcehKh7GKZOmUdESuVk2/D77c44vy2kuaWmGfbp2DSDe5qJXTOxaQbDPoNBVafbk6bNlaDREaNyyImI1Ehx613LwGIKm2YwETR5EF7hz+gajliO2dgGjmiemeUNxgJZhtRVeuZ12udSVA97tgM+aR20KAGDmeVVZuNruJI5POk8qr5Fj+s2VyaquaRUUW2/QPlwBV/eKefsra850XFpO+B406DFEVvFmcyykMnhMwuE16DF0cBsuJt01r2nTNZDJreAuaGi6RN8cHP/khxv6rN4kllUPU9gpUB0fYvUU6gbP81UsJZRbxl2fwWK/wKK/xtGvWXcWTqDErjIdeXzlFiaeo8GjaeEVv8mlv0HIw8rBbhs/wzFfx7FV8akVsmUVsWkVoHiO8+QeprBxWJqRyxJOXqj/w13VEfP/4tRgNwmrBfgO3sJjyINzIZrcUau4YrewBW5hiNcx1SgijGtkh9tHydFROTq0P3pqLnOLptbUGsvxZvuYiHegjf1C/5UB96EFU+smblIPY8iP9A8fi6595GHi8tuvnrm26kjX9UvmdlNvlfOEl+5R1jvImr0E9X7WdZ70NIdLCaaCWQGaJss/0ue40jD3fsagDMyze35BuLmNHFzBjPrJpt3oa+7CetjTPo6OVwlT56ZfrehZ0SNpXEvZzjV2KseeOuF9n1vys/yurR9dP21BTOnkVj1ICUyse+Q/CQiNc8EvN3Y+8qhE1/U7Rg1IvKpiBSJyEsiUnTwokzb1W6OWV9GRN4RkQPPnyAisl9EDv6fscOHL74n3bvb/wNOwHGTU9f6DwAAAABJRU5ErkJggg==") no-repeat !important;
+	background-position:0px 0px!important;}	
+	
 	#ctraddon_pw_osearch_meoit2  .checkbox-label {   
 	padding-left: 20px !important;
 	padding-top: 1px !important;
@@ -1113,7 +1119,7 @@
 	padding-left: 20px !important;
 	margin-top: 20px !important;
 	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABiElEQVQ4jZ2Ru04bQRRApx4JKR8AKdNTsUU0JfsNiSgmUJAqaSyc0k1KKCxv4ZbGSFaEGD7AUVC6RGERJjyWh4zW2CbGwvauG9iTYrW2NhgS50qnOdI9mqsRYoKhsgLOc3BmoLLCJLuCShbMLFHDImpY8OkFVLL/HsGZJmrZRC0V05wHZ2aCwOoUUXuRZKJfGtaeIeZezmMp+0m+/3Bh6xXR+YdR4OQ9bL1GWMom+7HwJN/cn3C5A6tTaS534sDfWFp+x/HJKZlcHoBMLk8ml4/vt5RNEA4IwgFSmxSJD8IBd/f3jwfcqodb9ZDacHTd5+i6j9Rm6N2qx02n+3ig4BQpOEWkNqzv+qzv+khthr7gFCltlDk7O0cphVKKz1++jgLehY93ES+V9uqU9upIbYY+oVZv0e0FdHsBC2/ejgI1v0nNbyK1obx/RXn/CqnN0I/DUvb4EzYPGmweNB6c8CepQLtzS7tzi9SG7cMm24fxaxI/jlSg1w/p9cMH35j4caQC/4sQQvwGFG87JKixa6AAAAAASUVORK5CYII=") no-repeat !important;
-	background-position:0px 11px!important;} 
+	background-position:0px 8px!important;} 
 	
 	#ctraddon_pw_tbconmenu .checkbox-check {margin-top: 9px !important;}
 	
@@ -2454,7 +2460,9 @@
 	#ctraddon_pw_aboutprefswsize{margin-left: -18px !important;}
 	#ctraddon_pw_altoptionsi{margin-left: -13px !important;}
 	#ctraddon_locationbbox2 > groupbox:last-child > description:nth-child(4){margin-left: -13px !important;}
-	#ctraddon_pw_searchbar_tabpanels > tabpanel:first-child > groupbox:first-child > description{margin-left: -13px !important;}
+	#ctraddon_pw_searchbar_tabpanels > tabpanel:first-child > groupbox:first-child > description:nth-child(3),
+	#ctraddon_pw_searchbar_tabpanels > tabpanel:first-child > groupbox:first-child > description:nth-child(5){margin-left: -13px !important;}
+	#ctraddon_pw_osearch_meoit{margin-left: -17px !important;}
 	
 	#ctraddon_cssbox > description{margin-left: -4px !important;}
 	#ctraddon_pw_cssoverride {margin-left: 13px !important; margin-top: 12px !important;}
@@ -2496,6 +2504,8 @@
 	#ctraddon_pw_searchbar_tabpanels > tabpanel:first-child > groupbox:first-child > hbox:nth-child(10),
     #ctraddon_pw_searchbar_tabpanels > tabpanel:first-child > groupbox:first-child > hbox:nth-child(12)
 	{margin-left: -17px !important;}
+	#ctraddon_pw_searchbar_tabpanels > tabpanel:first-child > groupbox:first-child > description:nth-child(13)
+	{margin-top: 8px !important; margin-bottom: 5px !important;}
 	
 	.ctraddonsuboption.ctraddon_font1{margin-left: -16px !important;}
 	.ctraddon_font1{margin-top: 10px !important; margin-bottom: 10px !important;}
