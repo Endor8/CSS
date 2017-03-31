@@ -1,6 +1,5 @@
-
 /*  AGENT_SHEET   */
-/*  Letzte Änderung am 25.03.2017   11.12 Uhr   EDV Oldi Version + Endors Senf   */
+/*  Letzte Änderung am 31.03.2017   20.55 Uhr   EDV Oldi Version + Endors Senf   */
 	@-moz-document url-prefix("chrome://classic_theme_restorer/content/options.xul"){	
 
 	#ClassicTRoptions {min-width: 730px !important; /* min-height: 470px !important; */ }
@@ -2110,7 +2109,7 @@
 	padding-top: 0px !important;
 	padding-bottom: 2px !important;
 	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAApElEQVQ4ja2Tqw7EIBBF539H4tDI/hwV1DF2TFeCvKtgodC0aZfkhOFxTyYhEBGRcwueQCX8dDi34D+ClNIjTgXMBszmveCz7x3Z0lzQXmqDR0m21K2rQFUrzGaos6UBVR0FpfUj5bwEVbV/BYkCiQJmU+vZXrYEiQIAkCg/wRYCthAuBW2466AIrgDQzVWwen8JgGG+LZiFV+/vCc7CtYO33/kLeFBH/du5h3wAAAAASUVORK5CYII=") no-repeat !important;
-	background-position:3px 4px!important;}
+	background-position:3px 2px!important;}
 	
 	
 	checkbox[label="about:config >> gfx.*.azure.backends >> direct2d1.1,cairo,skia"] .checkbox-label{margin-top: 3px !important; margin-left: 2px !important;}
@@ -2132,6 +2131,15 @@
 	background-position:3px 3px!important;}
 	
 	#ctraddon_pw_fsaduration .checkbox-label {margin-top: 3px !important;}
+	
+	#ctraddon_pw_findbarhl .checkbox-label-box {   
+	padding-left: 20px !important;
+	padding-top: 0px !important;
+	padding-bottom: 2px !important;
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABuElEQVQ4jY2OS2sTARRG79+S/gIXBt3UjW666E6DDRS6CNJFxUJrJ3YTUpJgHh2T9JFkmkLpw0ADUjcFsS60OpVpGkdTDCGPyURy3JiYmFc/ONzV+b4rbzNPGIWMS05z0bB/DySnucYXZFOzQwuyqdmeglJ0AsXpIK1MseedRj98iuxvzVGzmrwIHfPMd0TNanbY35qjWza379MsaTRLGrnsMXveaSQTd1OuNgeSibv5X7796BW2GaeuB0grU0hyfZ7rsk1IO8W38a7zyXXZJrk+T+Nzqkdu/JWrZx4UpwOJhRf4/qsxkFh4gZp+0HnbNhPU9QCVs5f8TD+kFJ1AIsFFjKLVs24ULYyiRSS4yPnpUY9c/eD5J4uIBP1L6KbFeaHOl0K9c3XTIuhfIm/k8bsn+5fb8Xo9DGPNt4JxYaDFkqzO3O2Xu/P1/RvamAWTq/wVl98MdhJpNsMJPE7HcFlE5DJ0i1ZlGThBff6Aw90Ddjd3SEY3iPtVVh7fuZkMLQAC7klS6jaJ4GtUX2R4Qb/c5oTVmXuoa9HR6+ZH10C5VVlGcTpGyyIiPy4inbe7ZfuTe7wsIn8AU31luoMsXegAAAAASUVORK5CYII=") no-repeat !important;
+	background-position:3px 2px!important;}
+	
+	#ctraddon_pw_findbarhl .checkbox-label {margin-top: 3px !important;}	
 	
 	#ctraddon_pw_autocompl_it .checkbox-label-box {   
 	padding-left: 20px !important;
@@ -2232,6 +2240,14 @@
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB4klEQVQ4ja3Sv0sbYRzH8a8gaQeFgEtJS433PHetSqEtofVHDA7tEqTEtfSPKHQ9eoEO9wdcGihqTgQ5wQRO16DckINgb4iEIKkxqcldoa1DG7cS+HQwUbTtxaEPvHmW5/OaHqL/cAZkWY4rirKfTCbRL0VR9mVZjhPRQA8IqKp6YlkWSqVS3yzLgqqqJ0QU6AFDmqbBiS9gN5XC3usYdraW8Sa3gCUjhVwudynHcaBpGohoqAcEdV1HNptFPp/vm2ma0HUdRBQ8BwzDgGma184wjD+Bv55OB6crGXxLLMK9N46viUW0VzLYWF+/BtDp4PvLV/C4BJdLaHEJx1xCg4koPXuO20QjvkD7fRoel9B6Oo3a2ho+FYuoR57giIk4ZCL2Rsfe+QJfYvNwuYTG5ibargfvReJs/DiCKhNRFljTF3DvT6DFJZzWji7GUzOoWRYOmIiywH/5As3oHI65hGY0djG2bfws2KgIHE6Yeb7A57cKGkw8G49Pombb+LGzi+rsHMoCx/adu0uXgKstp9P4OBvFIRNRZSIOmIiKwFEWOArTM5gIBCbPvzIRcSJ6eKVHN4jimVBotRgW6hWBozA6Vv9wK7R6k2ieiIZ7wGAXCf6jMBE9IKJI9w533w8SEf0GuTMMEtGcpD8AAAAASUVORK5CYII=") no-repeat !important;
     background-position:1px 0px!important;} 
 	
+	#ctraddon_pw_resfprinting .checkbox-label {   
+    padding-left: 21px !important;
+    padding-top: 0px !important;
+    padding-bottom: 2px !important;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmklEQVQ4ja2SsQ2EIABF/xYMxDxW2LEBkzgAV94Ql9jeBBTUVv8KRSHACSrJyw+E/yABoDA+r5ElSnuLZS6OJNNc3LnkX/lUUi23SFrK7vuuS3ZB5cRQjiW7oLecSbQE7wAtQVqQ87ASRphbHEwgzZY2Ejxzg1a202liwdSISbNL4JVIMr+BqeOVyNIrcQjCQi9aYv1Ml18AwA+7KmlLcahB/wAAAABJRU5ErkJggg==") no-repeat !important;
+    background-position:1px 0px!important;} 
+	
+		
 	/*   Classic Theme Restorer   */
 
     caption[label="Andere Einstellungen"] {margin-top: 10px !important;}
@@ -2440,7 +2456,7 @@
 	#ctraddon_pw_containertabgb, #ctraddon_pw_findbarhlgb, #ctraddon_pw_flywebgb,
 	#ctraddon_appbuttonbox > groupbox,#ctraddon_addonmngrbox > groupbox:first-child, 
 	#ctraddon_addonmngrbox > groupbox:last-child, #ctraddon_prefpagebox > groupbox,
-    #ctraddon_pw_cssoverridec, #ctraddon_pw_oldfontgfxg
+    #ctraddon_pw_cssoverridec, #ctraddon_pw_oldfontgfxg, #ctraddon_pw_resfprintinggb
 	{margin-left: 15px !important; margin-right: 15px !important;}
 	
 	#ctraddon_appbuttonbox > hbox {margin-left: 12px !important;}
@@ -2480,6 +2496,7 @@
 	#ctraddon_pw_tabs_maintabpanels > tabpanel:last-child > description:nth-child(9),
 	#ctraddon_pw_generalui_tabpanels > tabpanel:last-child > groupbox > description:nth-child(5),
     #ctraddon_pw_generalui_tabpanels > tabpanel:nth-child(4) > groupbox > description:nth-child(11),
+	#ctraddon_pw_generalui_tabpanels > tabpanel:nth-child(4) > groupbox > description:nth-child(13),
 	#ctraddon_pw_generalui_tabpanels > tabpanel:nth-child(2) > groupbox > description:last-child,
 	#ctraddon_pw_generalui_tabpanels > tabpanel:nth-child(4) > groupbox > description:last-child,
 	#ctraddon_pw_generalui_tabpanels > tabpanel:last-child > groupbox > description:last-child{margin-left: -13px !important;}
