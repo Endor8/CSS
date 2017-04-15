@@ -1,13 +1,13 @@
 
 /*  AGENT_SHEET   */
-/*  Letzte Änderung am 15.04.2017   15.50 Uhr   EDV Oldi Version + Endors Senf   */
+/*  Letzte Änderung am 15.04.2017   21.18 Uhr   EDV Oldi Version + Endors Senf   */
 	@-moz-document url-prefix("chrome://classic_theme_restorer/content/options.xul"){	
 
 	#ClassicTRoptions {min-width: 730px !important; /* min-height: 470px !important; */ }
 	#ctraddon_pw_tabforminfo {background: #FFFFFF !important;}
 	#CtrRadioGroup {margin-left: 6px!important; margin-right: 10px !important; min-width: 230px !important;}
 	#ctrPrefBoxContainer {min-height: 615px !important; min-width: 530px !important; }  
-	/*Für Firefox Developer Edition min-height: 640px*/ 
+	
 	/*   Werte bei Bedarf anpassen   */
 	
 	/*   Seitentab-Titel   */ 
@@ -2508,7 +2508,7 @@
 	#ctraddon_tabsbox2 > groupbox:nth-child(2) > description,
 	#ctraddon_pw_tabs_maintabpanels > tabpanel:last-child > description:nth-child(9),
 	#ctraddon_pw_generalui_tabpanels > tabpanel:last-child > groupbox > description:nth-child(5),
-    #ctraddon_pw_generalui_tabpanels > tabpanel:nth-child(4) > groupbox > description:nth-child(11),
+	#ctraddon_pw_generalui_tabpanels > tabpanel:nth-child(4) > groupbox > description:nth-child(11),
 	#ctraddon_pw_generalui_tabpanels > tabpanel:nth-child(4) > groupbox > description:nth-child(13),
 	#ctraddon_pw_generalui_tabpanels > tabpanel:nth-child(2) > groupbox > description:last-child,
 	#ctraddon_pw_generalui_tabpanels > tabpanel:nth-child(4) > groupbox > description:last-child,
@@ -2532,7 +2532,7 @@
 	
 	#ctraddon_pw_searchbar_tabpanels > tabpanel:first-child > groupbox:first-child > hbox:nth-child(6) {margin-left: -21px !important;}
 	#ctraddon_pw_searchbar_tabpanels > tabpanel:first-child > groupbox:first-child > hbox:nth-child(10),
-    #ctraddon_pw_searchbar_tabpanels > tabpanel:first-child > groupbox:first-child > hbox:nth-child(12)
+	#ctraddon_pw_searchbar_tabpanels > tabpanel:first-child > groupbox:first-child > hbox:nth-child(12)
 	{margin-left: -17px !important;}
 	#ctraddon_pw_searchbar_tabpanels > tabpanel:first-child > groupbox:first-child > description:nth-child(13)
 	{margin-top: 8px !important; margin-bottom: 5px !important;}
@@ -2541,7 +2541,6 @@
 	#ctraddon_pw_osearch_cwidth{margin-top: 8px !important; margin-bottom: 5px !important;}
 	
 	.ctraddonsuboption.ctraddon_font1{margin-left: -16px !important;}
-	.ctraddon_font1{margin-top: 10px !important; margin-bottom: 10px !important;}
 	#ctraddon_pw_generalui_tabpanels > tabpanel:last-child > groupbox:first-child > description:nth-child(4){margin-top: 10px !important; margin-bottom: 10px !important;}
 	
 	#ctraddon_pw_tabs_maintabpanels > tabpanel:first-child > groupbox > hbox:nth-child(16) > label{margin-left: -1px !important;}
@@ -2557,7 +2556,7 @@
 	#ctraddon_pw_lbsbsize_lb,
 	#ctraddon_pw_lbsbsize_sb,
 	#ctraddon_pw_lbsbradius_lb,
-    #ctraddon_pw_lbsbradius_sb{margin-left: -19px !important; margin-top: 5px !important;}
+	#ctraddon_pw_lbsbradius_sb{margin-left: -19px !important; margin-top: 5px !important;}
 
 	#ctraddon_pw_navbarpad_lr > label:first-child {margin-left: -13px !important;}
 	#ctraddon_pw_navbarpad_lr > label:nth-child(3){margin-left: 0px !important;}
