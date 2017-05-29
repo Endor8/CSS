@@ -1,6 +1,6 @@
 
 /*  AGENT_SHEET   */
-/*  Letzte Änderung am 28.04.2017   11.40 Uhr   EDV Oldi Version + Endors Senf   */
+/*  Letzte Änderung am 29.05.2017   21.10 Uhr   EDV Oldi Version + Endors Senf   */
 	@-moz-document url-prefix("chrome://classic_theme_restorer/content/options.xul"){	
 
 	#ClassicTRoptions {min-width: 730px !important; /* min-height: 470px !important; */ }
@@ -1167,10 +1167,10 @@
     background-position:0px 1px!important;}
 	
 	checkbox[label="Erstes Element"][preference="ctraddon_mbarforceleft"]{margin-top:-15px !important; }	
-	checkbox[label="Letztes Element"][preference="ctraddon_mbarforceright"]{margin-top:30px !important; margin-left:-129px !important;}
+	checkbox[label="Letztes Element"][preference="ctraddon_mbarforceright"]{margin-top:30px !important; margin-left:-127px !important;}
 	
 	checkbox[label="Leistenhöhe erhöhen"]{margin-top:-22px !important; }	
-	checkbox[label="Leistenhöhe verringern"]{margin-top:25px !important; margin-left:-162px !important;}
+	checkbox[label="Leistenhöhe verringern"]{margin-top:25px !important; margin-left:-159px !important;}
 	
 	checkbox[label="Leistenhöhe erhöhen"]  .checkbox-label {   
     padding-left: 20px !important;
@@ -2270,6 +2270,13 @@
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmklEQVQ4ja2SsQ2EIABF/xYMxDxW2LEBkzgAV94Ql9jeBBTUVv8KRSHACSrJyw+E/yABoDA+r5ElSnuLZS6OJNNc3LnkX/lUUi23SFrK7vuuS3ZB5cRQjiW7oLecSbQE7wAtQVqQ87ASRphbHEwgzZY2Ejxzg1a202liwdSISbNL4JVIMr+BqeOVyNIrcQjCQi9aYv1Ml18AwA+7KmlLcahB/wAAAABJRU5ErkJggg==") no-repeat !important;
     background-position:1px 0px!important;} 
 	
+	#ctraddon_pw_photongb .checkbox-label {   
+    padding-left: 21px !important;
+    padding-top: 0px !important;
+    padding-bottom: 2px !important;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACfElEQVQ4jdVSX0hTcRj9HgTpRYsgp9u9293u3e7dTKzsn0YQGGVgUhJE9RCViNr/9tpLfxlBUHqtMKggaBhJkU8V6WPhQ1RSQtD2+/02bHPN3StspuLpYVkI+dRTB76X7/sOnHM4RP8Ncia12SaN2yalLZMyuR7qWPI5ruqbuU8PM6+/cWEnrtOyyR7aat2kDbZJYbuXYPfQkUVEJvu9QjX6hWbMCs2AUPU0k+UVC3frNkXtW5SwuqnJMumSbZL4Q/YFGrimx4RmYGG4pieYZmznXuOMkIM3RDBwaPJC6Um7jz5lu6nBNin9S7K6Rqh6Sqg6uEsBq3CCVTgRr3D+iDtcBe5RIbQg4q7Q+GSkZNvUA4pavdRkmTRFMY9nOdeMUS57wZ1upHbtRuFqBPPRfhTu3cf30+eQrNsEVimBKyHOG6QqIqLsNaqx7lA3cc04zyUFiXUbUXg+CAB4NzaGweFhJC0LADCXTCLT0QVWJc8yxRhhcmjLb+9c0T6K4GrMvP+AOQAdXV0gIhARJEnC0PAwAGA+n8d44w5w2QvhC4rPTn1l0b/Dmc50ngAAPIpGUVZWhtbWVjQ3N4OI0NLSggVk2jvBHC5wzZhhst9bTN8hjaQPHwUAXIlE0N7ejnw+j+rqahARwuFw0ca3FJLrN0N4VAhNHxwiKikq8PmbmKJN558MIJ3LYX/bMaytr0dpeTn2HDyAbKGA2a8xpPbuA3O6wVVjNO4OKIsL5PU3csn71jp+CtmBp3jZdxdv+h9j+vUQpi5eRrK2DqxSmmJ+o49Lgaq/1vcLqaWxStdO4fJEJkK1zyaCNa8SkvIivsr1kLvVs0xVg0t2/1/wE+DsbebGL4FlAAAAAElFTkSuQmCC") no-repeat !important;
+    background-position:1px 0px!important;} 	
+	
 	/*   Classic Theme Restorer   */
 
     caption[label="Andere Einstellungen"] {margin-top: 10px !important;}
@@ -2471,14 +2478,16 @@
 	#ctraddon_pw_readermodegb > caption, #ctraddon_pw_geolocationgb > caption, #ctraddon_pw_pocketgb > caption, 
 	#ctraddon_pw_containertabgb > caption, #ctraddon_pw_findbarhlgb > caption, #ctraddon_pw_flywebgb > caption,
 	#ctraddon_ctraddonbox > groupbox:first-child > caption, #ctraddon_ctraddonbox > groupbox:last-child > caption,
+	#ctraddon_pw_oldfontgfxgb > caption, #ctraddon_pw_photongb> caption, #ctraddon_pw_resfprintinggb> caption,
 	#ctraddon_prefpagebox > groupbox > caption, #ctraddon_pw_oldfontgfxg  > caption{background: none !important;}
-	
+
 	#ctraddon_ctraddonbox > groupbox:first-child, #ctraddon_ctraddonbox > groupbox:last-child,
-    #ctraddon_pw_readermodegb, #ctraddon_pw_geolocationgb,#ctraddon_pw_pocketgb,
+	#ctraddon_pw_readermodegb, #ctraddon_pw_geolocationgb,#ctraddon_pw_pocketgb,
 	#ctraddon_pw_containertabgb, #ctraddon_pw_findbarhlgb, #ctraddon_pw_flywebgb,
 	#ctraddon_appbuttonbox > groupbox,#ctraddon_addonmngrbox > groupbox:first-child, 
 	#ctraddon_addonmngrbox > groupbox:last-child, #ctraddon_prefpagebox > groupbox,
-    #ctraddon_pw_cssoverridec, #ctraddon_pw_oldfontgfxg, #ctraddon_pw_resfprintinggb
+	#ctraddon_pw_oldfontgfxgb, #ctraddon_pw_photongb,
+	#ctraddon_pw_cssoverridec, #ctraddon_pw_oldfontgfxg, #ctraddon_pw_resfprintinggb
 	{margin-left: 15px !important; margin-right: 15px !important;}
 	
 	#ctraddon_appbuttonbox > hbox {margin-left: 12px !important;}
@@ -2490,8 +2499,9 @@
 	
 	
 	/*   Linksausrichtung von Beschreibungen   */
-	#ctraddon_pw_generalui_tabpanels > tabpanel:first-child > groupbox > description:nth-child(19){margin-left: -13px !important;}
-	#ctraddon_pw_generalui_tabpanels > tabpanel:first-child > groupbox > description:nth-child(23) {margin-left: -13px !important;}
+	#ctraddon_pw_generalui_tabpanels > tabpanel:first-child > groupbox > description:nth-child(18){margin-left: -13px !important;}
+	#ctraddon_pw_generalui_tabpanels > tabpanel:first-child > groupbox > description:nth-child(22) {margin-left: -13px !important;}
+	#ctraddon_pw_generalui_tabpanels > tabpanel:first-child > groupbox > description:last-child {margin-left: -13px !important;}
 	#ctraddon_tabsbox > groupbox:last-child > description:nth-child(3){margin-left: -13px !important;}
 	
 	#ctraddon_addonmngrbox > groupbox:first-child > description{margin-left: -13px !important;}
