@@ -1,6 +1,5 @@
-
 /*  AGENT_SHEET   */
-/*  Letzte Änderung am 29.05.2017   21.05 Uhr   EDV Oldi Version + Endors Senf   */
+/*  Letzte Änderung am 30.05.2017   18.10 Uhr   EDV Oldi Version + Endors Senf   */
 @-moz-document url-prefix("chrome://classic_theme_restorer/content/options.xul"){	
 
 #ClassicTRoptions {min-width: 730px !important; /* min-height: 470px !important; */ }
@@ -200,10 +199,15 @@ list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAY
 #ctraddon_pw_feedinurl {min-width: 480px !important;}
 #ctraddon_fontbox > tabbox {margin-left: 6px !important;}
 
-#ctraddon_pw_tab_ctabheight {margin-left: 23px !important;}
+#ctraddon_pw_tab_fontsize{margin-left: -4px !important;}
+
+#ctraddon_pw_tab_fontsize > hbox,
+#ctraddon_pw_tab_ctabheight > hbox {min-width: 39px !important;}
+
+#ctraddon_pw_tab_ctabheight {margin-left: 32px !important;}
 #ctraddon_pw_tabClipWidth   {margin-left: -2px !important;}
-#ctraddon_pw_tabMinWidth    {margin-left: -2px !important;}
-#ctraddon_pw_tabMaxWidth    {margin-left: -2px !important;}
+#ctraddon_pw_tabMinWidth    {margin-left: 7px !important;}
+#ctraddon_pw_tabMaxWidth    {margin-left: 7px !important;}
 #ctraddon_pw_tabClipWidth_L2    {margin-left: 0px !important; margin-top: 5px !important; margin-bottom: -5px !important;}
 #ctraddon_pw_tab_ctabheightcb .checkbox-label {margin-top: 2px !important;}
 label[value="Clip-Breite:"]{margin-top: 3px !important; margin-bottom: -3px !important;}
@@ -511,6 +515,14 @@ padding-left: 23px !important;
 padding-top: 1px !important;
 background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABiUlEQVQ4ja2SsUrDUBSG7yC4+AZ9Cxc3oZOELu0iCWRwKA5JkC46JuQmfQKlQxYVhICCUBKSUqghUB1UMigdrNAKHdouHRSRYm6Oiwk3JoEOHjjDDef/bv7/XIT+oxrmCPK6LBlAz+lcBQoBf7+1JjyUJQPq9fo+Qgi5igjRXAfMMllIwxxBa8IDLebtUgJwFJFEMw2IvwfRTAOVZUgGwNslaE14iMUIIVSWDHAVEcgUw3ePS5pMcfpPYgu8XUrENMCVhbCjiLDsVAGzDGCuQjSuktjLzSAGUBmQd3MT9F9h3MlgUdOAj8stwCxDEmFcnuetWbdDk16h3R+e0re4shB+Xm+DmgsI3q6a3UXKRrO7AD8Yn8VnVxbCL2snAaQgcQaHxh2oFwEcGXepLbiyELqyEC47VVBZhhSGeHDig3z+ANKxv9IaMwAWW7CrtIHTrARQ9JBSFnqP45sadlIZ1LADbS94is+OIpJorheEOBhstPsvPXp9pnP/7Div6/ScTvvOq8wDWaF+AC4OejiA+11XAAAAAElFTkSuQmCC") no-repeat !important;
 background-position:4px 2px!important;}
+
+#ctraddon_pw_sb_fontsizecb  .checkbox-label-box,
+#ctraddon_pw_lb_fontsizecb  .checkbox-label-box,
+#ctraddon_pw_tab_fontsizecb  .checkbox-label-box {   
+padding-left: 23px !important;
+padding-top: 1px !important;
+background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABwUlEQVQ4jWNgGLTAofm6g2PX9VaP3ptTnDpu9Ds0X5vg2Hx9lmXx5S51vyO8DAwMjHgNsG28Epyz/OG9iXte/u/f9fx/9/bn/wuXPPrtVHt1m5TvZi6CLjAvuygTOvXuruKVjz8VrXj4tXDxg+82pZdmKDjs5yDKCzYVl8rzlz787t5xc61z3bUFTeue/LfMOT+TKM2mhaeVkmbffRQ37c59k/RzISYZZxtqVj76b5l9cSlh3aGrmJ0arq/KnH//u1HK2TQp381cxgmnOyqXPfzvUnn1EoP2Kjb8tmeejcmYe/9bUNfNi3rxp/20Qw9pmaWdWVC17OH/oLbrn0SsN/Li1GyYeEg0btKtV5XLH/33ar5+2TLz3CaL9HNbXaqu3mhc8fh/aOuNnzKWe6Vx6We0L748u2blo//maadRAss86fTG8gX3/0d13vovZ7NFCUOnlO9mLt240y6lSx7+j+i++UbL/4gtTE7aeY+wmtvh+uxpd/4n9N/+L2e7J4SBoYEJxQCL9LPrYvpv/UuYcPt/QNO1t1oBh3sVHNYLyNlu09L2ObTIseD8q8C6a/99a67+Nww9ulfKZKMh3oAcWgAAcqDOFCaBR4MAAAAASUVORK5CYII=") no-repeat !important;
+background-position:4px 1px!important;}
 
 #ctraddon_pw_ctrltabprev  .checkbox-label-box {   
 padding-left: 23px !important;
@@ -2375,7 +2387,7 @@ margin-left:4px !important; }
 
 #ctr_pw_em_con>.menu-iconic-text {
 margin-left:10px !important;}            
-
+  
 #ctr_pw_settings_reset{
 -moz-binding:
 url("chrome://global/content/bindings/menu.xml#menuitem-iconic") !important;
@@ -2514,6 +2526,9 @@ padding-left:4px !important;}
 #ctraddon_cssbox > description{margin-left: -4px !important;}
 #ctraddon_pw_cssoverride {margin-left: 13px !important; margin-top: 12px !important;}
 #ctraddon_pw_tabs_maintabpanels > tabpanel:first-child > groupbox > description:nth-child(18),
+#ctraddon_pw_tabs_maintabpanels > tabpanel:nth-child(2) > groupbox:last-child > description:nth-child(3),
+#ctraddon_pw_tabs_maintabpanels > tabpanel:nth-child(2) > groupbox:last-child > description:nth-child(13),
+#ctraddon_pw_tabanimationdesc,
 #ctraddon_pw_tabs_maintabpanels > tabpanel:nth-child(2) > groupbox:first-child > description:nth-child(13),
 #ctraddon_pw_tabs_maintabpanels > tabpanel:nth-child(2) > groupbox:first-child > description:nth-child(15),
 #ctraddon_pw_tabs_maintabpanels > tabpanel:first-child > groupbox > description:nth-child(21),
@@ -2617,9 +2632,11 @@ label[value="px  -  Rechts: "],
 #ctraddon_pw_toolbars_tabpanels > tabpanel:nth-child(2) > groupbox:last-child > hbox > label,
 #ctraddon_pw_searchbar_tabpanels > tabpanel:first-child > groupbox:first-child > hbox:nth-child(9) > description,
 #ctraddon_pw_searchbar_tabpanels > tabpanel:first-child > groupbox:first-child > hbox:last-child > description,
-#ctraddon_pw_toolbars_tabpanels > tabpanel:first-child > groupbox:nth-child(2) > hbox > description
-{margin-left: -1px !important;}
-
+#ctraddon_pw_toolbars_tabpanels > tabpanel:first-child > groupbox:nth-child(2) > hbox > description,		
+#ctraddon_pw_tabs_maintabpanels > tabpanel:first-child > groupbox:first-child > hbox:last-child > label,
+#ctraddon_pw_searchbar_tabpanels > tabpanel:last-child > groupbox > hbox:nth-child(2) > label,
+#ctraddon_pw_locationbar_tabpanels > tabpanel:nth-child(2) > groupbox > hbox:nth-child(3) > label,
+#ctraddon_pw_searchbar_tabpanels > tabpanel:first-child > groupbox:first-child > hbox:nth-child(11) > description{margin-left: -1px !important;}
 
 /*  Add-on Compatibility Reporter  */
 #ctraddon_pw_acr_note {display: none !important;}
