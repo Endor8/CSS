@@ -1,6 +1,5 @@
-
 /*  AGENT_SHEET   */
-/*  Letzte Änderung am 22.06.2017   14.20 Uhr   EDV Oldi Version + Endors Senf   */
+/*  Letzte Änderung am 26.06.2017   19.20 Uhr   EDV Oldi Version + Endors Senf   */
 @-moz-document url-prefix("chrome://classic_theme_restorer/content/options.xul"){	
 
 #ClassicTRoptions {min-width: 730px !important; /* min-height: 470px !important; */ }
@@ -200,12 +199,12 @@ list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAY
 #ctraddon_pw_feedinurl {min-width: 480px !important;}
 #ctraddon_fontbox > tabbox {margin-left: 6px !important;}
 
-#ctraddon_pw_tab_fontsize{margin-left: -4px !important;}
+#ctraddon_pw_tab_fontsize{margin-left: -3px !important;}
 
 #ctraddon_pw_tab_fontsize > hbox,
-#ctraddon_pw_tab_ctabheight > hbox {min-width: 39px !important;}
+#ctraddon_pw_tab_ctabheight > hbox {min-width: 32px !important;}
 
-#ctraddon_pw_tab_ctabheight {margin-left: 32px !important;}
+#ctraddon_pw_tab_ctabheight {margin-left: 33px !important;}
 #ctraddon_pw_tabClipWidth   {margin-left: -2px !important;}
 #ctraddon_pw_tabMinWidth    {margin-left: 7px !important;}
 #ctraddon_pw_tabMaxWidth    {margin-left: 7px !important;}
@@ -370,7 +369,7 @@ background-position:4px -1px!important;}
 
 checkbox[label="Zuletzt besuchte Kategorie speichern"][preference="ctraddon_optionsrem"] .checkbox-label {padding-left: 2px !important; padding-top: 1px !important;}
 
-/* #ctraddon_pw_searchbardesc {margin-left: 88px !important; margin-top: -20px !important;} */
+#ctraddon_pw_searchbardesc.ctraddonsuboption {margin-left: 88px !important; margin-top: -20px !important;}
 
 #ctraddon_pw_searchbar .checkbox-label {   
 padding-left: 25px !important;
@@ -715,6 +714,7 @@ color:#FFFFFF!important;}
 #ctraddon_pw_generalui_tabpanels > tabpanel:last-child > groupbox:first-child > description:nth-child(4){margin-top: 5px !important;}
 #ctraddon_pw_toolbars_tabpanels > tabpanel:first-child > groupbox:last-child > description:nth-child(6){margin-top: 10px !important;}
 
+
 #ctraddon_alt_abicons  .checkbox-label {   
 padding-left: 20px !important;
 padding-top: 1px !important;
@@ -941,10 +941,10 @@ background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAQCAYAAAD52
 background-position:0px 2px!important;}
 
 #ctraddon_pw_hide_bf_popup  .checkbox-label {   
-padding-left: 18px !important;
+padding-left: 23px !important;
 padding-top: 1px !important;
 background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAd0lEQVQ4jb2S0QnAIAxEs5M73U7udDtdP2w1oWpJCz14BIS8hKDZ1xRIb0ChuuBNgoDKEwSVeYIAlXniDZaLTiokQrBHQWsibMspmE1qlTB/e4kntXjBal06AXYCLPlJQGwJEvc2/kHhHRvcBNf0TLrET89m1ngACLyCmjiv/bgAAAAASUVORK5CYII=") no-repeat !important;
-background-position:0px 2px!important;}
+background-position:1px 2px!important;}
 
 #ctraddon_pw_nbcompact  .checkbox-label-box  {   
 padding-left: 18px !important;
@@ -954,7 +954,6 @@ background-position:3px 1px!important;}
 
 #ctraddon_pw_nbcompact .checkbox-label{margin-left: 5px !important;}
 
-
 #ctraddon_pw_nbcompact2 .checkbox-label-box  {   
 padding-left: 18px !important;
 padding-top: 1px !important;
@@ -962,7 +961,7 @@ background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8
 background-position:3px 1px!important;}
 
 #ctraddon_pw_nbcompact2 .checkbox-label{margin-left: 5px !important;}	
-
+   
 #ctraddon_pw_statusbar  .checkbox-label-box {   
 padding-left: 18px !important;
 padding-top: 1px !important;
@@ -1153,7 +1152,7 @@ background-position:0px 1px!important;}
 padding-left: 20px !important;
 margin-top: 20px !important;
 background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABiElEQVQ4jZ2Ru04bQRRApx4JKR8AKdNTsUU0JfsNiSgmUJAqaSyc0k1KKCxv4ZbGSFaEGD7AUVC6RGERJjyWh4zW2CbGwvauG9iTYrW2NhgS50qnOdI9mqsRYoKhsgLOc3BmoLLCJLuCShbMLFHDImpY8OkFVLL/HsGZJmrZRC0V05wHZ2aCwOoUUXuRZKJfGtaeIeZezmMp+0m+/3Bh6xXR+YdR4OQ9bL1GWMom+7HwJN/cn3C5A6tTaS534sDfWFp+x/HJKZlcHoBMLk8ml4/vt5RNEA4IwgFSmxSJD8IBd/f3jwfcqodb9ZDacHTd5+i6j9Rm6N2qx02n+3ig4BQpOEWkNqzv+qzv+khthr7gFCltlDk7O0cphVKKz1++jgLehY93ES+V9uqU9upIbYY+oVZv0e0FdHsBC2/ejgI1v0nNbyK1obx/RXn/CqnN0I/DUvb4EzYPGmweNB6c8CepQLtzS7tzi9SG7cMm24fxaxI/jlSg1w/p9cMH35j4caQC/4sQQvwGFG87JKixa6AAAAAASUVORK5CYII=") no-repeat !important;
-background-position:0px 8px!important;} 
+background-position:0px 11px!important;} 
 
 #ctraddon_pw_tbconmenu .checkbox-check {margin-top: 9px !important;}
 
@@ -1188,10 +1187,10 @@ background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8
 background-position:0px 1px!important;}
 
 checkbox[label="Erstes Element"][preference="ctraddon_mbarforceleft"]{margin-top:-15px !important; }	
-checkbox[label="Letztes Element"][preference="ctraddon_mbarforceright"]{margin-top:30px !important; margin-left:-129px !important;}
+checkbox[label="Letztes Element"][preference="ctraddon_mbarforceright"]{margin-top:30px !important; margin-left:-127px !important;}
 
 checkbox[label="Leistenhöhe erhöhen"]{margin-top:-22px !important; }	
-checkbox[label="Leistenhöhe verringern"]{margin-top:25px !important; margin-left:-162px !important;}
+checkbox[label="Leistenhöhe verringern"]{margin-top:25px !important; margin-left:-159px !important;}
 
 checkbox[label="Leistenhöhe erhöhen"]  .checkbox-label {   
 padding-left: 20px !important;
@@ -1691,7 +1690,7 @@ caption[label="Invertierte Symbole"] {margin-top: 10px !important;}
 padding-left: 23px !important;
 padding-top: 1px !important;
 background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAHElEQVQ4jWNgGAZg/uP/FOFRA/6PxsLgMGCgAQAVFpCwdueoIAAAAABJRU5ErkJggg==") no-repeat !important;
-background-position:4px 0px!important;}
+background-position:4px 1px!important;}
 
 checkbox[label="Leiste verstecken"][preference="ctraddon_hidenavbar"] .checkbox-label-box {   
 padding-left: 23px !important;
@@ -1863,6 +1862,7 @@ padding-top: 2px !important;
 background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACIklEQVQ4jZ2RT0iacRjH38MYQcEScUlz72sycQ47mFC4Bcq7Tr6HDuYgKC978RAvbRDSQTyFeIjoIOIhZJcEkQabf9hCLDBf3jLfQkIiRHbZ2mXvZbzssP3ou4Npf2Ab7gvfy/PA5/nw+1HUv+JgIMS+4O0JgbDeAuOI4M7dAXT3GY3mXtXnq360Wl91Zu91ukfS9LSYYxgPvyIjXlTQuiBoXRDEiwr4FfkKUJudLTcCAUhTUz+yNP0io9U+OPL7T09mZlB59vQsmGig0CRo/Gy30CQIJhpXgA8mk0d0uc4PJichuVzK8fz856OJCezbbNi2WEJ8VEZSIih9bTcpEfDRawYURVHvhoZGd2y2elmrhajRoPLQgDxNv6YoipoLyUjuEhRO203uEsyFbgMMhlGJZet7/f3Y7+tDzWxG3mjsAtbSClKHBKlDgsjWLUCOYTw1jjuXjEZU9PrvB1brt+bICFp2O4oWS8i7LCOSVrvXI2kV3uVrgArLlvdoGjuDg7+yBsPLjF7/pD421lLdbnxi2TPvUhuQOiZYyxOE36jwLsk3v3GbpjO54eHFzmxLp7NXx8ezOZPpObcgIrihICm19YMbKrgF8eYb/C0dQLxIEN4kEGIquEW5B0BAhBBTLvUJhHUVXKAHA6e/BH5VudTvAHowcPpL4KMKwpsEwcR/GNw3C7D7ZPCrSteA9fcA6IRxROD0l/DYncSAnu0d8Kf8BsQgYswIAW7xAAAAAElFTkSuQmCC") no-repeat !important;
 background-position:0px 2px!important;}
 
+
 #ctraddon_pw_hightabpososx .checkbox-label-box {   
 padding-left: 23px !important;
 padding-top: 1px !important;
@@ -1928,7 +1928,7 @@ background-position:4px 1px!important;}
 padding-left: 23px !important;
 padding-top: 1px !important;
 background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABG0lEQVQ4jc3RT2vCMBiAcT+cJ8+FnjxNxKPiRfA8QUhCq34r/QjKNmEbFJvAWjtKkzw77I9VNnXsshd+JKeHhLfR+BcTxzFKKYQQCCGQH+fp/ZNSijiO+QoopfjtKKUOASEEAN57vHcXAQghjgPeQ1G8kmX5Rc6dBKSUWOvQ2mCMQWvz7T1NNbtdSlU5pJTHgcpaHp+er1JZexxQUuK84+7+4SrOO1Q9MI/ft1DkGUX+ckEGwDyubaE7ntHqTWl2JjRvbs/rTGj1pnTHs0MgGESUgM5L0uw8nZeUQDCIaoG+wuwtq03Ccp2w+sFynbDaJJi9JejXvhAOIypgawq2en+eKaiAcFh7QXu0IBxGBH11lXAY0R4tDoG/zBski2KgiWz8eAAAAABJRU5ErkJggg==") no-repeat !important;
-background-position:4px 0px!important;}
+background-position:4px 1px!important;}
 
 checkbox[label="Im 'Vollbildmodus'"] .checkbox-label-box {   
 padding-left: 23px !important;
@@ -1985,6 +1985,13 @@ padding-left: 20px !important;
 padding-top: 0px !important;
 padding-bottom: 2px !important;
 background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAACSUlEQVQokYWTS0iUARSFv3+cRnPMyUEKNSsrCpkgyBY90CQiKRKKrDZKSmWFCSEDio+ZX9DRRdiiLKKFEEQxtJkiiF4SQUmr7E1khWUPJF9p1jj+p4UjjEZ04Gzu5Vzu41wmSspbOsFOFAJD+fl2eb1OVVe75PU6lW/aBQazoaIyqba5QyVepwrLE2W25snr86uuKaj6QEh1TUFV+fw6dGKLjtWkzCgiT+64So5Kh6tCOlDZqMbWsCprpNIKWcVHZO0/KO2LsrTyogr2eAQ2ACI2128rzSNt3SUVlWkyr9AaWbz63XByemjc4e4Yc7hvhJMy3lpZaye0fru0eecz5RauBeAljH4AfTMc6o9L0HOMgatwHMAE20eYOwhrRuB8xLVkTNkbJc+mB1qZk8oFCF8AdUR5CiYCEKqDdbG7+QrOYeIuWclLx5W6SkrJqsAHagDVR+kDNU3FPrXB7vMwZ7rAZ8gO43wlw60w8d34wG9CawP46sGsB7MBWvzQfhlKOyEptoMfGJ0izhqBX3+dLhZBcAQhLjY2CLd/gNXzP/Fs9OHOHMXofoOhu/B6RrIT7IL4f4k1b3nzF4zR+6BrUDstShqH4gGM65PzMtuUnZM2Q7Rog1vzl/mGsPU/BJ2D97cgHYAnkDEAT79jk0j8qYT0LrlWtMu1NKDEBWcse9KjPhi7CToLw7VQYE67LAiOHthxD7pegJ5h6Cm2yGMI34HIFdBpUAC6Tdi2FxyzRzJOQqoJxS0QCkBvEww1Qq9/yjQltbCQmMf4A1xUDQ8wUKLnAAAAAElFTkSuQmCC") no-repeat !important;
+background-position:1px 0px!important;}
+
+#ctraddon_pw_restartapp2 .checkbox-label{   
+padding-left: 20px !important;
+padding-top: 0px !important;
+padding-bottom: 2px !important;
+background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADTUlEQVQ4jYWRa0wTBhSFD7WFWsDZoQLt6EsYj6YKFIYyrLpNDSNQV8BsTDRTBtXORENlE7BSH8irYyKbQ8bGgGWDUOZQouCUSiagaFcbpgVCwVrCtogmgj98lLsfw4BmZie5v+75cnPPAWbFZiyO2BWwta3dS/6xDsBSzOMmApC5S96ViTaWi/A/8vNc+Vm7UGshXprRwQnP+EqQWt0meL9hyF9Z0Rm8pe6iUFVZ5h2rXQmI2C+wUnd4StO4yU33JLlmCsozU3heP60qHaAVxTZKrxmllJPDtK7YMiXd9uNlTqgqAwBrlue/9zo7PLvRV91NSw/1U1ihlWI/H6DslhHKaxujvcZRKutw0t5f7tBHtXZS7L/u4m04mgGACQCYJ965nav83uGbc53E+hsUdMhCEUVWClWfp+is0xeislrr3/ikYzTHaKfDF8Yp/4yD5JpzFgjeDgMCCxYwIwu7/DTd0xK9hfg6MyVVD1FawzDFH+klv6SWEwDgLS8IidppuqquvfnU0PUXpVdceypUfq0FQgpV/qlNT1Yds9Oacitlt4xQ2vFbZDg1PPlB0eXHvOTWUuC1+QDcMD90RfCHTfZ9xkGq6v6TojPP9gFhZWr2W40k115x8BJrxgJU7Zf4ivwvEPBp6ZL1p2JZy3IjZ5JyA+CxIPrAD5tLe6jePEHK/N8m/10xhWvhqUoHpH6AT8hLanYD4MPkxeuV+qtU1zdBO0pMgy+aYgCEAOAD8ALAmBkWgFcBCDmhWW0Jup7pjsFJyiq6NPIMZAAQwiOmBOLdXeAqSwBWDIBFM6AIQARYgdvFiTUTmdU36XfnQ5JurOucc1wic5cdviVWd5Jg82liBOts8FhnAPg7AE4imIpjCxWVNzQnbXR2cIqaTfZJ5vIy3dz/fL3erBnL/LafMpodFKfvdYk2GR9wV38z4RNnGOelNt5VV9uox/mIKpqtpEj5rhKCgrDnE2C/syZu608DVb86XPXm+3Si+x7l/OwkTcPQdOsfU9Rpu0/nrX9TcHyVFV7aJf+dNFeXAOFBkyyl1rXL0EWtvc6H9abbVFx7zZWsaepj8PIr8MqeqJc0NSuOvDwSwoO5CCj4cnFkSS4jsEgDJEuAJO+5vn8AzMphSsGU3mgAAAAASUVORK5CYII=") no-repeat !important;
 background-position:1px 0px!important;}
 
 #ctraddon_pw_cuibuttons .checkbox-label{   
@@ -2301,7 +2308,7 @@ padding-left: 21px !important;
 padding-top: 0px !important;
 padding-bottom: 2px !important;
 background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACfElEQVQ4jdVSX0hTcRj9HgTpRYsgp9u9293u3e7dTKzsn0YQGGVgUhJE9RCViNr/9tpLfxlBUHqtMKggaBhJkU8V6WPhQ1RSQtD2+/02bHPN3StspuLpYVkI+dRTB76X7/sOnHM4RP8Ncia12SaN2yalLZMyuR7qWPI5ruqbuU8PM6+/cWEnrtOyyR7aat2kDbZJYbuXYPfQkUVEJvu9QjX6hWbMCs2AUPU0k+UVC3frNkXtW5SwuqnJMumSbZL4Q/YFGrimx4RmYGG4pieYZmznXuOMkIM3RDBwaPJC6Um7jz5lu6nBNin9S7K6Rqh6Sqg6uEsBq3CCVTgRr3D+iDtcBe5RIbQg4q7Q+GSkZNvUA4pavdRkmTRFMY9nOdeMUS57wZ1upHbtRuFqBPPRfhTu3cf30+eQrNsEVimBKyHOG6QqIqLsNaqx7lA3cc04zyUFiXUbUXg+CAB4NzaGweFhJC0LADCXTCLT0QVWJc8yxRhhcmjLb+9c0T6K4GrMvP+AOQAdXV0gIhARJEnC0PAwAGA+n8d44w5w2QvhC4rPTn1l0b/Dmc50ngAAPIpGUVZWhtbWVjQ3N4OI0NLSggVk2jvBHC5wzZhhst9bTN8hjaQPHwUAXIlE0N7ejnw+j+rqahARwuFw0ca3FJLrN0N4VAhNHxwiKikq8PmbmKJN558MIJ3LYX/bMaytr0dpeTn2HDyAbKGA2a8xpPbuA3O6wVVjNO4OKIsL5PU3csn71jp+CtmBp3jZdxdv+h9j+vUQpi5eRrK2DqxSmmJ+o49Lgaq/1vcLqaWxStdO4fJEJkK1zyaCNa8SkvIivsr1kLvVs0xVg0t2/1/wE+DsbebGL4FlAAAAAElFTkSuQmCC") no-repeat !important;
-background-position:1px 0px!important;} 
+background-position:1px 0px!important;} 	
 
 /*   Classic Theme Restorer   */
 
@@ -2339,6 +2346,7 @@ border-radius:4px!important;
 
 #ctraddon_button_fx57:hover{
 background: #E1F3FC url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAC4UlEQVQ4jX2UTUgiYRjH35qwsYimsA47IBjiIfqYUx5GkojIQx+HWGIPbsSChwgyaa8J1bGQQJCisIzYPQSe6lAeRNhDFOh6SCy2Q99YA/bhGMj430PMq26tDzy8p/m9z////N8hpEz5PU5u5k42z9zJZr/HycWnDN2XyYXJq1D/XDohKhnpYKXc92TmTjYLMSnK32Tykye/EdpqxeWvT0gnROUl1onchQD5egRX59uf392sthCTopWHz6g8fAZ/k8mbV/fxOFuBl1gnbfl6BLd/Fn+8myA+Zeg+/6pLCjEpSrwyzKv7CG21gr/J5CsPnxHaakXuQkA6ISrqmXlwK5fJhcl3oL1mFnGrBkmHFvISg5/BLyUg3HJUXu5CQO5CQObBrZTIOxvSuk4HNUjZGaTsDOQlBpuOBvimLRhenocr4KCgbLCewhRJxNP92lGJrNNBDU4HCxOl7AxgI3nz6j6Gl+eBWw6+aQs2HQ0UhluuMNXZkNYVt2oQtxZAj7MVkJcYmFf3QbwyXAEHcuEWsOMnaLRtIDJBkAu3QJFE4MWGjHSwQo4tmvli0OmgButNda9tY16w4ye028a8IF0REP0i3H01SjZYT0FP92tH5NiimY8aWQqKGlmEO6vRaNsA6Yqg0bZRAvkvKD5l6A53VkOFxa0F033TFuqZb9oC0hUBpxvFpqOBSlMk8S1Tfo+T2zXUHqnrV+Wp0L1mFpxuFES/SCHyEkM3J1+PgObpbEjr2mt+k1QMc/fVKB3tAjjdKDraBQrJhVuQToiKIonIPLgVv8fJ0SztGmqPVH9UWMrOIOnQIjJB6DazwXqUvLdQ/1xJunlCTHvNLD6CpewMjYTqTTohKt+/Gbc/fPX6KtK73lT3GjWyKN6kCsoG65ELtyC01Yoeng2U/YXwhJh6eDaw3lT3qvq2M1CLnYFauPtqlB6eDeirSG9ZSHH5PU6OJ8SkryK9+irSyxNiKjH1n/oLQoFe5/tVOxgAAAAASUVORK5CYII=") no-repeat !important;
+padding-left:18px!important;
 background-position:3px 5px!important;
 border-style: outset !important;
 border-width:1px !important;
@@ -2622,7 +2630,7 @@ padding-left:4px !important;}
 #ctraddon_pw_generalui_tabpanels > tabpanel:last-child > groupbox:first-child > description:nth-child(4){margin-top: 10px !important; margin-bottom: 10px !important;}
 
 #ctraddon_pw_tabs_maintabpanels,
-#ctraddon_pw_generalui_tabpanels{min-width: 530px !important;}
+#ctraddon_pw_generalui_tabpanels{min-width: 532px !important;}
 
 #ctraddon_pw_tabs_maintabpanels > tabpanel:first-child > groupbox > hbox:nth-child(16) > label{margin-left: -1px !important;}
 #ctraddon_pw_oneoffsearch_desc,
@@ -2679,9 +2687,10 @@ label[value="px  -  Rechts: "],
 #ctraddon_pw_toolbars_tabpanels > tabpanel:nth-child(2) > groupbox:last-child > hbox > label,
 #ctraddon_pw_searchbar_tabpanels > tabpanel:first-child > groupbox:first-child > hbox:nth-child(9) > description,
 #ctraddon_pw_searchbar_tabpanels > tabpanel:first-child > groupbox:first-child > hbox:last-child > description,
-#ctraddon_pw_toolbars_tabpanels > tabpanel:first-child > groupbox:nth-child(2) > hbox > description,		
+#ctraddon_pw_toolbars_tabpanels > tabpanel:first-child > groupbox:nth-child(2) > hbox > description
 #ctraddon_pw_tabs_maintabpanels > tabpanel:first-child > groupbox:first-child > hbox:last-child > label,
 #ctraddon_pw_searchbar_tabpanels > tabpanel:last-child > groupbox > hbox:nth-child(2) > label,
+#ctraddon_pw_tabs_maintabpanels > tabpanel:first-child > groupbox:first-child > hbox:last-child > label,
 #ctraddon_pw_locationbar_tabpanels > tabpanel:nth-child(2) > groupbox > hbox:nth-child(3) > label,
 #ctraddon_pw_searchbar_tabpanels > tabpanel:first-child > groupbox:first-child > hbox:nth-child(11) > description{margin-left: -1px !important;}
 
