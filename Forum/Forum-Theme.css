@@ -292,7 +292,15 @@ background: url("data:image/gif;base64,R0lGODlhEAAQAOZBAAAzmQBmzP///1o7AJlmAOazA
 background-repeat:no-repeat !important;} 
 
 .icon.fa-info.fa-fw{display:none !important;}
- }
+   
+ #format-buttons input, #format-buttons select {-moz-appearance: none !important; border-radius:5px !important;
+background-color:#1A68AA!important;
+color:#ffffff !important; 
+border-color:#1A68AA!important; 
+border: 1px !important;
+text-align: center !important;
+height:19px!important;}
+}
  
  
 @-moz-document domain("camp-firefox.de") {
