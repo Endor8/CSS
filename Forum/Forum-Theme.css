@@ -53,6 +53,12 @@ url-prefix("https://www.camp-firefox.de/forum/viewforum.php"){
    .online {
 background-position:114px 10px !important;
 background-image: url("https://raw.githubusercontent.com/Endor8/CSS/master/Icons/online.gif")!important;}
+
+/*.online {
+	background-position: 110px 9px !important;
+	background-image: url("data:image/gif;base64,R0lGODlhFABIAPcAAAFejd3d3aTMn0WRO3Chuj98Nvv8%2FdLl0O307mmoYMfHx5m%2FlIeog%2B%2Fw8MLVwLbJtOfn50%2BjQ87c4qqyt3u2c2COWbTJ1P%2F%2F%2F9PU06i6psfdxfj4%2Bf%2F%2F%2FwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAABwALAAAAAAUAEgAAAj%2BADkIHEiwoEGCEggAWMiQIQEJBiUAsAAhAAYMCjJO2AgAIsGHGxo0gFDRooKNEwgUBHBhgwEDIUeazAhgZcuXMUnOrEmQpUuYInViVMBzoE%2BcQSsOLSrwKNCRSmna%2FJkzKtGpSKHuxPpUqNSeN7taZcrBadWtYKkmRWs07NmlXN9%2BbatWK9y0OB8kqPCAQcareA0IiBBhwIIIfgHTfRmBgoYBEBYUmNs0bIQHjyE8mKy48s8ECTZjSMCZrFMNhFNnoFzWLQQBsB3cXWwAwYMFCxjoZu2UwoDUhXlbZmBX%2BM%2FLxTu3%2FkmhQIYH0Fcr7w08QmmuBzRocOAAuvEDCLLHc49uPMIBCtWvpwWffXv3B9%2B1uyc%2FvWX11OrpHtivfbx002HZhptuiQHI3G%2BpDWAcY8R5Vd9xDyRn4EvNPUffhAagB1x%2Bnr3U3njwPYiTA6AlkMFsHQoWQQLoDVAgV41B1dyCBiBH0mY07nUABKNxuNxLqA2A4H9xvRYbij%2BKxVaKcomoJJJmrQWlW1LS2CSGV8ZVpZNZBtYlbV8yuSWWY2opoZkOklkcBmQ99NJTMl1kgUoIdZSVVhZ0FJFCDTX00EGAHhQQAAA7")!important;
+		z-index: 4;
+} */
      
 .username-coloured{
 -moz-appearance: none !important; 
@@ -460,7 +466,7 @@ font-size:0px !important;
 width:48px !important;
 height:19px!important;
 border: none !important;
-margin-left: -137px !important;
+margin-left: -132px !important;
 box-shadow: none !important;
 background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAATCAYAAAAAn1R6AAADlklEQVRIidWX7W9TZRjGn+2sZ7U956RvaZexLGwdKVC2OFjFzUbNAoe4ttK67cyOtJtV0hlcAoOUlcIy7cvQZBKC2K6zcS8shBmMISogJgug7F/wI/HT/BOIxssvnrPn9HQICSbrnfzSXvfz3Nd99flWQv6tnuyvvu7sozvd2fWNntw6thvd2fWN7tyj26/m1l8jdB385OHMwfQvqBZeST88Swgh5MDUA5/n4weoLu7/1Tm91kU6L6z9uH9qDdVG54W166Qjde+PjtTP+D9xn7mFtg+KkOtFeLan7v1O9iV/wrOw+9S3aI0VlAB7Erex9+wd1adM2/g3qrutsQL4/UFF077uybtb7nRP3lVRfk7opU9j58hVcC8fVYXfCmd8EfYjp2E/chrO+CKahj4D49j7TLPPA3Gd+QE0zo9W0Rz9AuVlEyc0PQCqu/R3+n6j9CkYxx5Fl+942t7yfDTEeeoWZFo+vAG7P6UMcp4wLIdOoqE/B84TBmEF5cxy6CTs/hQM7YGKP4ruN/TnwNh3K5re0Rz7SrPX0B5QzdMZacjO8e8g0xC+BLbtTU2QHaNFmHrHUcPv2AwUvgRrXxK1ts1QdU1d0O/zgffGVH17KKPScln7kmiOr2y5Vy46Iw1pPnETMg5pFjrnGyA6QWNgDaZRa3NtvtiJm5qeNZiGQ5qF+a1JTZ/WyqMcX67ow7p9YJoOgHX74JBmQWekIY1jq5BpiC1AEBOoa30dNVwjiI5XDM2BadRadym6cWy1Yq9Sv1z/l485MA1BTEAQEyrfcojj+HXI2EZKEHxTmhcyhy7CHLoIpsWLGssu1RmtZR/BN6Xql2umxQumxavyr+QNAJbwFdAZaYjt/RXImKXL0HvjYDtCqHOJqHOJMPZOwBKZhyUyD2PvhNLXe+OKZlyHwR/NwfLeMqyxa+DezoJxHQbjEiEEZyAEZ5Q5ru+8Msd6IjBLlzXebEcIrCcCru88LJF50BlpiGl0acM8ugTz6BJMw3PgAhkYxHMwiOfABTIwDc+h0jkXyIB753MY/RkY/RkI4QJMI4swjSyCH8rD4E/D4E+DH8prtBAuqOaE6IJyRy8moReTGk85A8VvhI9+/b0QXUC1wUcXlslL7xZ7DMOlv43HSqgWDMOlJ/WDJRchhBBWmkvUS3N/6oeK2O7US8Un9VJhTPWHRNd/pUs3mF9hB/KP2cECth0D+ce6gcIyGfzSJWf+B7WGKCigAlrTAAAAAElFTkSuQmCC")no-repeat !important;}
 
@@ -524,6 +530,9 @@ background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAATCAYAAABlc
 
 I[class="icon fa-asterisk fa-fw"][aria-hidden="true"]{display:none !important;}
 
+INPUT[value="x"][class="button2"][type="submit"] {
+	width:23px  !important;
+	height:21px !important;	}
 
 BUTTON[type="button"][class="button button-icon-only bbcode-color"][name="bbpalette"][value="Schriftfarbe"][onclick="change_palette();"][title="Schriftfarbe: [color=red]Text[/color] oder [color=#FF0000]Text[/color]"]{
 width:23px !important;
@@ -697,9 +706,14 @@ padding-left:0px!important;
 margin: 0px 0px 0px 0px !important; 
 background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAAVCAYAAADy3zinAAABfElEQVRYheWYQU7DMBBF3wTOwBXYsWKB4Ag9CgsWLOAGHARxAyQ4AGIDF+iuEptyhQr0WaQGy7Xb2A11CF+ykngymT+Tn4kTJCEJwUTwKJgLNPIxFzwIzlz+rgg3AyBXa1xJwgQT4J7/i0/gpAHOazOpjD3g0gTvwEFtNpXxZgIVuUpg9rP94ygvBGC0zm6bDS29BlDI/WLP9m3T7m6ZSHEhe0TTx0Xq38/tUaaIpaTNjO8FiVOFIvfWV0zMnrKlrul607o4mehFEbCqCjPDwkS8AlpIOmYLknU2i8zFzs9BeY/oAJ9W2AdSlBUm38FvXZyuyC+ER1Thfg/df0UpO0KxInzCriB9df8ab5CtHo1swssmF8p/rW1HCilaUDlq4bPp5kJ76tjHJtummCleXdHQfmtkQZFg/lxoTx0rw7YpZuqcjpg2wGuZ76jwYoJT4IlxLBBLsACOGqRn4Br4qEyoBhbABdIU75/lseBOMBvA77PfHjPBreDQ5f8FhRMWtQEJeAYAAAAASUVORK5CYII=") no-repeat !important;}
 
+#pmheader-postingbox > DIV > FIELDSET > DIV:last-child > DL > DT {margin-bottom: 7px !important; margin-left: 2px !important;}
+#pmheader-postingbox > DIV > FIELDSET > DIV:last-child > DL > DD {margin-left: 0px !important;}
+
 I[class="icon fa-pencil-left fa-fw"][aria-hidden="true"]{display:none !important;}
 
-.cp-mini {min-width: 220px !important; margin-left:-2px !important;}
+.cp-mini {min-width: 210px !important; margin-left:-2px !important;}
+
+#cp-main{margin-left: 10px !important;  margin-right:-10px !important;}
 
 .postprofile {
 float: left !important;
@@ -717,5 +731,11 @@ border: none !important;
 box-shadow: none !important;}
 }
 
+@-moz-document url-prefix("https://www.camp-firefox.de/forum/ucp.php?i=pm&mode=compose") {
+.cp-mini {min-height: 470px !important;}
 
+.friend-offline, .friend-online {margin-top: 5px!important; margin-bottom: 8px!important;}
+
+#cp-menu > DIV:last-child > DIV > DL > DD:nth-child(-n+40) > INPUT{float:right !important; margin-right:-4px !important;}
+}
 
