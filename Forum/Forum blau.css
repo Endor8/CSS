@@ -99,14 +99,14 @@ url-prefix("https://www.camp-firefox.de/forum/viewforum.php"){
     font-weight: bold !important;
   }
 
-  .responsive-center.time, #cp-main > H2, .posting-title, .ucp-title, A,#page-body > DIV:last-child > P
+  .pagination, .responsive-center.time, #cp-main > H2, .posting-title, .ucp-title, A,#page-body > DIV:last-child > P
   {
     -moz-appearance: none !important;
     color: #0000cd !important;
     font-weight: bold !important;
   }
 
-  .responsive-center.time:hover, #cp-main > H2:hover, .posting-title:hover, .ucp-title:hover, A:hover, 
+  .pagination:hover, .responsive-center.time:hover, #cp-main > H2:hover, .posting-title:hover, .ucp-title:hover, A:hover, 
   #page-body > DIV:last-child > P:hover
    {
     -moz-appearance: none !important;
@@ -315,12 +315,6 @@ background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkm
     background-color: #CADCEB !important;
   }
 
-dl.announce_read{
-     background-image: url("https://raw.githubusercontent.com/Endor8/CSS/master/Icons/alt.ico") !important;}
-dl.announce_unread{
-     background-image: url("https://raw.githubusercontent.com/Endor8/CSS/master/Icons/neu.ico") !important;}
-dl.announce_read_locked{
-     background-image: url("https://raw.githubusercontent.com/Endor8/CSS/master/Icons/closed.ico") !important;}
 dl.forum_unread {
      background-image: url("https://raw.githubusercontent.com/Endor8/CSS/master/Icons/neu.ico") !important;}
 dl.forum_read {
@@ -400,6 +394,7 @@ dl.forum_read_subforum {
 @-moz-document url-prefix("https://www.camp-firefox.de/forum/viewtopic.php") {
 
 .icon.fa-pencil.fa-fw{display:none !important;}
+
 A[title="Mit Zitat antworten"][class="button button-icon-only"]{
 width:60px !important;
 height:19px!important;
@@ -577,7 +572,7 @@ font-size:0px !important;
 width:48px !important;
 height:19px!important;
 border: none !important;
-margin-left: -137px !important;
+margin-left: -132px !important;
 box-shadow: none !important;
 background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAATCAYAAAAAn1R6AAADlklEQVRIidWX7W9TZRjGn+2sZ7U956RvaZexLGwdKVC2OFjFzUbNAoe4ttK67cyOtJtV0hlcAoOUlcIy7cvQZBKC2K6zcS8shBmMISogJgug7F/wI/HT/BOIxssvnrPn9HQICSbrnfzSXvfz3Nd99flWQv6tnuyvvu7sozvd2fWNntw6thvd2fWN7tyj26/m1l8jdB385OHMwfQvqBZeST88Swgh5MDUA5/n4weoLu7/1Tm91kU6L6z9uH9qDdVG54W166Qjde+PjtTP+D9xn7mFtg+KkOtFeLan7v1O9iV/wrOw+9S3aI0VlAB7Erex9+wd1adM2/g3qrutsQL4/UFF077uybtb7nRP3lVRfk7opU9j58hVcC8fVYXfCmd8EfYjp2E/chrO+CKahj4D49j7TLPPA3Gd+QE0zo9W0Rz9AuVlEyc0PQCqu/R3+n6j9CkYxx5Fl+942t7yfDTEeeoWZFo+vAG7P6UMcp4wLIdOoqE/B84TBmEF5cxy6CTs/hQM7YGKP4ruN/TnwNh3K5re0Rz7SrPX0B5QzdMZacjO8e8g0xC+BLbtTU2QHaNFmHrHUcPv2AwUvgRrXxK1ts1QdU1d0O/zgffGVH17KKPScln7kmiOr2y5Vy46Iw1pPnETMg5pFjrnGyA6QWNgDaZRa3NtvtiJm5qeNZiGQ5qF+a1JTZ/WyqMcX67ow7p9YJoOgHX74JBmQWekIY1jq5BpiC1AEBOoa30dNVwjiI5XDM2BadRadym6cWy1Yq9Sv1z/l485MA1BTEAQEyrfcojj+HXI2EZKEHxTmhcyhy7CHLoIpsWLGssu1RmtZR/BN6Xql2umxQumxavyr+QNAJbwFdAZaYjt/RXImKXL0HvjYDtCqHOJqHOJMPZOwBKZhyUyD2PvhNLXe+OKZlyHwR/NwfLeMqyxa+DezoJxHQbjEiEEZyAEZ5Q5ru+8Msd6IjBLlzXebEcIrCcCru88LJF50BlpiGl0acM8ugTz6BJMw3PgAhkYxHMwiOfABTIwDc+h0jkXyIB753MY/RkY/RkI4QJMI4swjSyCH8rD4E/D4E+DH8prtBAuqOaE6IJyRy8moReTGk85A8VvhI9+/b0QXUC1wUcXlslL7xZ7DMOlv43HSqgWDMOlJ/WDJRchhBBWmkvUS3N/6oeK2O7US8Un9VJhTPWHRNd/pUs3mF9hB/KP2cECth0D+ce6gcIyGfzSJWf+B7WGKCigAlrTAAAAAElFTkSuQmCC")no-repeat !important;}
 
@@ -816,9 +811,29 @@ padding-left:0px!important;
 margin: 0px 0px 0px 0px !important; 
 background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAAVCAYAAADy3zinAAABfElEQVRYheWYQU7DMBBF3wTOwBXYsWKB4Ag9CgsWLOAGHARxAyQ4AGIDF+iuEptyhQr0WaQGy7Xb2A11CF+ykngymT+Tn4kTJCEJwUTwKJgLNPIxFzwIzlz+rgg3AyBXa1xJwgQT4J7/i0/gpAHOazOpjD3g0gTvwEFtNpXxZgIVuUpg9rP94ygvBGC0zm6bDS29BlDI/WLP9m3T7m6ZSHEhe0TTx0Xq38/tUaaIpaTNjO8FiVOFIvfWV0zMnrKlrul607o4mehFEbCqCjPDwkS8AlpIOmYLknU2i8zFzs9BeY/oAJ9W2AdSlBUm38FvXZyuyC+ER1Thfg/df0UpO0KxInzCriB9df8ab5CtHo1swssmF8p/rW1HCilaUDlq4bPp5kJ76tjHJtummCleXdHQfmtkQZFg/lxoTx0rw7YpZuqcjpg2wGuZ76jwYoJT4IlxLBBLsACOGqRn4Br4qEyoBhbABdIU75/lseBOMBvA77PfHjPBreDQ5f8FhRMWtQEJeAYAAAAASUVORK5CYII=") no-repeat !important;}
 
+A[href="./memberlist.php?mode=searchuser&form=postform&field=username_list&select_single=0"][onclick="find_username(this.href); return false;"]{-moz-appearance: none !important; font-weight: bold !important; color: #fff !important; text-decoration:none !important; min-width: 250px!important;
+background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAAVCAYAAAAD+KFvAAABvklEQVR4nO3ay0pCURQGYCdqFwq7QNAgggZ2FSyttEdwmFoYmBVBEA2CrojSBe0BgjRBMk2EIIgouxhIWvoKDaORPUIUrQbSpo2aFcWR47/gY5/JOf9eg392JBIMBvO90bvuDDpX6kLnSmf07jSVAiHvgmzxKbSbzpXO6Nyp80F3eihvOQY2klsDm7cEUO76N5PLXDn6nAmDdj1BAJAg7frNq3otrmEFUTvi0V5nnAAgS+2IR1hBVPbYk8p+TQCQ1WOPPbKCdK9e0W90rVyys3P5gjqWznPOD+2L0R999zNkiztbqN2K7cwK8jkYALJYQZQLZwQAPFaQtvkTAgAeK0jr3DEBAI8VpGX2iACAxwrSPHNIAMBjBWmajhAA8FhBGqfC9NfqJ0LUMHnAnR/P/5GHbHFnC7EbK4jCFszU2YL0FxTj+3nVWgNfKvQessWZLfRu39j5nhWkxrp3WiwQoJzUWAMhVpDKUZ++yuJ/qx7zE0C5q7L4n+Umv5L75V1m3l2Sm3dfKkZ8BFCu5Gbfs9zsnZHkG+nwtkZq8oRlRs+DzOSlkiDkXZAtPoV2M3oepEZvSGLaUeYtBwaDyZ13Dc+rImVVDH8AAAAASUVORK5CYII=") no-repeat !important; border-color: #ffffff !important; border-radius:5px !important; padding-top: 3px !important; padding-bottom: 3px !important; padding-left: 9px !important; }
+
+A[href="./memberlist.php?mode=searchuser&form=postform&field=username_list&select_single=0"][onclick="find_username(this.href); return false;"]:hover
+{-moz-appearance: none !important; font-weight: bold !important; color: #fff !important; text-decoration:none !important;
+background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAAVCAYAAAAD+KFvAAABK0lEQVR4nO3bwU0CQRjF8QcnAkECTdgAJy2BRqxASqAQYmzAqKV4JJ6wBNTwPEDCsNmMCSDz4f4n+WX3sjvv2+RlTisly9LE0qulpSUDDbK09GLpVnXL0ixASCCCabUckwChgCi+LY3TgjwHCAVE8pgW5CNAICCS97QgpcMA4ZynIK1W8UEvOn/p/Rs8BycIkEFBgIzDC3LIcdnr2aOR3e1urr/dD4f24MputzfP9vvbvWV3Orv3pvdR85fe/9Tf77/NcfKCAA1AQYAMCgJkUBAgg4IAGX9akPVW6SEvNX/p/ZljvyD8/wHse0sL8nTMyz7LD3OU0vlL788cteZpQW4srQOEAiJYWbqu/jR1b+krQDigpJWlO9UtS2NLD5YWAYIC57SwNHfl5PgBLrNBI4i2AooAAAAASUVORK5CYII=")no-repeat !important; border-color: #ffffff !important; border-radius:5px !important;}
+
+A[href="./memberlist.php?mode=searchuser&form=postform&field=username_list&select_single=0"]{margin-top: 7px !important;}
+INPUT[name="add_bcc"][value="[ BCC ]"][class="button2"][tabindex="1"][type="submit"],
+INPUT[name="add_to"][value="Hinzufügen"][class="button2"][tabindex="1"][type="submit"]{margin-top: -4px !important;}
+
 I[class="icon fa-pencil-left fa-fw"][aria-hidden="true"]{display:none !important;}
 
-.cp-mini {min-width: 220px !important; margin-left:-2px !important;}
+.cp-mini {min-width: 210px !important; margin-left:-2px !important;}
+
+INPUT[value="x"][class="button2"][type="submit"] {
+	width:23px  !important;
+	height:21px !important;}
+
+#pmheader-postingbox > DIV > FIELDSET > DIV:last-child > DL > DT {margin-bottom: 7px !important; margin-left: 2px !important;}
+#pmheader-postingbox > DIV > FIELDSET > DIV:last-child > DL > DD {margin-left: 0px !important;}
+
+#cp-main{margin-left: 10px !important;  margin-right:-10px !important;}
 
 .postprofile {
 float: left !important;
@@ -836,5 +851,11 @@ border: none !important;
 box-shadow: none !important;}
 }
 
+@-moz-document url-prefix("https://www.camp-firefox.de/forum/ucp.php?i=pm&mode=compose") {
+.cp-mini {min-height: 470px !important;}
 
+.friend-offline, .friend-online {margin-top: 5px!important; margin-bottom: 8px!important;}
+
+#cp-menu > DIV:last-child > DIV > DL > DD:nth-child(-n+40) > INPUT{float:right !important; margin-right:-4px !important;}
+}
 
