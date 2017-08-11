@@ -305,6 +305,12 @@ background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkm
     background-color: #CADCEB !important;
   }
 
+dl.announce_read{
+     background-image: url("https://raw.githubusercontent.com/Endor8/CSS/master/Icons/alt.ico") !important;}
+dl.announce_unread{
+     background-image: url("https://raw.githubusercontent.com/Endor8/CSS/master/Icons/neu.ico") !important;}
+dl.announce_read_locked{
+     background-image: url("https://raw.githubusercontent.com/Endor8/CSS/master/Icons/closed.ico") !important;}
 dl.forum_unread {
      background-image: url("https://raw.githubusercontent.com/Endor8/CSS/master/Icons/neu.ico") !important;}
 dl.forum_read {
