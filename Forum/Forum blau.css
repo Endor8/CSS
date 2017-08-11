@@ -226,16 +226,6 @@ background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkm
     height: 120px !important;
   }
 
-  #format-buttons input, #format-buttons select
-  {
-    -moz-appearance: none !important;
-    border-radius: 5px !important;
-    background-color: #425999!important;
-    color: #ffffff !important;
-    border-color: #425999!important;
-    border: 1px !important;
-  }
-
   .pagination span a, .pagination span a:link, .pagination span a:visited, .pagination span a:active, .pagination span strong
   {
     font-size: 1.2em !important;
@@ -315,12 +305,6 @@ background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkm
     background-color: #CADCEB !important;
   }
 
-dl.announce_read{
-     background-image: url("https://raw.githubusercontent.com/Endor8/CSS/master/Icons/alt.ico") !important;}
-dl.announce_unread{
-     background-image: url("https://raw.githubusercontent.com/Endor8/CSS/master/Icons/neu.ico") !important;}
-dl.announce_read_locked{
-     background-image: url("https://raw.githubusercontent.com/Endor8/CSS/master/Icons/closed.ico") !important;}
 dl.forum_unread {
      background-image: url("https://raw.githubusercontent.com/Endor8/CSS/master/Icons/neu.ico") !important;}
 dl.forum_read {
@@ -400,6 +384,7 @@ dl.forum_read_subforum {
 @-moz-document url-prefix("https://www.camp-firefox.de/forum/viewtopic.php") {
 
 .icon.fa-pencil.fa-fw{display:none !important;}
+
 
 A[title="Mit Zitat antworten"][class="button button-icon-only"]{
 width:60px !important;
@@ -578,7 +563,7 @@ font-size:0px !important;
 width:48px !important;
 height:19px!important;
 border: none !important;
-margin-left: -132px !important;
+margin-left: -155px !important;
 box-shadow: none !important;
 background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAATCAYAAAAAn1R6AAADlklEQVRIidWX7W9TZRjGn+2sZ7U956RvaZexLGwdKVC2OFjFzUbNAoe4ttK67cyOtJtV0hlcAoOUlcIy7cvQZBKC2K6zcS8shBmMISogJgug7F/wI/HT/BOIxssvnrPn9HQICSbrnfzSXvfz3Nd99flWQv6tnuyvvu7sozvd2fWNntw6thvd2fWN7tyj26/m1l8jdB385OHMwfQvqBZeST88Swgh5MDUA5/n4weoLu7/1Tm91kU6L6z9uH9qDdVG54W166Qjde+PjtTP+D9xn7mFtg+KkOtFeLan7v1O9iV/wrOw+9S3aI0VlAB7Erex9+wd1adM2/g3qrutsQL4/UFF077uybtb7nRP3lVRfk7opU9j58hVcC8fVYXfCmd8EfYjp2E/chrO+CKahj4D49j7TLPPA3Gd+QE0zo9W0Rz9AuVlEyc0PQCqu/R3+n6j9CkYxx5Fl+942t7yfDTEeeoWZFo+vAG7P6UMcp4wLIdOoqE/B84TBmEF5cxy6CTs/hQM7YGKP4ruN/TnwNh3K5re0Rz7SrPX0B5QzdMZacjO8e8g0xC+BLbtTU2QHaNFmHrHUcPv2AwUvgRrXxK1ts1QdU1d0O/zgffGVH17KKPScln7kmiOr2y5Vy46Iw1pPnETMg5pFjrnGyA6QWNgDaZRa3NtvtiJm5qeNZiGQ5qF+a1JTZ/WyqMcX67ow7p9YJoOgHX74JBmQWekIY1jq5BpiC1AEBOoa30dNVwjiI5XDM2BadRadym6cWy1Yq9Sv1z/l485MA1BTEAQEyrfcojj+HXI2EZKEHxTmhcyhy7CHLoIpsWLGssu1RmtZR/BN6Xql2umxQumxavyr+QNAJbwFdAZaYjt/RXImKXL0HvjYDtCqHOJqHOJMPZOwBKZhyUyD2PvhNLXe+OKZlyHwR/NwfLeMqyxa+DezoJxHQbjEiEEZyAEZ5Q5ru+8Msd6IjBLlzXebEcIrCcCru88LJF50BlpiGl0acM8ugTz6BJMw3PgAhkYxHMwiOfABTIwDc+h0jkXyIB753MY/RkY/RkI4QJMI4swjSyCH8rD4E/D4E+DH8prtBAuqOaE6IJyRy8moReTGk85A8VvhI9+/b0QXUC1wUcXlslL7xZ7DMOlv43HSqgWDMOlJ/WDJRchhBBWmkvUS3N/6oeK2O7US8Un9VJhTPWHRNd/pUs3mF9hB/KP2cECth0D+ce6gcIyGfzSJWf+B7WGKCigAlrTAAAAAElFTkSuQmCC")no-repeat !important;}
 
@@ -736,6 +721,7 @@ I[class="icon fa-file fa-fw icon-lightgray icon-md"][aria-hidden="true"]{display
 
 @-moz-document url-prefix("https://www.camp-firefox.de/forum/ucp.php") {
 
+A[href="#postingbox"][class="button button-icon-only"],
 A[title="Zitiere Nachricht"][class="button button-icon-only"]{
 width:60px !important;
 height:19px!important;
@@ -743,6 +729,7 @@ padding-left:0px!important;
 margin: 0px 0px 0px 2px !important; 
 background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAAAVCAYAAAD/wUjgAAACLElEQVRYheWYTWsTQRjHfxP3M+hJPOjFV6oVLPQieNII9iJRixVfELW0VQTNB4jWHoSSg60lKgpFexBRvAqCCEo1StsoFT14069Q2Hk82NnMbtLd7FDcxf7ggZ35P/8nz8wmO0uUiABweeZHERgCuoANrA1+A5+Aynhp81sAJSIMP/4+CpQzbS17ytXjW8bUpelvReBl1t3kAB/o8bSWwaw7yQnrgKuer6U7605yRK+nRdZn3UWO2OhpLatS6f7prQCcefDVSc8LaqDWSLUjD89uiy+oFAO1RpB36t6XkM/oeaWgRUgTJ2sNlFJBGOyxluYePzq3PeQzel5Dnbg77/ybmT6/I9gM84LXP7UQzBvsuf6phZDXzlmNeVtzQZUm5pw25MmFnX8LLN91syFKKUoTc7G6fW1rxybnW3xRb1K+rblQ0KJxCZujdz6Hxkm6vVCzAICZi7tafLa3k3xbc1mX5zucMk8Hu4DmXYnWSBob7G9BO6K+tPkua0t97D4b2g00m+ur1onWSBrb9FXrK2rtfGnyXV4pPPtESIPE+LQIR6p1ng/vQZavbWwtOh+t45K/0rgTCr4W0sTh8Y+hYzcaQEvui5Hu4Nro7eq0y4v73Li6UX+noQ7env3F2vn/I4lFT4t8AIpZd5ITZj1fy03gEBD/CP//WQIqSkQ4MPb+GnAD8DJuKiuWgJFX1/dNKvPk3n/r3V7gCtALbMqwuX/JT+ANUHld7lkE+AMou26u6ZlIngAAAABJRU5ErkJggg==")no-repeat !important;}
 
+A[href="#postingbox"][class="button button-icon-only"]:hover,
 A[title="Zitiere Nachricht"][class="button button-icon-only"]:hover{
 width:60px !important;
 height:19px!important;
