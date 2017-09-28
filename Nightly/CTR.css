@@ -1,5 +1,5 @@
 /*  AGENT_SHEET   */
-/*  Letzte Änderung am 28.07.2017   17.00 Uhr   EDV Oldi Version + Endors Senf   */
+/*  Letzte Änderung am 28.09.2017   16.52 Uhr   EDV Oldi Version + Endors Senf   */
 @-moz-document url-prefix("chrome://classic_theme_restorer/content/options.xul"){	
 
 #ClassicTRoptions {min-width: 730px !important; /* min-height: 470px !important; */ }
@@ -941,6 +941,14 @@ background-position:0px 2px!important;}
 padding-left: 25px !important;
 padding-top: 1px !important;
 background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAQCAYAAAD52jQlAAABAUlEQVQ4je2SvUoDURBGj0GCkDaFtfgmioioacRGFB/BR0gnPoX4t8jq3rsBLaws7IXIKiIYIfgex8IQsjFRCwuLfHCq+b6Ze5mBif6fdOpnU9NpgvvcWPvWd2yN3NPRxQuXCO70ie4SvSfYJtggtVryHzpDy3Vy2wRfCTZK+UvXIHrWKw5SkFsQ7RI9J3UegMw5ognRLpkF0QeinaHsFQQTop0SuQXBJzJfyD0iugBAcJngCdFnch97Td+G8teQuUjLrT7R7d4rb8ncILFe+n5inegm0TuC7wRXS/nclc/tDZJaJbpH6ixNK2OWWSGxTuYB8LXHaP3mTADGDJ3oz/UB97nWMKF33ZIAAAAASUVORK5CYII=") no-repeat !important;
+background-position:0px 2px!important;}
+
+#ctraddon_pw_hide_bf_pitem{margin-left: -13px !important;}
+
+#ctraddon_pw_hide_bf_pitem  .checkbox-label {   
+padding-left: 19px !important;
+padding-top: 1px !important;
+background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACJklEQVQ4ja2S22oaURSG576P0pfoG7S5KD1AKRTaToxaa8bEhiqpOpCAJL1JaKDUiQQ0bVQwnhKSTkh0omGcAUcwU1CakkNr06j1PLn4ezGJClqh0AUf+197r/1dbDZB/O8i6aBDNxNs62ZDGMpMsE3SQUefYJT2K3yhDun4EtKxAunkUs0nSk+vgC80MEr7lT6Bhg5AOGrh1eL+UISjFjR0AAMFyUIDqXwTyXwTqUITqXxjIH8V7Mk1OL1ZOD0SnF4JTk9WXXvYlWuqIGaedkTN1nbMbEXMbIWGDmAr+7uHCrayFWz35OszVTBhUeqShLb8BS1ZBmn3ISyUYGcE2BkRdkaEjRFgY0TYGBFhsYSIWEJIKIG0+0DEJq1o5XJo5g7RzOXwZMoN9/ZXePdOsRo/w2r8FB8TZ1jb/wF/6hz+g3P4kj+xsvMNjycZhYhOvEY9I6EhSahnMlhxhTFCzuEOOY+RK+7qFkDNRbC4fghP/DtsLg6PTB+UB/olBxGhplDl06jxaVTTfAe1T6PKqyyYZvFw/H3NsZzCszefuq8fMZpR5jiUOQ4VLoEKx6GcSKg5cb3PIWI046ll7eY9w7vs/ZdLXUFYb1KKG5u4YFn8Yj9fwXa4YFkUNzYR1psUgiAIinLfuP183tURhLSUI6QdVw6cb1GMRiG7lrE7TSOko7pojUpIS/X/+95aHzNix2LD+piBDWgNt4YODxSQL9gA+e8X/wDpXCgoSyG+iwAAAABJRU5ErkJggg==") no-repeat !important;
 background-position:0px 2px!important;}
 
 #ctraddon_pw_hide_bf_popup  .checkbox-label {   
@@ -2624,6 +2632,7 @@ padding-left:4px !important;}
 #ctraddon_pw_tabsaudioicogb > description{margin-left: -13px !important;}
 
 #ctraddon_pw_tabs_maintabpanels > tabpanel:last-child > description:nth-child(10){margin-left: 8px !important;}
+#ctraddon_pw_generalui_tabpanels > tabpanel:first-child > groupbox > description:nth-child(23) {margin-left: -13px !important;}
 #ctraddon_pw_tabs_maintabpanels > tabpanel:first-child > groupbox > description:nth-child(23){margin-top: 8px !important;}
 
 #ctraddon_pw_searchbar_tabpanels > tabpanel:first-child > groupbox:first-child > hbox:nth-child(6) {margin-left: -21px !important;}
