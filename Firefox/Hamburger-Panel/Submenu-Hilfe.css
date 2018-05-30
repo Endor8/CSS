@@ -1,0 +1,101 @@
+/* AGENT_SHEET */
+@-moz-document url(chrome://browser/content/browser.xul){
+   /*Hilfe Panel - Anfang*/
+		  
+	  #PanelUI-helpView > label{
+    color:#252525!important;
+    background:#F5F5F6 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC+ElEQVQ4jWWTP2xbVRjFf9+99/01TgwJCQkMbkMKqCkEKGoXBpiQEqkpZUL8y8BeRqYwMMBQRMWMGtQgJCSKYWCohARIVCCoMJUgLbSipVERTuzYcexn+713L4OlirafdLZzznC+c4TbbnZxrSTIEkoeQ9S8iICob0WkevHMC5Xb+XKLeOH08WIxXnloZqoUhSFRFDHIcmr1XerNDts7navWuTfWPz1SucNgduH0qfm58mt7y/ezfq1LrZmR2SHFaAg9QTtLo1WnnybLv3+yuHrTYHZh7a1DT8ysFEfH+eVyh73TEa8vTvL0o0WsdXzz6w6nzm5x5cYALdDtNMgG3aO/ffxcRWYX18pTE6W/Dj7+CN9daDM17lN5+2GsteS5w1qLc44b9ZSXTlxHRHDOkrRqTWvzPXp837GVw0/OHl7fyOiljt2eJQ4U9VbGiTM1HLBn0iP2hR8v92n1QGmNaB3m6eCS8QNvSZmI7XYXRECED76skTshs6C18OyBGOccm7uOTjrMLNQRottHzOhIoVxrpsM0BPqpo9vJEa15YMLnzWNjWGs590efRg/8yABQUJB0dclYB71BjnWwvZORI3i+RnuKd16ZIA6EK/9mnPy6QxB7KDV8XDFw1BsGM0hzBMfmdooTwfgKZRQLB+9iZtJgrePD7xNSZQgChdIKgJGCRZRGdZJBpd1OsM4hSlB6iKl7DM45nHNc2nQEoSGIPMLYY2TEIwxAtKkaRH3Rau8uFcNRulZQaojKzwn7pn22EjC+xgs0fuhhfE15DP5cbyFKf6Qufvb8atJPqpHOMQKIIEo4+lTMoRmfhTmfuWmD9jReqJm+10ORs/FPv3L+/QNVBeBwy4O01QzE3uz2hesp3QFs7MDfTYdRcN+oUPIyzv3QqIrSy7dsYf+LX82jzOe5GS3rsEgcGeKCR6FouLvkMVYybDV6XNtIqoNMnvnp3Qebd6xx7uWzJZQ6Ltp71XhBOS7EhJEhzS27SV4VbU6ef2//6v81/wH6bjI89FfNwgAAAABJRU5ErkJggg==")no-repeat !important;
+    -moz-image-region: rect(0px 20px 20px 0px) !important;
+    background-position:9px 9px!important;
+    height: 20px !important;
+    padding-top: 10px !important;}
+          
+    #PanelUI-helpView > label{ padding-left:30px!important;}
+		  
+    #PanelUI-helpView > label:hover{
+    color:#000000!important;
+    background: #dcdcdc url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC+ElEQVQ4jWWTP2xbVRjFf9+99/01TgwJCQkMbkMKqCkEKGoXBpiQEqkpZUL8y8BeRqYwMMBQRMWMGtQgJCSKYWCohARIVCCoMJUgLbSipVERTuzYcexn+713L4OlirafdLZzznC+c4TbbnZxrSTIEkoeQ9S8iICob0WkevHMC5Xb+XKLeOH08WIxXnloZqoUhSFRFDHIcmr1XerNDts7navWuTfWPz1SucNgduH0qfm58mt7y/ezfq1LrZmR2SHFaAg9QTtLo1WnnybLv3+yuHrTYHZh7a1DT8ysFEfH+eVyh73TEa8vTvL0o0WsdXzz6w6nzm5x5cYALdDtNMgG3aO/ffxcRWYX18pTE6W/Dj7+CN9daDM17lN5+2GsteS5w1qLc44b9ZSXTlxHRHDOkrRqTWvzPXp837GVw0/OHl7fyOiljt2eJQ4U9VbGiTM1HLBn0iP2hR8v92n1QGmNaB3m6eCS8QNvSZmI7XYXRECED76skTshs6C18OyBGOccm7uOTjrMLNQRottHzOhIoVxrpsM0BPqpo9vJEa15YMLnzWNjWGs590efRg/8yABQUJB0dclYB71BjnWwvZORI3i+RnuKd16ZIA6EK/9mnPy6QxB7KDV8XDFw1BsGM0hzBMfmdooTwfgKZRQLB+9iZtJgrePD7xNSZQgChdIKgJGCRZRGdZJBpd1OsM4hSlB6iKl7DM45nHNc2nQEoSGIPMLYY2TEIwxAtKkaRH3Rau8uFcNRulZQaojKzwn7pn22EjC+xgs0fuhhfE15DP5cbyFKf6Qufvb8atJPqpHOMQKIIEo4+lTMoRmfhTmfuWmD9jReqJm+10ORs/FPv3L+/QNVBeBwy4O01QzE3uz2hesp3QFs7MDfTYdRcN+oUPIyzv3QqIrSy7dsYf+LX82jzOe5GS3rsEgcGeKCR6FouLvkMVYybDV6XNtIqoNMnvnp3Qebd6xx7uWzJZQ6Ltp71XhBOS7EhJEhzS27SV4VbU6ef2//6v81/wH6bjI89FfNwgAAAABJRU5ErkJggg==")no-repeat !important;
+    -moz-image-region: rect(0px 20px 20px 0px) !important;
+    background-position:9px 9px!important;
+    height: 20px !important;
+    padding-top: 10px !important;}
+          
+    #PanelUI-helpView > label:hover{ padding-left:30px!important;}	
+		   
+    #PanelUI-helpItems > toolbarbutton:first-child {
+    list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABIklEQVQ4jd2TMYrCUBCG5wwBPYGJZhUkCLmAIOgZFLR5d8oB0uUEio2VxlQiwUaEBNZ6C0nnt0U22c2+5x5gB/5q/vfBzPxPxFBKJZhk8jYqdoXYFaIoN6rqv3xMAu+uwGWPVpd92UvQIdXje1d49AVWPqfrsyFWPo++cO8aILEr3Gzh401gKDC2GI1UQ4wtGJaem/1jFKUSoign2+5g4cGkRSD6nIEITFqw8Mi2O6IoLxdbAQBO1+ef21YqKceBfwk4hBuKuQezthGiVAKzNsXc4xBuvgHVhs8dIesJxUBgamkxZmpRDErPuSPNSwUipI6Q2l+QpR6kYumT9UpP6oh+6hriCMdwrSX5GK7rviknNSSQ15+p6r9acl2/Y1zJ5P0EE2vdfgbdg2wAAAAASUVORK5CYII=") !important;
+    -moz-image-region: rect(0px 16px 16px 0px) !important;
+    margin-left:4px !important;}
+
+    #PanelUI-helpItems > toolbarbutton:first-child >.toolbarbutton-text{
+    padding-left:10px !important;}
+
+	#PanelUI-helpItems > toolbarbutton:nth-child(2) {
+    list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACSElEQVQ4jbWTT0gUcRzF38z+GVf30tph8eKI003ssBD8mojBwwpJeRBB24OHCmvUZVcJMlg7WAmSlRGYZmR/wIqCQqJTmZAEFYUipEIYmrnVpiBG7rq/XodayVCooC88eIfP43t5D/iPpwghPIFAIFsI4QGg/E1YFUL4LMvaLITwAVA3egIA4C24eQ0dvONdkEO7mXhUyw+DESaG2yhHT5NjZ35o9AT56jD5vIZyaCsX7zk7QECZv7/jydLLWDI9N/AtMTXI+JvHTHyKU8o015xMkosjlJ+HuTjexS9PK4mpC/kPZm+XcuCyzabGCOvsg/x43S1bmht4pHEf5V3w2NHwqm9pbmBTQw3n+10ca1eJ0VZPOvniAGv3h1heXs6qPYKpfshQKETLspi+CWZ86obC6uoqWpbFhatOjrSCmGjfxK8Pd3GnuY3RvcWcOa9xpQ+yMljEymARV66AGR/v0lgRLGZFsJjJPoWTbSAmT2ZzqX8L5y/5udytMNUDprohUz1gRsvdCuc6Nb47m8W5Tm2Vmz0FYiwGxqoNZmluam4XW+uC5HgPOdFLTvRSvr7IxLNzjA93sOVQKbM0jZrbxViVzrfHQei6TqfTSdu2ads2HQ4HdV1flWEU0jAMGkYhXS4X6+vrads2VVWlrusEABQUFMxEIhGGw2F6vd6ZnyVxmKaZV1KyPd80zTwADl3XZ6PR6O8c4Pf7y3w+33ROTs40gLL1whkuNzf3/S/cuvVeN7xB3T3/ugFVCOELBALZa4bxh+tbw30HPRRffXRfv2EAAAAASUVORK5CYII=") !important;
+    -moz-image-region: rect(0px 16px 16px 0px) !important;
+    margin-left:4px !important;}
+
+    #PanelUI-helpItems > toolbarbutton:nth-child(2) >.toolbarbutton-text{
+    padding-left:10px !important;}
+
+	#PanelUI-helpItems > toolbarbutton:nth-child(3) {
+    list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABp0lEQVQ4ja2SsW8ScRiGf/8KO2NNgIVLlBu0takFLQeopQGMcBpt0jQaDcaUQFqI589eOalDXYwuJqYVHG3qVbjLWRJWNhL+jMfhYg1xKvglb/Is7/MunxD/+ywrieu6XLjoui5SSmq12sXL/rI1XfHP1et1LMv6J81mE9M0kVJiGAaNRgPbtmcbk1L+FXTabc683lQpFO4hzrwenXabPdOk99Pm3X5rgs3dXbqnJ7TeWryRktMfx1jNPV4bBqlUxhcYrwxUVUXXS2jJFeLL8XOOxWIUi/dJJOJEo1Hy+RyLi9eJRCIsLd3wBSfH3xn0HXS9hOfY1LerrD9+dM4PH+h4js3WyzKFfI5B3yGd0lBVFeF0bfZbFnfvZJBGnXwuO8G3MykaO1WSKwnmr12lWnnB82ebXJqbQ1EUxNejQypbFcLhMGtrWRYW5ic4FAqhaRqxK5cJBoPopSK3biYIBAK+4ODgPd86R4xHQ9IpDc+xefpkg/FoyHg0pP+ry+GXz3z6+IHNjXUyaY1B3yEeX/YFtdo2q6tZFEWZKqJcLjNLZvpIIYT4DU+6n3w5rYAPAAAAAElFTkSuQmCC") !important;
+    -moz-image-region: rect(0px 16px 16px 0px) !important;
+    margin-left:4px !important;}
+
+    #PanelUI-helpItems > toolbarbutton:nth-child(3) >.toolbarbutton-text{
+    padding-left:10px !important;}		
+      
+    #PanelUI-helpItems > toolbarbutton:nth-child(4) {
+    list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABo0lEQVQ4jY3OP0gbYRjH8efykiGtix1KcS1OMYKDNGPpHzpVENTpVBAMTQkkxcbYwcXBiIIFBUtAsjl0LLjFf1GcGkGlwaiNHSRQSj1M4pm7y/u+P5eQEnNc88BnfH58iWrniroWWZRttsIVdS3S/Rucng6gxWMTbOv+fyCfzyOVSiGRSEBKiXzh1pYEwD40D1BfLBYUUoIL4UhICRZm244FFuc4v9RtcSnBQs0D9CYcDllCwKhWHVlCgAXZjmPBrWni5FfZlikElHGlaYCeBwKRCucoG4ajCudQxpS0Y8F1pYIfP0u29GoVyqiy21TwTFU/li0Lmq47mk1r6JgcOXUs+Htzg8Pcta3hrwV0L2yUe5cv1IYFX3//VNE08adUavDp2wUGVnN1Q8kzfCkAvvhxpmvmULUt+F0s4iCr4SCr4fVCBkuXwPssMHz0z0QOeDq1l6kXPPR64yXOoRlGg8jaMV7O7ta9iu/Bvw88Ca5n2vvmVCKiR0TURZ20Rj30/X8eDMzrbYOfrzz+8VjtlzxE9JiIOlrhfruSdL+YeVf78dwBIbhApr1BDbkAAAAASUVORK5CYII=") !important;
+    -moz-image-region: rect(0px 16px 16px 0px) !important;
+    margin-left:4px !important;}
+
+    #PanelUI-helpItems > toolbarbutton:nth-child(4) >.toolbarbutton-text{
+    padding-left:10px !important;}
+       
+       
+    #PanelUI-helpItems > toolbarbutton:nth-child(5) {
+    list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABZklEQVQ4jY2Rv0sCcRiHPxBEUJNhf4FlViBmOLg0BEGNzUm0HEj9N4XgENFgDd7WGIUEgelJPyhtiUAhoSEIsiiip8Hu6rq76oV3er/P831/SD5hGBZ+6ffWFZWYqMSEabZ8064HwlhwGxNclfHEVblbs/BKbLgdFZ1xwXKK8+t3V7KcojMu2lEfSSUmbobFw5ggLpgJkUwarmQmBHHxspNzNSbDsDDNFs39Q8gkYDZMXt458xLsbgJQm+znaFBuAcD59Xvgtu0fB1ZrPEW6Y5ykw/8TfIcLjUcAniKiHNbfAhvuy1oUGo+cvUJivfk/gQ33Zk9dsDZAU1vuHRwX9nheTMD8EIZhOVvuWbkMhEulO5wNX0REc1Q8TwjmQgCsLSkQvszlvkbNS9RHRH24K3k7MB0B1QUPfL+d857akYzoC35tw8spVBd+h79L8nILMmmRSctpOxD+ebrR5HRX8hnFYskX/ADx/yE5Cb8zZQAAAABJRU5ErkJggg==") !important;
+    -moz-image-region: rect(0px 16px 16px 0px) !important;
+    margin-left:4px !important;}
+
+    #PanelUI-helpItems > toolbarbutton:nth-child(5) >.toolbarbutton-text{
+    padding-left:10px !important;}       
+       
+    #PanelUI-helpItems > toolbarbutton:nth-child(6) {
+    list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABWklEQVQ4jZ2Rv0tCURhA79BUatAq/QO52+7gEg2BGBRFWCBUUAglFEgUUUJkWUFDGfKIhoY2x9aKhqb+hQYlS83e82rvNKi3X96kPjjcu5wDH5/Y3E+ztnPMauJIsbZzxMZeiv2Tc0S7Wdk6pNUkd28B2keWN5IAvNm2AiCRuFaxXyPR1W0AZLWmsIHj1CVDIyGC42Fi8QN9IBKLA/BqSYVZkdTebLL5Ijd390RicX1gbmkdgOJrhdI3XkyJVZFUpdQHZhZXAMgXTZ5KXzGthjwm6rSa8PwyANmnMrnnDx4LppIDV32AJjI5GwXgIVegVLaoSvmFZkAbCU0vqHNVpUQMizrBxjta/3szbrwZ98/IQGAcT78Pj9dXD0wI4Cfui16Fdh0hhBBTAteZiy7DqXAYTroNBz1GJ65TB4PpDoRfF/ALWtFcwZtx/yJrgv+XG4HmFf4uf4ro5HfY3aqEPbW8XAAAAABJRU5ErkJggg==") !important;
+    -moz-image-region: rect(0px 16px 16px 0px) !important;
+    margin-left:4px !important;}
+
+    #PanelUI-helpItems > toolbarbutton:nth-child(6) >.toolbarbutton-text{
+    padding-left:10px !important;}
+       
+    #PanelUI-helpItems > toolbarbutton:nth-child(7) {
+    list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACtUlEQVQ4jd2R/y/UcRzH33PXrpWw4mwJ2dTly2SWTYV9Phe3dOyi1ao7oTgcsjBfxjC6ItUytCULTWWHMZbky8gPvoz5drZTzNfz7U6Xo9MXX5790izjL+i1PX55bs/HD88XIf/XfRaLE19yrBxuudpZ7EW+D9epwNnZfM9yd0TEkWlHxzWVqfFGS0aosikvdvJfeu7HaZSWFpuDd4PmFQp52i5BQXZc2kBSINYYTMybslEZcwOyBBFkCSK0+F+ClsXCiOMpVCYHbW0qGzfkvS287XJUVJRLa1k8ckUeW0VnOFjdz8KskQGeuDngna0FtAcPoM3GCknnOYhxMkd3WRZ+zTZXy2QyBqGodOarR6HlFdKbkL+NRF9pOIZifKFjMvBDj4E1ph5GRQIo6p9hrK0UE121GCq/h5biVGD2kzkRi1/sE3pzXyuqJJh5H7U11xANZX0c1Ces8ZsQrLJYmK/OhKa/BN8UtViZ7MDSSCNyxWdhzTbyJ4QQArSbpIR5hBRLXNCQ5oE5u5P4yWRALvSDxtAQi8ePoTHdCx+lPmjO9kVh4rV1ke+5GAeOpdWOIXseXsaiky10hGBMzIOqJhDTRZH4etQMqtN2UNUEQl0biOE6qW7XF+T29qYqczZ0egyMxwuw3BQGbXM4tM3hUBXewYr+IahpG3zvzMBMX9VuwQSH80ZjfBijt10xVR6AhboQLDWGY6lJAk17ImZygrHAZkNdmAX1VO9uwQCXa9aR5YfB/KsYKRFivCIYC60p0PS/wMqXWuiUnVju+ABtVxu0i+M7BXw+/7o3n69OD6IhDfPEA8lFZEdfweP4ADxNliA3PRZ50iQUZKXieXYG8nMytzw9ecNubm4mhBBCvIRCA8rdPUcgEICiadBc7jbcC1zQfzOKpkFTNGiaXufxeEkURen/AYBpkybzXiHnAAAAAElFTkSuQmCC") !important;
+    -moz-image-region: rect(0px 16px 16px 0px) !important;
+    margin-left:4px !important;}
+
+    #PanelUI-helpItems > toolbarbutton:nth-child(7) >.toolbarbutton-text{
+    padding-left:10px !important;}
+       
+       
+    #PanelUI-helpItems > toolbarbutton:nth-child(8) {
+    list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA+UlEQVQ4je2SvWoCQRSFh4BFYiMEIgbsl623X8iLCCncIs2SIiAWNoJsJyx2eYRUiuATpLJOncpGBRWHwUH5LGRGh2Xd0sYDt7rnfHB/hLgrIy8IuVa5wVa3jxeEAIjmlNI3TonmFAAvCGl1+y4obvcwMuHBr0IB9c4/L19/1JK5hQDE7d4J0ohiAGbLDbPlxgLefySPlSriqUotmVuA8QE0ohgLWKwli7W0gI+R5qH8TKnyytv4PIbxZQCrrWK1Vc78n5MD0VA7ezA+C7gcQyqNVBrhp9kl+qntO+HL8xnt9B7hp07t9N72c89pbp2nwl8oeqbC4E10BGRCVaNPs0S9AAAAAElFTkSuQmCC") !important;
+    -moz-image-region: rect(0px 16px 16px 0px) !important;
+    margin-left:4px !important;}
+
+    #PanelUI-helpItems > toolbarbutton:nth-child(8) >.toolbarbutton-text{
+    padding-left:10px !important;}
+       
+    #PanelUI-helpItems > toolbarbutton:last-child {
+    list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADZklEQVQ4jW2Tf0zUdRjHn+/ne3ff+95vvt5dh64TFA9DbjFz3eSCIkrGJRIlyCSguBKV2E1atPoj71z0JUIuOLc8vT/IKW5Oa9imstagX2B/GIvxIy6BAUHpTTEsT6l890dxmxvPX8+zPe/XnvezvYmISFZxZ2UlPUZEZFzn2eJaszmcl7xpzOAovGFwFN4wbijsMzg8fuM6zxZaqWSBQRYY3MmZTZvsWyeW5xkAswC27v4Q3RcPovXlbf8UP+ruCa0W3Qlxk4pekgWGWEDCsnC5/+Yu8N3tv3FxYQlpJc0Y7t+DXr8b7Rus8S63VEZERM0Ci4RXKxELSIhWm9HlEB6AuXiG1unbeOfSEKzPvo/pK16MRPIQzrLcOuOx2KhFwwZ7csV7014DfirWIlptTsCi1WaUKRnenY5j3+gdWLa3Qg69gT9Hy3Fux1qczJbaKWjirw1X6HF1tw6zPhOi1WbMNDyCm6ffgiwwlPYtovizX5BzdBSrtgdR6avH/MBODIc2I5yuGaI2Ix+fqjNitt6E8RoJcxEX5iIuLJ4t+u+xx6PIONCNh3eFYfSEkLHNh4XvSxA7n42gRbVEzQJ3f6rWiJhfQle6Ep+s5RP+9TuOQp3zHsQnApByD0L1uB95Za8BY0/iZm8WZIHdpzY9WxwqNyAWkHApV40LmRw6UxQJyIXGpyEfqIFiYx1oow/+hgKg34mZj5MRNPN/UIeO/7YnW8TUviRM7jXhK7cCV55T44dSE8YrdTixywlZYKD1+2HPLMGvJ+y4+6kN/RUCOizcALWJ9HpIx+5cLtJjss6Cib1WjNesQleGOnEFSRVwO/Nx8s0sLJ16CNc/EBBxaBBebztEfiJdUMMNHtHyGPGaMLHfjGitDVd9a/BFVSpOP5+M7hIDBmtFLMgmzMtmfFmkxjFn0u9nPCk2IiI6pCRXQM1dO6Ll0feMDmNVRvz8ShImXzVhbo8OM149Jr16zDfqMVCuw/F0RbzRzlc+kIcCnqoa1dz1wxqGTqsCX+do8GOxFiPlWoxU6tCbJ6DToUZHihDPF6lhpUwVpDJqqVdzvwW07N5hPY8WkaFFw/CRxKPdrvjr7STFrTSeHSMiz0oAKxE5ieiFNEZN+Sru8xdFfmCnyF9+SsWdT2XUQkSl/+9Yl0X/AsFnuXaLeJuZAAAAAElFTkSuQmCC") !important;
+    -moz-image-region: rect(0px 16px 16px 0px) !important;
+    margin-left:4px !important;}
+
+    #PanelUI-helpItems > toolbarbutton:last-child >.toolbarbutton-text{
+    padding-left:10px !important;}
+		
+	  /*Hilfe Panel - Ende*/
+    }
+  
