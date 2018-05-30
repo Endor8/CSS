@@ -15,5 +15,6 @@ das userChrome Script ***Hamburger-Symbol.uc.js*** installiert werden.
 
 ![Screenshot](Screeen-003.png)       ![Screenshot](Screeen-004.png)    
 
-![Screenshot](Screeen-005.png)   
+![Screenshot](Screeen-005.png)       ![Screenshot](Screeen-007.png)  
 
+![Screenshot](Screeen-006.png)  
