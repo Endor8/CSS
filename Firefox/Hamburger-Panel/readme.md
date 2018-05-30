@@ -19,7 +19,7 @@ das userChrome Script ***Hamburger-Symbol.uc.js*** installiert werden.
 
 ![Screenshot](Screeen-006.png)       ![Screenshot](Screeen-008.png)  
 
-Für ***Chronik, Hilfe*** und ***Web-Entwickler muss*** jeweils
+Für ***Chronik, Hilfe*** und ***Web-Entwickler muss*** jeweils    
 auch der entsprechende CSS Code über die ***userChrome.css*** Datei   
 geladen oder Importiert werden.    
 
