@@ -1,8 +1,9 @@
 /* AGENT_SHEET */
 @-moz-document url(chrome://browser/content/browser.xul){
-   /*Hilfe Panel - Anfang*/
+   
+    /*Hilfe Panel - Anfang*/
 		  
-	  #PanelUI-helpView > label{
+    #PanelUI-helpView > label{
     color:#252525!important;
     background:#F5F5F6 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC+ElEQVQ4jWWTP2xbVRjFf9+99/01TgwJCQkMbkMKqCkEKGoXBpiQEqkpZUL8y8BeRqYwMMBQRMWMGtQgJCSKYWCohARIVCCoMJUgLbSipVERTuzYcexn+713L4OlirafdLZzznC+c4TbbnZxrSTIEkoeQ9S8iICob0WkevHMC5Xb+XKLeOH08WIxXnloZqoUhSFRFDHIcmr1XerNDts7navWuTfWPz1SucNgduH0qfm58mt7y/ezfq1LrZmR2SHFaAg9QTtLo1WnnybLv3+yuHrTYHZh7a1DT8ysFEfH+eVyh73TEa8vTvL0o0WsdXzz6w6nzm5x5cYALdDtNMgG3aO/ffxcRWYX18pTE6W/Dj7+CN9daDM17lN5+2GsteS5w1qLc44b9ZSXTlxHRHDOkrRqTWvzPXp837GVw0/OHl7fyOiljt2eJQ4U9VbGiTM1HLBn0iP2hR8v92n1QGmNaB3m6eCS8QNvSZmI7XYXRECED76skTshs6C18OyBGOccm7uOTjrMLNQRottHzOhIoVxrpsM0BPqpo9vJEa15YMLnzWNjWGs590efRg/8yABQUJB0dclYB71BjnWwvZORI3i+RnuKd16ZIA6EK/9mnPy6QxB7KDV8XDFw1BsGM0hzBMfmdooTwfgKZRQLB+9iZtJgrePD7xNSZQgChdIKgJGCRZRGdZJBpd1OsM4hSlB6iKl7DM45nHNc2nQEoSGIPMLYY2TEIwxAtKkaRH3Rau8uFcNRulZQaojKzwn7pn22EjC+xgs0fuhhfE15DP5cbyFKf6Qufvb8atJPqpHOMQKIIEo4+lTMoRmfhTmfuWmD9jReqJm+10ORs/FPv3L+/QNVBeBwy4O01QzE3uz2hesp3QFs7MDfTYdRcN+oUPIyzv3QqIrSy7dsYf+LX82jzOe5GS3rsEgcGeKCR6FouLvkMVYybDV6XNtIqoNMnvnp3Qebd6xx7uWzJZQ6Ltp71XhBOS7EhJEhzS27SV4VbU6ef2//6v81/wH6bjI89FfNwgAAAABJRU5ErkJggg==")no-repeat !important;
     -moz-image-region: rect(0px 20px 20px 0px) !important;
@@ -30,7 +31,7 @@
     #PanelUI-helpItems > toolbarbutton:first-child >.toolbarbutton-text{
     padding-left:10px !important;}
 
-	#PanelUI-helpItems > toolbarbutton:nth-child(2) {
+    #PanelUI-helpItems > toolbarbutton:nth-child(2) {
     list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACSElEQVQ4jbWTT0gUcRzF38z+GVf30tph8eKI003ssBD8mojBwwpJeRBB24OHCmvUZVcJMlg7WAmSlRGYZmR/wIqCQqJTmZAEFYUipEIYmrnVpiBG7rq/XodayVCooC88eIfP43t5D/iPpwghPIFAIFsI4QGg/E1YFUL4LMvaLITwAVA3egIA4C24eQ0dvONdkEO7mXhUyw+DESaG2yhHT5NjZ35o9AT56jD5vIZyaCsX7zk7QECZv7/jydLLWDI9N/AtMTXI+JvHTHyKU8o015xMkosjlJ+HuTjexS9PK4mpC/kPZm+XcuCyzabGCOvsg/x43S1bmht4pHEf5V3w2NHwqm9pbmBTQw3n+10ca1eJ0VZPOvniAGv3h1heXs6qPYKpfshQKETLspi+CWZ86obC6uoqWpbFhatOjrSCmGjfxK8Pd3GnuY3RvcWcOa9xpQ+yMljEymARV66AGR/v0lgRLGZFsJjJPoWTbSAmT2ZzqX8L5y/5udytMNUDprohUz1gRsvdCuc6Nb47m8W5Tm2Vmz0FYiwGxqoNZmluam4XW+uC5HgPOdFLTvRSvr7IxLNzjA93sOVQKbM0jZrbxViVzrfHQei6TqfTSdu2ads2HQ4HdV1flWEU0jAMGkYhXS4X6+vrads2VVWlrusEABQUFMxEIhGGw2F6vd6ZnyVxmKaZV1KyPd80zTwADl3XZ6PR6O8c4Pf7y3w+33ROTs40gLL1whkuNzf3/S/cuvVeN7xB3T3/ugFVCOELBALZa4bxh+tbw30HPRRffXRfv2EAAAAASUVORK5CYII=") !important;
     -moz-image-region: rect(0px 16px 16px 0px) !important;
     margin-left:4px !important;}
@@ -38,7 +39,7 @@
     #PanelUI-helpItems > toolbarbutton:nth-child(2) >.toolbarbutton-text{
     padding-left:10px !important;}
 
-	#PanelUI-helpItems > toolbarbutton:nth-child(3) {
+    #PanelUI-helpItems > toolbarbutton:nth-child(3) {
     list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABp0lEQVQ4ja2SsW8ScRiGf/8KO2NNgIVLlBu0takFLQeopQGMcBpt0jQaDcaUQFqI589eOalDXYwuJqYVHG3qVbjLWRJWNhL+jMfhYg1xKvglb/Is7/MunxD/+ywrieu6XLjoui5SSmq12sXL/rI1XfHP1et1LMv6J81mE9M0kVJiGAaNRgPbtmcbk1L+FXTabc683lQpFO4hzrwenXabPdOk99Pm3X5rgs3dXbqnJ7TeWryRktMfx1jNPV4bBqlUxhcYrwxUVUXXS2jJFeLL8XOOxWIUi/dJJOJEo1Hy+RyLi9eJRCIsLd3wBSfH3xn0HXS9hOfY1LerrD9+dM4PH+h4js3WyzKFfI5B3yGd0lBVFeF0bfZbFnfvZJBGnXwuO8G3MykaO1WSKwnmr12lWnnB82ebXJqbQ1EUxNejQypbFcLhMGtrWRYW5ic4FAqhaRqxK5cJBoPopSK3biYIBAK+4ODgPd86R4xHQ9IpDc+xefpkg/FoyHg0pP+ry+GXz3z6+IHNjXUyaY1B3yEeX/YFtdo2q6tZFEWZKqJcLjNLZvpIIYT4DU+6n3w5rYAPAAAAAElFTkSuQmCC") !important;
     -moz-image-region: rect(0px 16px 16px 0px) !important;
     margin-left:4px !important;}
@@ -96,6 +97,6 @@
     #PanelUI-helpItems > toolbarbutton:last-child >.toolbarbutton-text{
     padding-left:10px !important;}
 		
-	  /*Hilfe Panel - Ende*/
+    /*Hilfe Panel - Ende*/
     }
   
