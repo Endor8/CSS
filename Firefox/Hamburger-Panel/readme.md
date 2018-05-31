@@ -28,6 +28,7 @@ geladen oder Importiert werden.
 * [Hamburger.css](https://github.com/Endor8/CSS/blob/master/Firefox/Hamburger-Panel/Hamburger.css)
 * [Submenu-Chronik.css](https://github.com/Endor8/CSS/blob/master/Firefox/Hamburger-Panel/Submenu-Chronik.css)
 * [Submenu-Hilfe.css](https://github.com/Endor8/CSS/blob/master/Firefox/Hamburger-Panel/Submenu-Hilfe.css)
+* [Submenu-Hilfe.css](https://github.com/Endor8/CSS/blob/master/Firefox/Hamburger-Panel/Submenu-Sonstige.css)
 * [Submenu-WebEntwickler.css](https://github.com/Endor8/CSS/blob/master/Firefox/Hamburger-Panel/Submenu-WebEntwickler.css)
 
 ### UC Script ###
