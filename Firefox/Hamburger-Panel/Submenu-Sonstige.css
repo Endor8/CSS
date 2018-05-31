@@ -4,15 +4,15 @@
 
   /*Sonstiges - Anfang*/
 
-	#appMenu-characterencoding-button{
+  #appMenu-characterencoding-button{
   list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALVJREFUeNpi/P//PwMlgImBQjDwBjACATJ/OpTOxKEeQx7ZBfJA/AuIJaBsdIBVHtkAFyA+CcSsUDY6wCqPbIA9EB+HKrLHYgBWeZgBSkD8G4j5gfgxEMtCxRgIyTNDAzEGiB2A2BuIjUHiUP+eghqAWx5kABBvBmIVKBuEu6BiBOVBJq2CmqoBxEeB2AqIK4FYHIj5oP71xCFvBXI/BxCzATE7NISJAaDw+AnyBuPQz0wAAQYAL1coXndu90UAAAAASUVORK5CYII=") !important;
   -moz-image-region: rect(0px 16px 16px 0px) !important;
   margin-left:4px !important;}
 
   #appMenu-characterencoding-button .toolbarbutton-icon{
   padding-left:5px !important;} 				
-                
-	#appMenu-workoffline-button{
+               
+  #appMenu-workoffline-button{
   list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA1xJREFUeNpMUl1oHFUYPTN3/mdnsz/J7mY2NpvEdDdIscRqoASRikUpqPhk34RWffKtPvgiLaKCT+KrL/raCCq0EfuQKramrBIxVE10t0lIyCbZv9md7O7sZH78NqXQOxzuZeaeM993zsfxV5YBJoCLxABBUug8D447D2CSMERoER4gDG/B9+7Ac53w0AKdMVgCHq0wyNHHD86McM+9XtDGxuOSEREgZTOau1Z17a+K1ktLZbdI9z6l25uPaIw7exngkDNY8Pk7s8a5N08b089MD2m1titYvYBL6EyYTCvaKzNGZsKAubxeO+UeefeoIuuhwKk3VHhHn707P/qCmVBGc6YBVRJQbzkwFAaN4IccXI6HOawaY1oYW1rZzsLp3ILb8/iw03q+EAvmrL6f2Wg6qLQ9LP6+i7X9DlwieoKMG3c3sb7Twd4hcDI3kpnSvbkBL7Qb5EGndeHMVMHc7/jwewEqxR0oMjXPeNTsGux7G2jbPcTHTuCf3Qb2GjaeLWTMUmnrAnXwoxB22yeTGVPf3qyh4fahqjKY41FvHIK+i8lMGjPTaZQPHKze30Lb82EaTB/wHqbgOvHl4n1BH59B19pB3x94Sg9Hwfg+uuU9bG63cH7yV+RjX+Nf/2X8aZ075g0E+IGbTB/yHuxsI+TJsID+HFDMJBSCwXZdePCR8X/Gqy9ewtOpEtLpUe84hTAkASb+Z9XrXVHWIJBhsiBBFSXosgyNoKsqCuodjCfjyCY1PJlKIG5/3xvwCCQgKjcru9UDQ9GgSSqiJJTQdIzoGlIRHZmojtP6bTyVm8DFt64jb6Yw5V8PZYX9QJNLHkjqTw27W0zVG3Ez+8RwROahSxxVwpGRQCr4BfkEVcLXsLCwgC8+SiKf6jvfXbwWKMyhCtRID4r+YWlj8w+rUa/FFJkqUJA8hoxpbhG5UQO7zSJu3ngfVWcNExOSIMJ57egIHMNf3wLVtWYQNe9WXPFEvd1RIoomqJLIhsMVlmOLyKb3wYdNzM1/gyvvJSFJvtaxbK/fc/9mg3FGpzqM0lIU5durbccprx+Kh79tVZuz/ifRs/mqmDRaTOJdXLv6NtBfpSFzyXBeOqjYOnccJaASNIKIx9aXH+MqbbOPv6P5CHkePk9p077yvwADAAfjXvCVasKaAAAAAElFTkSuQmCC") !important;
   -moz-image-region: rect(0px 16px 16px 0px) !important;
   margin-left:4px !important;}
@@ -20,5 +20,5 @@
   #appMenu-workoffline-button .toolbarbutton-icon{
   padding-left:5px !important;}  
 	
-	/*Sonstiges - Ende*/
-	}
+  /*Sonstiges - Ende*/
+  }
