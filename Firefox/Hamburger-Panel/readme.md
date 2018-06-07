@@ -30,7 +30,7 @@ geladen oder Importiert werden.
 * [Submenu-Chronik.css](https://github.com/Endor8/CSS/blob/master/Firefox/Hamburger-Panel/Submenu-Chronik.css)
 * [Submenu-Hilfe.css](https://github.com/Endor8/CSS/blob/master/Firefox/Hamburger-Panel/Submenu-Hilfe.css)
 * [Submenu-Sonstige.css](https://github.com/Endor8/CSS/blob/master/Firefox/Hamburger-Panel/Submenu-Sonstige.css)
-* [Submenu-Sonstige.css](https://github.com/Endor8/CSS/blob/master/Firefox/Hamburger-Panel/Submenu-Titel.css)
+* [Submenu-Titel.css](https://github.com/Endor8/CSS/blob/master/Firefox/Hamburger-Panel/Submenu-Titel.css)
 * [Submenu-WebEntwickler.css](https://github.com/Endor8/CSS/blob/master/Firefox/Hamburger-Panel/Submenu-WebEntwickler.css)
 
 ### UC Script ###
