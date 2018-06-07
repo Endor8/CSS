@@ -1,9 +1,9 @@
     /* AGENT_SHEET */
-	@import "Submenu-Chronik.css";
+    @import "Submenu-Chronik.css";
     @import "Submenu-Hilfe.css";
     @import "Submenu-Sonstige.css";
     @import "Submenu-Webentwickler.css";
-	@import "Submenu-Titel.css";
+    @import "Submenu-Titel.css";
 	
     @-moz-document url(chrome://browser/content/browser.xul){
 		
