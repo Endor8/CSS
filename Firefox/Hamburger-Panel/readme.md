@@ -3,7 +3,8 @@
 ### Symbole für die Einzelnen Einträge ###
 
 CSS Code ***Hamburger.css*** muss über die ***userChrome.css*** Datei   
-geladen oder Importiert werden.    
+geladen oder Importiert werden. Alle anderen CSS Codes im selber Verzeichnis     
+ablegen wie ***Hamburger.css*** dann werden sie automatisch importiert.    
 
 So sollte es dann aussehen:    
 ![Screenshot](Screeen-001.png)       ![Screenshot](Screeen-002.png)    
@@ -29,6 +30,7 @@ geladen oder Importiert werden.
 * [Submenu-Chronik.css](https://github.com/Endor8/CSS/blob/master/Firefox/Hamburger-Panel/Submenu-Chronik.css)
 * [Submenu-Hilfe.css](https://github.com/Endor8/CSS/blob/master/Firefox/Hamburger-Panel/Submenu-Hilfe.css)
 * [Submenu-Sonstige.css](https://github.com/Endor8/CSS/blob/master/Firefox/Hamburger-Panel/Submenu-Sonstige.css)
+* [Submenu-Sonstige.css](https://github.com/Endor8/CSS/blob/master/Firefox/Hamburger-Panel/Submenu-Titel.css)
 * [Submenu-WebEntwickler.css](https://github.com/Endor8/CSS/blob/master/Firefox/Hamburger-Panel/Submenu-WebEntwickler.css)
 
 ### UC Script ###
