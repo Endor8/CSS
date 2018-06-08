@@ -24,6 +24,16 @@ Für ***Chronik, Hilfe, Sonstiges*** und ***Web-Entwickler muss*** jeweils
 auch der entsprechende CSS Code über die ***userChrome.css*** Datei   
 geladen oder Importiert werden.    
 
+***Submenu-Titel.css Beschreibung***
+Der Css Code ändert bei den einzelnen Submenus oben die Farbe    
+in der Titelleiste, fügt einen Hovereffekt und links ein Symbol ein.    
+Sieht dann so aus:
+
+![Screenshot](Screeen-009.png)       ![Screenshot](Screeen-012.png)    
+
+![Screenshot](Screeen-011.png)       ![Screenshot](Screeen-010.png)  
+
+
 ### CSS Codes ###
 
 * [Hamburger.css](https://github.com/Endor8/CSS/blob/master/Firefox/Hamburger-Panel/Hamburger.css)
