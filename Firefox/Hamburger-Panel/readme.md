@@ -24,8 +24,9 @@ Für ***Chronik, Hilfe, Sonstiges*** und ***Web-Entwickler muss*** jeweils
 auch der entsprechende CSS Code über die ***userChrome.css*** Datei   
 geladen oder Importiert werden.    
 
-### Submenu-Titel.css Beschreibung ###    
-    
+***Submenu-Titel.css***        
+
+Beschreibung:
 Dieser CSS Code ändert bei den einzelnen Submenus oben die Farbe    
 in der Titelleiste, fügt einen Hover Effekt und links ein Symbol ein.    
 Sieht dann so aus:
