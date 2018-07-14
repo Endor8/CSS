@@ -2,7 +2,7 @@
   @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
   @-moz-document url(chrome://browser/content/browser.xul){
 
-  /*Sonstiges - Anfang*/
+  /* Sonstiges - Anfang */
 
   #appMenu-characterencoding-button{
   list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALVJREFUeNpi/P//PwMlgImBQjDwBjACATJ/OpTOxKEeQx7ZBfJA/AuIJaBsdIBVHtkAFyA+CcSsUDY6wCqPbIA9EB+HKrLHYgBWeZgBSkD8G4j5gfgxEMtCxRgIyTNDAzEGiB2A2BuIjUHiUP+eghqAWx5kABBvBmIVKBuEu6BiBOVBJq2CmqoBxEeB2AqIK4FYHIj5oP71xCFvBXI/BxCzATE7NISJAaDw+AnyBuPQz0wAAQYAL1coXndu90UAAAAASUVORK5CYII=") !important;
@@ -20,7 +20,7 @@
   #appMenu-workoffline-button .toolbarbutton-icon{
   padding-left:5px !important;}  
 	
-  /* Panel Textkodierung Grüne Haken */
+  /* Submenu Textkodierung */
 	
   #PanelUI-characterEncodingView-pinned > toolbarbutton[checked="true"],
   #PanelUI-characterEncodingView-charsets > toolbarbutton[checked="true"],
