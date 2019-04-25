@@ -1,8 +1,15 @@
-  /* AGENT_SHEET */
-  @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
-  @-moz-document url(chrome://browser/content/browser.xul){
+/* AGENT_SHEET */
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+@-moz-document url(chrome://browser/content/browser.xul){
 
-  /* Sonstiges - Anfang */
+  /*Sonstiges - Anfang*/
+  
+  #appMenu-taskmanager-button{
+  list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAs1JREFUeNqEUltLVFEU/vY+58xMpY7UQw8ZJKUR9BiFGt7Ly4TphKkgFdH1Oeol8D/0FpgopJjZg5cxxiBMyFHx+tCYVEIXITU0dJwZz8w5Z7f2NkKhaLEXC9Ze61vfurCOh+WAHcfWiTuorqpEa0vzM13X6gAGy7K6rly7Xt8/MAjP+8eAtofcHDtFd4ToEbZ9kSwEqf9SLdK9qepz7ed6nQDqpN+xbYCLXs5QvZ0qqAThtd0vFtW1jQh9iuLzugHh2LsqMK7hiDeJ3GP70NPdDt0wGGMSy1Yguk3IujcDm3uTuNtQib9Jd+9LijFg2xY0jUNjFsIpRMRKUAuOAzO2AcdxqeCv3xahSiiCAoczDilWiVicrAVmC4S9NdCESf8WMaFAc2vzT7XpqUm43W7MzkyRTiufpjE45gY0J4l5bzUlJ1QLTLYABzDjUap6QAUXFBYqBoVFReCcQw53LjyHUCgKI60K3IzKcb+mTdUwISJyCwQQITSmAIaHhnCurAxvyFo0n5GRMZSWliC/IB8vnnfhcl09+UIlg4OvNtwudxqnfJpBlFreBqj0XYDLcMHn82FlZZWSi5GXl0NsgKamJrIMOblnUFFxHgkr2cshGLYkg98AgUA/DENHMBjE9PQMSktKwOl4dN2QK4SuafC43CjIz4dtWUWKQTy2CU4BUvx+v7Ll5eVqE09aWugAPZD3J8eWlZ2NzMxMtLc/pc3RJQpiYNKK+Np79AS5ujhJxtA1CE3HrZs3aFlQLS7IajtkauYBAVBwzIwj+TEA8aGXVu+oT4cJHPQcx9vZMM6eOkn+3cmjY+NImOYE34zZw4tfVrG8bNLQklj5YStdWrGwPzKPzrZWjE6+U0nN1I5KHh1HR0cnBgJ9t+XkjpKm4x+SkpJqNDRefUTDOy0vUz7LSk709/XcW1r6HmL4v8iYLNLUHb4I6YKc6y8BBgDxB0A9RYqhVgAAAABJRU5ErkJggg==") !important;
+  padding-left:15px !important; }
+	
+  #appMenu-taskmanager-button .toolbarbutton-icon{
+  padding-left:5px !important;  margin-right: 14px !important; width: 22px !important;}
 
   #appMenu-characterencoding-button{
   list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALVJREFUeNpi/P//PwMlgImBQjDwBjACATJ/OpTOxKEeQx7ZBfJA/AuIJaBsdIBVHtkAFyA+CcSsUDY6wCqPbIA9EB+HKrLHYgBWeZgBSkD8G4j5gfgxEMtCxRgIyTNDAzEGiB2A2BuIjUHiUP+eghqAWx5kABBvBmIVKBuEu6BiBOVBJq2CmqoBxEeB2AqIK4FYHIj5oP71xCFvBXI/BxCzATE7NISJAaDw+AnyBuPQz0wAAQYAL1coXndu90UAAAAASUVORK5CYII=") !important;
@@ -20,37 +27,5 @@
   #appMenu-workoffline-button .toolbarbutton-icon{
   padding-left:5px !important;}  
 	
-  /* Submenu Textkodierung */
-	
-  #PanelUI-characterEncodingView-pinned > toolbarbutton[checked="true"],
-  #PanelUI-characterEncodingView-charsets > toolbarbutton[checked="true"],
-  #PanelUI-characterEncodingView-autodetect > toolbarbutton[checked="true"]{
-  -moz-appearance: none!important;
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAACy0lEQVR42mL8//8/AyUAIIBYwlbzMvxj/M/w+/c/hj8//zEw/mFi+P/vPwPbXwaG/ywMDN88fjN8lv3LgGwNiM3KwMCi8YQ7ESCAWPCZDjSHgesQK4Ow4X8GTp5/DP+g4kyMjAw//7CXMPxk0gQIICZ8BvwHyrL/Btp2no3h6g8mhkNcDAyHuRkY3n9hM2M+z9zC+INhM0AAsRDyI8iQH8wMDMKP2BkEPzEyMHMw6Py6x7DyGxPDTRaGP5sBAoiFmIBiBGKBL4wMrIxMcj8fM6z99uafAo/Sv/D/n//9BAggFmJDG+gSla+f/q/99e6/GoPk/733hP6tBQUKQAAx/Wf4D7Tgvz0kYHFoZmQw/f2LYf3f7//1GPkZvjP/+1nB/+TnX/7nPxkAAojpK+P//7/+M2QxMjDOASYJYXh8Aen//xjY/jAzZf9jYdrNyMKgw8rGyPCd+1/RQ1nGM89kWBhAGCCAWD6y/mPg/MawToSTeQUTG5PVzw//1/z/w3DxLzODJCs3YyiLAIMlE9CjTEA/fHn6ZwX7i58zZB4C+WxAC4BpBSCAGN2mMzH8+/mfjYeXZ5OkupD79z9fGL5//w5U8Q+siIWJlYGHVZDh5fOPD79+/GTLzPn/McM3BoZ3FxkYHh1hYAAIIEbJVUDn6oOCmknM7rzsOmMdHevfzN8Zvv36CvYDN7sAw9M7z/7sZ7nh/Vbp764fBxkY/sxmYPh6CuJTgABi/rKLgeEL0ElfRP9/5br7aTPzJxYVTQVDTSURHQYJHiWGr59+MJw6dLzoy7nfy95NZ2D4OI2B4fdTRAADBBAK4hBkYBA3YmCwzBTJq98e9Grzm9b/3o3yc4RVgV7BoQcggBihGCTPBo1KEPsfuwiDsZKRgM+9kx+W//zI8Ayah35B8W8YDRBAIM1MUI3sUEM4oDQo7wDDmYEHahlM808k/AsgwADeMftGyFih2QAAAABJRU5ErkJggg==")no-repeat !important;
-  height:15px!important;
-  padding-top:1px!important;
-  margin-left:14px !important;}
-	
-  #PanelUI-characterEncodingView-pinned > toolbarbutton > .toolbarbutton-text,
-  #PanelUI-characterEncodingView-charsets > toolbarbutton > .toolbarbutton-text,
-  #PanelUI-characterEncodingView-autodetect > toolbarbutton > .toolbarbutton-text	{
-  padding-left:16px!important;
-  }
-		
-  #PanelUI-characterEncodingView-pinned > toolbarbutton[checked="true"]> image,
-  #PanelUI-characterEncodingView-charsets > toolbarbutton[checked="true"]> image,
-  #PanelUI-characterEncodingView-autodetect > toolbarbutton[checked="true"]> image{
-  display:none!important;
-  }
-
-  #PanelUI-characterEncodingView-pinned > toolbarbutton,
-  #PanelUI-characterEncodingView-charsets > toolbarbutton,
-  #PanelUI-characterEncodingView-autodetect > toolbarbutton{
-  -moz-appearance: none!important;
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACG0lEQVQ4jc2SzUtUYRSHTzZjc8eZ95rZTGTmaI75VVqYJAV9oBGNWUgZ9AdEQRvbtQlXJTHMvZkLoUIXjaHYzlIoyEwt0TDUQvtYiIsCSQLJGvXO02JIsCnBXT94l8/vfc7hiPxXqRNJDCm5bOoybOqCqQumks+GEvNmkmxZFQ5pkmYoGWxMSaA1N5Un5bn0BHbReSCLu2kaDbrMBnWp+OfPhpLBJo+d/kABk+dymKjy8jawibFT6QzX7Ka90MPtjfIj6JL8uAJDlwuNKQn0V/iYqNzMpyuVvDmqM7RPGDrp513tafoOe7m/w42ppCuuwFTyIpypMV6u8/FqDVHLYm5ylJFLVURmZ4guLjB+8Rjtfg1TF+o12f6nwXxnvsbrskTa8jKYn54CILoQAWCm7zktHifhTDumLhhKAsvwWZH1ppKlrgIHL/dr9BTZeHziCFFrCQBrIULY56G3xEFr9oZYgUvOrDRQ8uFhtoNnxTZ6q0tY/D4XM7AsAL6NDTFwKJUOf8wgbpGmW27c8droLnIyer0WgNnxETr27OTnl2nmp97z6riP5m12DCUT8TegJOWWLjNhn5N77nU8PV9Ni8dJf6lGW14GnTlbMVwJNHlsK+dfMYZbyhqS5WtzuoO2LDtdRU669ybxqNDBA7+DJq/NakiWa3+Ff6deRDeUNBtKIsunHHvDISWlq8JxRklSHHTLwToR15rAteYXuI0WjyF79Y8AAAAASUVORK5CYII=")no-repeat !important;
-  height:15px!important;
-  padding-top:1px!important;
-  margin-left:14px !important;}	
-	  
   /*Sonstiges - Ende*/
   }
