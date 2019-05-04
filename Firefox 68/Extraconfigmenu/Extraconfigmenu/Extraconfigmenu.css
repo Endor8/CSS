@@ -54,14 +54,14 @@
   padding-left:3px!important;
   background-position:5px 4px!important;}
 
-  menuitem[label="Einstellungen"]{
+  .uProfMenu_prefs{
   -moz-appearance:none!important;
   background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB/0lEQVQ4jY2STWjTYBjHX69et4Dvrq2HwS47exRUPIR5Uzz4wcY8FC8exNExYZCuFQJtusuKbIVAP0gqSCfkJBOmBF5pcWHHQkmz1nQQqhDN5OXvofSL0G7/8+//e3ie9yXHx19xWK2Ccw4yJUEQIL9/gC9HRzAMA5ZljdiEJMH3fZRLxakCTauAcw7HtpGQJHDO4XkefN/vdxQli4wsw7HtkIQxNoQzsoz8/gHKpSI0rQLDMEZ8p9PG9uZGSGIYBjzPg+u6ME0TmlaBomTBOcdhtTo5MAiCkIQxhkajAVVV0em04dg2PM8DY2zyFuPZ3tzARbMJQghJPngBzjlUVYWqqnBdF5ZlIbeXm3ozQgghbjKFlihCpxT//D9I7uwiubMLRcmiXCoiCILZgno0gl6pAJ1SfLh7D89ff5pdGM/1JxZic/OoRyP4Xf0InVJ8e/rsaoKF9RPc3DrDtdvf8erdKXRK0SsV0BJFpAVh5oebKC+lznH/8XtYmQx0ShE0GnAePkJaENA7/RGWjJcXpS5W4rUhNJBcNJtor64hLQj4+/NsJFmOMSxK3WH5zsvPoQk6pahHI0OJTmmfWYnXJsrLMTZ1x4FksI4TfwOSLxhYWD/BUuocN25Jl146NjePliiivbqGX91un8/t5bD1NoF6rXalp8rIMkzTBCGE/Aej45/2D3b80gAAAABJRU5ErkJggg==") no-repeat !important;
   min-height: 24px!important;
   padding-left:4px!important;
   background-position:6px 5px!important;}
 
-  menuitem[label="Einstellungen"]:hover{
+  .uProfMenu_prefs:hover{
   -moz-appearance:none!important;
   margin-right: -1px !important;
   background: #ecf0f6 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB/0lEQVQ4jY2STWjTYBjHX69et4Dvrq2HwS47exRUPIR5Uzz4wcY8FC8exNExYZCuFQJtusuKbIVAP0gqSCfkJBOmBF5pcWHHQkmz1nQQqhDN5OXvofSL0G7/8+//e3ie9yXHx19xWK2Ccw4yJUEQIL9/gC9HRzAMA5ZljdiEJMH3fZRLxakCTauAcw7HtpGQJHDO4XkefN/vdxQli4wsw7HtkIQxNoQzsoz8/gHKpSI0rQLDMEZ8p9PG9uZGSGIYBjzPg+u6ME0TmlaBomTBOcdhtTo5MAiCkIQxhkajAVVV0em04dg2PM8DY2zyFuPZ3tzARbMJQghJPngBzjlUVYWqqnBdF5ZlIbeXm3ozQgghbjKFlihCpxT//D9I7uwiubMLRcmiXCoiCILZgno0gl6pAJ1SfLh7D89ff5pdGM/1JxZic/OoRyP4Xf0InVJ8e/rsaoKF9RPc3DrDtdvf8erdKXRK0SsV0BJFpAVh5oebKC+lznH/8XtYmQx0ShE0GnAePkJaENA7/RGWjJcXpS5W4rUhNJBcNJtor64hLQj4+/NsJFmOMSxK3WH5zsvPoQk6pahHI0OJTmmfWYnXJsrLMTZ1x4FksI4TfwOSLxhYWD/BUuocN25Jl146NjePliiivbqGX91un8/t5bD1NoF6rXalp8rIMkzTBCGE/Aej45/2D3b80gAAAABJRU5ErkJggg==") no-repeat !important;	
