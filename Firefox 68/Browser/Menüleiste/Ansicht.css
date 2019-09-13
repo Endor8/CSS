@@ -1,4 +1,4 @@
-	@-moz-document url-prefix("chrome://browser/content/browser.xul"){
+	@-moz-document url-prefix("chrome://browser/content/browser.xhtml"){
 
 	menu[label="Symbolleisten"]{
 	-moz-appearance:none!important;
