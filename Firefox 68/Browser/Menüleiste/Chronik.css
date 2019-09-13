@@ -1,4 +1,4 @@
-	@-moz-document url-prefix("chrome://browser/content/browser.xul"){
+	@-moz-document url-prefix("chrome://browser/content/browser.xhtml"){
 
 	#menu_showAllHistory{
     -moz-appearance:none!important;
