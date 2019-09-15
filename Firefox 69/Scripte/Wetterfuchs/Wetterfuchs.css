@@ -3,7 +3,7 @@
 
   /*Wetterfuchs Button*/
 
-  @-moz-document url-prefix("chrome://browser/content/browser.xul"){
+  @-moz-document url-prefix("chrome://browser/content/browser.xhtml"){
 
   #wetterfuchs-toolbarbutton .toolbarbutton-menu-dropmarker {
   display: none ! important;}
