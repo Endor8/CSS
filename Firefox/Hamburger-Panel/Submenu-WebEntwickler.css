@@ -57,7 +57,7 @@
     #PanelUI-developerItems > toolbarbutton:nth-child(4) >.menu-iconic-text{
     padding-left:5px !important;}
 	
-	#PanelUI-developerItems > toolbarbutton:nth-child(5){
+    #PanelUI-developerItems > toolbarbutton:nth-child(5){
     list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADJklEQVQ4jX2QXWhbdRjGH5slpSVdkraz07bJ8p0wrMiEZOLNLsR5MmFCwZ5sTJp0aW3W1mrrZLBZbTaEIdVNdJ1zXjic1pU6UcdKGOoYTZucfC5ZsDRjN0npkioIujLl8eIcFBT2hx+/5/++z9WLzI7mkbVeW+pu0JZaC7iSdwOO5FrAllzrtSerQYWAPVlVdtWAK1kLOjKV/fZYwq19GXeE9uKfr27nxiEXfx9y817YwXthJzeGXNwYcvOPsFv5O2WHHdwYdvH+qJvLu7YsY3nXlvSv+7ex6jey1mPiek8n10UTaz0drIkmrotG1sQOrosmVsUO1sRO1sRO/rLPyFtP6W+i6NGnV/c0s+IzsCK0suwzyAgtykzPimBgRTCwLOhY9hm4Khi4+lwLszu0OWQfr0/f3lnHklfDFY+aK55NCmqWPBqueOtZ8jaw5NX80yl5Nby9U8WMuzGHlPmhdMEG5h1gwQHeUpy3yy5Y5VneARbsci46ZSfMdTkstiAv6UCpCZS0oLQZTOpAqQFMaEGpEZR0yk4LJpWO1AAubUURN/T4KQZw8T8sAEwDTCk5BjCueEnJC3r8gGtGzfaopW4walaFrlnVoahVHfqxXd2f1aH/qLm9/K7lkUS2DaGouTV0VWF+W2v/vKm1b75jsx0Pek6LK+cyPnrhgSX/cYwcm7UtvjlnjR+dtSxNzDnj4zONVwDgYb1VajOZPgEAfH7jOr6R4piLL+GyFMdMbAGvnR7E+Hlj8bN0N8/F9vBc7Hl+Gt/L89JumjwIb1Kpr9erVB+g91gEaRKJv4j4fZkUialvl9F/qjH9ztdP8PhsF9++1MXI3GOc+MpC/8En7/hffIkHul/4DYcmyrj0M/Flnrh4k/giT8wUiMjFHA6cQHb0bDNHzjRx+KMmvjKt49B0HZ/2tSXM5q73u0xbP0T3QBGno8TU98TUd8R7V4hTV4nXpwvYewQp8QQoRkBxUsY/CT4zjIF/DzV+Ekc+Jg5PE4fPEm+ckfPgyRyeHcWAMIaMMIaUMIaUbwy53aOI/u/afZMLODiZRV8khWAkg763EghOBP4GUHPP0bjWfqAAAAAASUVORK5CYII=") !important;
     -moz-image-region: rect(0px 16px 16px 0px) !important;
     padding-left:15px !important;}
@@ -81,7 +81,7 @@
     #PanelUI-developerItems > toolbarbutton:nth-child(7) >.menu-iconic-text{
     padding-left:5px !important;}  
 	
-	#PanelUI-developerItems > toolbarbutton:nth-child(8){
+    #PanelUI-developerItems > toolbarbutton:nth-child(8){
     list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6N0FGMzkzQkU1NTlFMTFFMUFBQ0RDODVEQzdBOEQ3RkMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6N0FGMzkzQkY1NTlFMTFFMUFBQ0RDODVEQzdBOEQ3RkMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3QUYzOTNCQzU1OUUxMUUxQUFDREM4NURDN0E4RDdGQyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3QUYzOTNCRDU1OUUxMUUxQUFDREM4NURDN0E4RDdGQyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PmQ1O1UAAAKBSURBVHjajFNJaBRBFH1VXdM9W+J0iCFkkbgkUREVIgSME0U9GBSUxJM5CkIOklw8xZPoISAexCUoSA6CIJ69KChKRjTuwzjESMiiMtEZ42Si0+lKd1nVOJMV8Rdd1fz6/9X7GxFCQAkhBKtJy+XW85bLe2sCJj7nf8JP2IXB7idn1Z3nq7YCyHLZfSna3XmzXYjRR0KMDwo+fF903mgXUt9TAKD4h+Qtfm6g9RRSIyP4OpwAmxe4FT0p9XZfwYatSjdoYvLXNKycDaYHkPwQR3lVFZjhQ8X6BlT7I/qb5QAtF6M9df7y3tsHT0utAdeawaaBM95dNp2BbhgwGEPFhgaMTaeLjxZDsOZ438A+SffTCFKSLhUaBBfgTENt7TpkUlPw64b00MDchciLDOa5ozM9iGQijsrqGkTCJdDmCa5PPkfX/lY0GWsAbqH/ywuZC7ISwLVVJYhHNxAIIBsMQ3MovudncPR1P0pKS8E5x05zG6hDVoagXnN8pEhX13VpKA2kbZD6ECK6dzJClwCwxQBXR5+h68BeNAUiKijgruvVmshFidpl7eVybGcVAE6QymdxZOgKzPIyTMQmcHjPIfzIZ2D6IwgZYdmFfqRn02iLtoFRdk+6HS+GQOSDip6iGaYGxJSNp8nHyOVyMEMmIhKkLFiG7OwMHiYegDikY0kOVMnUOFAVo/xpPNYA+xuX2dXw8mMS8bFxxBJvpSOFLcFj12K7lgAQlyBjZWQPMWg+DYQRsDmGLRvrUVlbiopqA3X1a7G1fjPonKZcXnl+hUFqPtH8jobodvFbLNSH/J04d1G/S71wxPuhO0M7vAQvGudGeYTxfzIrv2Hl+0eAAQCPpf/BqHftVwAAAABJRU5ErkJggg==") !important;
     -moz-image-region: rect(0px 16px 16px 0px) !important;
     padding-left:15px !important;}
@@ -89,12 +89,12 @@
     #PanelUI-developerItems > toolbarbutton:nth-child(8)>.menu-iconic-text{
     padding-left:5px !important;}  
 	
-	#PanelUI-developerItems > toolbarbutton:nth-child(9){
+    #PanelUI-developerItems > toolbarbutton:nth-child(9){
     list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABE0lEQVQ4jZ2SPUoEQRCFP0NDEWP1BAuCoYFXECf2ABruEYxX0J2qA3gFLzCBLhuoKG5VpInBgomgJqI4BtOrvfPjyBQ03dR79V5XdcPf0QfyhtVvqYVATGryScD+JdAFayXFrXQSmM0mmkPqB4hNEZuiloXsGQBqGeqPiD+hdgj0gNOwhxB7RT1naBuR0+DndHy1gnpecHyZyivMwKPrtSib1HKGtlruaaEB7M2x6k2A9G4T9RyxNwYXi2X13zb9AfWc1Hfi5Dlq74h9IL7XWFwYbaP+gvonYqMuN7iv3qCIphnMR+MMWsESp9ZE7LloY7JVW3xysx4EvpDbpSohneyiNkbdo58YnC1DzFC7RGw/hr4Bvau1WAaDSiMAAAAASUVORK5CYII=") !important;
     -moz-image-region: rect(0px 16px 16px 0px) !important;
     padding-left:15px !important;}
 	
-	#PanelUI-developerItems > toolbarbutton:nth-child(9)>.menu-iconic-text{
+    #PanelUI-developerItems > toolbarbutton:nth-child(9)>.menu-iconic-text{
     padding-left:5px !important;} 
 
     #PanelUI-developerItems > toolbarbutton:nth-child(10){
@@ -194,8 +194,6 @@
     padding-left:5px !important;}   
           
     #PanelUI-developerItems > toolbarbutton:last-child {max-height: 18px !important;}
-	
-	
 						
     /*Developer - Ende*/
     }
