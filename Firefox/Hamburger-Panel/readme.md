@@ -7,7 +7,9 @@ geladen oder Importiert werden. Alle anderen CSS Codes im selber Verzeichnis
 ablegen wie ***Hamburger.css*** dann werden sie automatisch importiert.    
 
 So sollte es dann aussehen:    
-![Screenshot](Screeen-001.png)       ![Screenshot](Screeen-002.png)    
+![Screenshot](Screeen-001.png)      
+
+![Screenshot](Screeen-002.png)       ![Screenshot](Screeen-016a.png)
 
 Damit hier auch bei Bildschirmfotos obiges Symbol angezeigt wird, ***muss***    
 das userChrome Script ***Hamburger-Symbol.uc.js*** installiert werden.
