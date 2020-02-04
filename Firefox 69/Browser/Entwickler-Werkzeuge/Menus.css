@@ -1,8 +1,4 @@
 
-  #inspector-searchbox{
-  -moz-appearance: none !important;
-  border-radius: 14px !important;}
-
   menuitem[label="CSS-Quelldateien anzeigen"]{
   -moz-appearance:none!important;
   background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABTUlEQVQ4jY2TP0vDUBTFr1/KRXDR7+BgvoGjk4NTWxMzCeJSKAUnraAuTipFC9VBMzlVcMn7l/cCmdrlyTsOmhhJ0njhLA/O79z7Lpfot9aCsIc2+X5nk+oqCHtwzlVkrYW1FovFAtbaZkgOSNMUxhgYbaC1RqITPE2nuLy+AOOsGZIDjMmNGipJoJSCUhKDYR9ZloFxBsYZgrCHWoBOdGVuIQTOR2cYDPs4Pjkq3msBSilIqSClhJQCXHAwzjB7n+Hu/haPkwdEHiHyCK/b5FUAUsqlW4g8wvyN8Hm1jsgjVABCCHD+ncoYQxzHhcrm+R7VAzhjrcm5+cWj/QqgnLgsebS7Uf+JcRzXppfN6eQ038JKawc/c2JnaxWRR/h4voFzbjmgnE5EhTGHOufgH3abR2hTqYP2Y2rSQdD5C/DD7vg/51ycddgdExF9AeKfgIVZY03kAAAAAElFTkSuQmCC") no-repeat !important;
