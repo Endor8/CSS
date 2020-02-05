@@ -45,9 +45,16 @@
     padding-left:15px !important;}
 
     #PanelUI-developerItems > toolbarbutton[label="Web-Konsole"] .menu-iconic-text{
-    padding-left:5px !important;}      
-           
-          
+    padding-left:5px !important;}    
+    
+    #PanelUI-developerItems > toolbarbutton[label="Anwendung"]{
+    list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAf1JREFUeNqcU01rFEEQfT3dPTNumA1eNAaNu8uGgC7mEFRQsooIwY8EvAie/AuCHoSIwVMO+RdePHgQNxgjKLgBxRg8CLmIUXIQlXiKwcPsZrrtqtmZDAiiqZ4H1TX1Xnd1dYs9009a5UBOGmtBQ+DvZh2EG54Q+Bkn8ypy5Nmpk+gmCSf8iwCZlhK3W8uTqpMYDEQ+7r38Co+0hddLdKnWpKIFVbdRUHTm7CCI6wQsLtRKDnX8rxFXUe1kX9Y30P5wFZ9+tHle33cGzZGHrtZfuL9qsPwt3dmJAwbXjxgMVuogrpephUGENUceHbrCWNtoIwwjlIIQb75LjB6rMMgvBUG+i1xAB5rrOzwwxqA6ta8dFB/cwXIKmlBuZipXksDRoQk8enuH541DExCSqBrNisb8q3WOj1d9F/cLAr2+CJXg4qlFXO6Jm20giWNu7I3xPtw818fxpGsRd3Z6qrK+qjCA92AO6t0Lnm+PnYe4dsslGCy1fHxelRyvNRI0p+L8TuRnoNx/sfIMqO5liJVFjvlK4+N7idoIGORLpf48RA651baqwwzy/axKt9T+4RRp1wuH6BVumT59CdHzhVTZ+Zk1jgOvH+/42YVnbvnugt2tEVd1tjaX+meeNrvuWhpRfE6WP9FrU/YerE0ztPRAXPLpEfRjd7b5W4ABADHq3/JZmI5FAAAAAElFTkSuQmCC") !important;
+    -moz-image-region: rect(0px 16px 16px 0px) !important;
+    padding-left:15px !important;}
+
+    #PanelUI-developerItems > toolbarbutton[label="Anwendung"] >.menu-iconic-text{
+    padding-left:5px !important;}
+	
     #PanelUI-developerItems > toolbarbutton[label="Debugger"]{
     list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB3ElEQVQ4ja2TT2jTYBiHo4KX3ZyiMBDZRcSDFDwIgphEyUGQiQcRBEEdOCeDKYh/wNQUFUIJsovOgKTBwhCpB9fT/hxWlHQquG6s7LCJtxFZyeraTrrm8ZRk2URk+IOH9/DxPd/78vIJwv/KS+UA5pn9Ia/Od4RkLu0LeX11T0hMkL54kB/GdpYGdlIx26iYbVSzu/j5di+19x00xjppjHXy6+Mhmp8Obxb8qYNc9i5fPw8z9OICo8PG3zvQVJ2Zqk/Ja1HyWmTMHlzXJYjruljPe8Jz88GRuEASFUpei8WGj6bqTBYLbMxkscBI3mCx4UcCSVTQVD3EHuxFU3Vmy/Os4ceYLc+TyajYg72RYOFbGU3VsRyPQBbUagskUWGlXmOlXmO88IE3QwZLqz7p20ejEbTUQyRRISHnsBwPy/FIyDkkUWG5CVPTc0xNz5F8mqY8MxEXrH/Rcjwqvk+1WY9Jigvj3HvyDNvOkn9n8+hxEvXmsc1bsByPZQhlCTkXjjT65TsTI3m6du8geaubO9ePE7u8cQRJVMK6TRDou2+wuuaj9V/mbLtAqr87EkiiwqnTJ0NJINJUnWRqgBtXTsRI9V3jXLsQrVEQBEGWxdgGgvqvfykm21K2evk3l3HRtEidnToAAAAASUVORK5CYII=") !important;
     -moz-image-region: rect(0px 16px 16px 0px) !important;
