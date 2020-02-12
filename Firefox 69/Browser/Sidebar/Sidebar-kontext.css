@@ -1,5 +1,5 @@
-	@-moz-document url-prefix("chrome://browser/content/bookmarks/bookmarksPanel.xul"),
-		       url(chrome://browser/content/places/bookmarksSidebar.xul){	
+	@-moz-document url-prefix("chrome://browser/content/bookmarks/bookmarksPanel.xhtml"),
+		       url(chrome://browser/content/places/bookmarksSidebar.xhtml){	
 
 	menuitem[label="Kopieren"]{
 	-moz-appearance:none!important;
