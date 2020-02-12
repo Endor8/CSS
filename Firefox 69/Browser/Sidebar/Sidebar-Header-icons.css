@@ -1,5 +1,5 @@
-@-moz-document url("chrome://browser/content/bookmarks/bookmarksPanel.xul"),
-	       url("chrome://browser/content/places/bookmarksSidebar.xul"),
+@-moz-document url("chrome://browser/content/bookmarks/bookmarksPanel.xhtml"),
+	       url("chrome://browser/content/places/bookmarksSidebar.xhtml"),
 	       url("chrome://browser/content/browser.xhtml")
 {
 #sidebar-switcher-bookmarks > .toolbarbutton-icon, #sidebar-box[sidebarcommand="viewBookmarksSidebar"] > #sidebar-header > #sidebar-switcher-target > #sidebar-icon {
