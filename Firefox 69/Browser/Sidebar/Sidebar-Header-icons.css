@@ -27,14 +27,14 @@ padding-left:16px !important;}
 margin-left:-8px !important;}
 }
 
-@-moz-document url("chrome://browser/content/history/history-panel.xul"),
+@-moz-document url("chrome://browser/content/places/historySidebar.xhtml"),
 	       url("chrome://browser/content/browser.xhtml") 
 {
 #sidebar-switcher-history > .toolbarbutton-icon, #sidebar-box[sidebarcommand="viewHistorySidebar"] > #sidebar-header > #sidebar-switcher-target > #sidebar-icon {
 fill: blue !important;}
 }   
 
-@-moz-document url("chrome://browser/content/history/history-panel.xul"),
+@-moz-document url("chrome://browser/content/places/historySidebar.xhtml"),
 	       url("chrome://browser/content/browser.xhtml") 
 {
 #sidebar-switcher-tabs > .toolbarbutton-icon, #sidebar-box[sidebarcommand="viewTabsSidebar"] > #sidebar-header > #sidebar-switcher-target > #sidebar-icon {
