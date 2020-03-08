@@ -1,18 +1,18 @@
 /* AGENT_SHEET */
-    @-moz-document url("about:debugging"),				   
-                   url("about:debugging#addons"),
-                   url("about:debugging#/setup"),				   
-                   url("about:debugging#tabs"),
-                   url("about:debugging#workers"),
-                   url("about:debugging#/runtime/this-firefox"){
+	@-moz-document url("about:debugging"),				   
+		   url("about:debugging#addons"),
+		   url("about:debugging#/setup"),				   
+		   url("about:debugging#tabs"),
+		   url("about:debugging#workers"),
+		   url("about:debugging#/runtime/this-firefox"){
 					   
 
 					   
 	.page:before {content: "Design by Endor";
-             margin-left: 0px;
-             font-size: 25px;
-             font-weight: bold;
-             color: red;}
+         margin-left: 0px;
+         font-size: 25px;
+         font-weight: bold;
+         color: red;}
 			 
 	.app__content{margin-top: -50px !important; }
 	
