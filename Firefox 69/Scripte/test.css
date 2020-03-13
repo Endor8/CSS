@@ -1,0 +1,270 @@
+	@charset "utf-8";
+	/*@version       2020/03/13 fix for 74, broken listitem orient due to Bug 1606130
+	/*@version       2019/12/11 fix for 73 Bug 1601094 - Rename remaining .xul files to .xhtml in browser */
+	/*@version       2019/10/20 12:30*/
+	
+	#contentAreaDownloadsView[ucjsDownloadsStatusModoki] { 
+	-moz-box-orient: horizontal; 
+	background-color: -moz-dialog !important; 
+	padding: 0 !important;} 
+	
+	#contentAreaDownloadsView[ucjsDownloadsStatusModoki] > stack:first-child {
+	}
+	
+	#contentAreaDownloadsView[ucjsDownloadsStatusModoki] #downloadsRichListBox {
+	background-color: #fffff0 !important; 
+	display:inline-block !important; 
+	overflow-y: auto !important; 
+	scrollbar-width: thin; 
+	border: none !important;
+	} 
+
+	#contentAreaDownloadsView[ucjsDownloadsStatusModoki] :root
+	{ --downloads-item-height: 38px; }
+
+	#contentAreaDownloadsView[ucjsDownloadsStatusModoki] richlistitem { 
+	min-width:193px !important; 
+	max-width:193px !important; 
+	font-size: 13px !important; 
+	border-width: 0 1px 0 0 !important; 
+	border-style: solid !important; 
+	border-color: black !important; 
+	height: 38px !important; 
+	display:-moz-inline-box !important; 
+	} 
+
+	#contentAreaDownloadsView[ucjsDownloadsStatusModoki] richlistitem vbox { } 
+
+	#contentAreaDownloadsView[ucjsDownloadsStatusModoki] .downloadTypeIcon { 
+	height:16px !important; 
+	width: 16px !important; 
+	-moz-margin-end: 1px !important; 
+	-moz-margin-start: 1px !important; 
+	padding-right: 1px !important; 
+	padding-left: 1px !important;} 
+
+	#contentAreaDownloadsView[ucjsDownloadsStatusModoki] .downloadTarget { 
+	margin-top:1px !important; 
+	padding-bottom:16px !important; 
+	max-width: calc(100% - 51px) !important; 
+	min-width: calc(100% - 51px) !important; } 
+
+	#contentAreaDownloadsView[ucjsDownloadsStatusModoki] .download-state[state="0"] * .downloadTarget,
+	#contentAreaDownloadsView[ucjsDownloadsStatusModoki] .download-state[state="4"] * .downloadTarget { 
+	padding-bottom:0px !important;} 
+
+	#contentAreaDownloadsView[ucjsDownloadsStatusModoki] .downloadTarget:-moz-system-metric(windows-default-theme) { 
+	margin-top:2px !important; 
+	/*padding-bottom:10px; windows7 ?*/
+	} 
+
+	#contentAreaDownloadsView[ucjsDownloadsStatusModoki] *|*.downloadProgress { border: none !important;} 
+
+	#contentAreaDownloadsView[ucjsDownloadsStatusModoki] *|*.downloadProgress:not([paused])::-moz-progress-bar { background-color: lime !important;} 
+
+	#contentAreaDownloadsView[ucjsDownloadsStatusModoki] .downloadDetails { margin-top:-12px !important;
+	} 
+
+	#contentAreaDownloadsView[ucjsDownloadsStatusModoki] .download-state:not(:-moz-any([state="-1"], [state="5"], [state="0"], [state="4"], [state="7"])) .downloadDetails { margin-top:-17px !important;
+	}
+
+	#contentAreaDownloadsView[ucjsDownloadsStatusModoki] richlistitem[selected] .downloadDetails { opacity: 1 !important;} 
+
+	#contentAreaDownloadsView[ucjsDownloadsStatusModoki] .downloadButton { padding: 0 !important; 
+	margin: 0 !important;
+	} 
+	 
+	#contentAreaDownloadsView[ucjsDownloadsStatusModoki] button > .button-box { 
+	-moz-padding-start: 0px !important; 
+	-moz-padding-end: 1px !important; 
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+	} 
+	
+	#contentAreaDownloadsView[ucjsDownloadsStatusModoki] #downloadFilter { 
+	width: 150px;
+	}
+	
+	 /*  Farben Anpassung und Abrundung */ 
+	#contentAreaDownloadsView[ucjsDownloadsStatusModoki] #downloadsRichListBox > richlistitem.download[selected="true"]:hover,
+	#contentAreaDownloadsView[ucjsDownloadsStatusModoki] #downloadsRichListBox > richlistitem.download[selected]:hover{
+	background: rgba(255, 132, 0, 0.4) !important;
+	color: #000000 !important;
+	}
+
+	#contentAreaDownloadsView[ucjsDownloadsStatusModoki] #downloadsRichListBox > richlistitem.download[selected="true"]:not(:hover),
+	#contentAreaDownloadsView[ucjsDownloadsStatusModoki] #downloadsRichListBox > richlistitem.download[selected]:not(:hover){
+	background: rgba(255, 255, 0, 0.3) !important;
+	color: #800000 !important;
+	}
+
+	#contentAreaDownloadsView[ucjsDownloadsStatusModoki] #downloadsRichListBox > richlistitem.download[active="true"][orient="horizontal"][state="1"][exists="true"][selected="true"][current="true"]:hover .downloadButton > .button-box > .button-icon:not(:hover) {
+	-moz-context-properties: fill;
+	fill: #cc5200 !important;
+	}
+
+	#contentAreaDownloadsView[ucjsDownloadsStatusModoki] #downloadsRichListBox > richlistitem.download:not([selected]) .downloadButton > .button-box > .button-icon:not(:hover) {
+	-moz-context-properties: fill;
+	fill: darkred !important;
+	}
+
+	#contentAreaDownloadsView[ucjsDownloadsStatusModoki] #downloadsRichListBox > richlistitem.download:not([selected]):hover .downloadButton > .button-box > .button-icon:not(:hover) {
+	-moz-context-properties: fill;
+	fill: #664d00 !important;
+	}
+
+	#contentAreaDownloadsView[ucjsDownloadsStatusModoki] #downloadsRichListBox >richlistitem.download:not([selected]):hover{
+	background: rgba(255, 196, 150, 0.4) !important; 
+	border-width: 1px !important; 
+	border-radius: 6px !important; 
+	color: #000000 !important;}
+
+    @-moz-document url(chrome://browser/content/downloads/contentAreaDownloadsView.xhtml?StatusModoki){
+	
+	#ucjs_clearListButton{
+	-moz-appearance: none !important;
+	background: gainsboro url("..//icons/Bild8.gif") no-repeat !important;
+    color:black!important;
+    font-size:12px!important;
+	margin-top: 4px !important;
+    padding-left:22px!important;
+    padding-right:5px!important;      
+    background-position:3px 6px!important;
+    border-left-color:  lightblue!important;
+	border-top-color:  lightblue!important;
+	border-right-color:  dodgerblue!important;
+	border-bottom-color:  dodgerblue!important;
+	border-style: outset !important;
+	border-width:2px !important;}
+         
+	#ucjs_clearListButton:hover{
+	-moz-appearance: none !important;
+	background: #B2EDFA url("..//icons/Bild8.gif") no-repeat !important;
+    color:black!important;
+    font-size:12px!important;
+    padding-right:5px!important;
+    padding-left:22px!important;
+    background-position:3px 6px!important;
+	border-left-color:  #bbddff !important;
+	border-top-color:  #bbddff !important;
+	border-right-color:  #11508d !important;
+	border-bottom-color:  #11508d !important;
+	border-style: outset !important;
+	border-width:2px !important;}
+	
+    /*  Downloads  Kontextmenü  */
+	
+	menuitem[label="Aus Chronik entfernen"]{
+    -moz-appearance:none!important;
+    background: url("..//icons/Bild81.png") no-repeat !important;
+    min-height: 24px!important;
+	padding-left:4px!important;
+	background-position:6px 5px!important;}
+	
+	menuitem[label="Aus Chronik entfernen"]:hover{
+    -moz-appearance:none!important;
+	margin-right: -1px !important;
+    background: #ecf0f6 url("..//icons/Bild81.png") no-repeat !important;	
+	border-width: thin !important;
+	border-radius: 4px !important;
+	border-color: #aecff7 !important;
+	border-style: solid !important;
+    min-height: 24px!important;
+	padding-left:3px!important;
+	background-position:5px 4px!important;}	
+	
+	menuitem[label="Ziel-Ordner öffnen"]{
+    -moz-appearance:none!important;
+    background: url("..//icons/Bild47.gif") no-repeat !important;
+    min-height: 24px!important;
+	padding-left:4px!important;
+	background-position:6px 5px!important;}
+	
+	menuitem[label="Ziel-Ordner öffnen"]:hover{
+    -moz-appearance:none!important;
+	margin-right: -1px !important;
+    background: #ecf0f6 url("..//icons/Bild47.gif") no-repeat !important;	
+	border-width: thin !important;
+	border-radius: 4px !important;
+	border-color: #aecff7 !important;
+	border-style: solid !important;
+    min-height: 24px!important;
+	padding-left:3px!important;
+	background-position:5px 4px!important;}	
+	
+	menuitem[label="Zur Download-Seite gehen"]{
+    -moz-appearance:none!important;
+    background: url("..//icons/Bild82.png") no-repeat !important;
+    min-height: 24px!important;
+	padding-left:4px!important;
+	background-position:6px 5px!important;}
+	
+	menuitem[label="Zur Download-Seite gehen"]:hover{
+    -moz-appearance:none!important;
+	margin-right: -1px !important;
+    background: #ecf0f6 url("..//icons/Bild82.png") no-repeat !important;	
+	border-width: thin !important;
+	border-radius: 4px !important;
+	border-color: #aecff7 !important;
+	border-style: solid !important;
+    min-height: 24px!important;
+	padding-left:3px!important;
+	background-position:5px 4px!important;}	
+
+	menuitem[label="Download-Link kopieren"]{
+    -moz-appearance:none!important;
+    background: url("..//icons/Bild1.gif") no-repeat !important;
+    min-height: 24px!important;
+	padding-left:4px!important;
+	background-position:6px 5px!important;}
+	
+	menuitem[label="Download-Link kopieren"]:hover{
+    -moz-appearance:none!important;
+	margin-right: -1px !important;
+    background: #ecf0f6 url("..//icons/Bild1.gif") no-repeat !important;	
+	border-width: thin !important;
+	border-radius: 4px !important;
+	border-color: #aecff7 !important;
+	border-style: solid !important;
+    min-height: 24px!important;
+	padding-left:3px!important;
+	background-position:5px 4px!important;}	
+
+	menuitem[label="Liste leeren"]{
+    -moz-appearance:none!important;
+    background: url("..//icons/Bild2.gif") no-repeat !important;
+    min-height: 24px!important;
+	padding-left:4px!important;
+	background-position:6px 5px!important;}
+	
+	menuitem[label="Liste leeren"]:hover{
+    -moz-appearance:none!important;
+	margin-right: -1px !important;
+    background: #ecf0f6 url("..//icons/Bild2.gif") no-repeat !important;	
+	border-width: thin !important;
+	border-radius: 4px !important;
+	border-color: #aecff7 !important;
+	border-style: solid !important;
+    min-height: 24px!important;
+	padding-left:3px!important;
+	background-position:5px 4px!important;}	
+
+	menuitem[label="Pause"]{
+    -moz-appearance:none!important;
+    background: url("..//icons/Bild8.png") no-repeat !important;
+    min-height: 24px!important;
+	padding-left:4px!important;
+	background-position:6px 5px!important;}
+	
+	menuitem[label="Pause"]:hover{
+    -moz-appearance:none!important;
+	margin-right: -1px !important;
+    background: #ecf0f6 url("..//icons/Bild8.png") no-repeat !important;	
+	border-width: thin !important;
+	border-radius: 4px !important;
+	border-color: #aecff7 !important;
+	border-style: solid !important;
+    min-height: 24px!important;
+	padding-left:3px!important;
+	background-position:5px 4px!important;}	
+    }
