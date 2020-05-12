@@ -1,0 +1,1 @@
+Symbole für about:crashes
