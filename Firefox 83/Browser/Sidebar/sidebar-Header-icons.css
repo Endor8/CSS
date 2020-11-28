@@ -1,7 +1,6 @@
 	@-moz-document url("chrome://browser/content/bookmarks/bookmarksPanel.xhtml"),
-				   url("chrome://browser/content/places/bookmarksSidebar.xhtml"),
-				   url("chrome://browser/content/browser.xhtml")
-	{
+		       url("chrome://browser/content/places/bookmarksSidebar.xhtml"),
+		       url("chrome://browser/content/browser.xhtml"){
 	#sidebar-switcher-bookmarks > .toolbarbutton-icon, #sidebar-box[sidebarcommand="viewBookmarksSidebar"] > #sidebar-header > #sidebar-switcher-target > #sidebar-icon {
 	fill: #ff9800 !important;}
 
@@ -19,20 +18,16 @@
 	#sidebar-reverse-position[label="Sidebar nach links verschieben"] .toolbarbutton-text{
 	margin-left:-8px !important;}
 
-
 	#sidebarMenu-popup > toolbarbutton.subviewbutton[label="Sidebar schließen"] .toolbarbutton-icon{
 	list-style-image: url("..//icons/Bild142.png") !important;
 	padding-left:16px !important;}
 
 	#sidebarMenu-popup > toolbarbutton.subviewbutton[label="Sidebar schließen"] .toolbarbutton-text{
 	margin-left:-8px !important;}
-
-
 	}
 
 	@-moz-document url("chrome://browser/content/history/history-panel.xhtml"),
-				   url("chrome://browser/content/browser.xhtml") 
-	{
+		       url("chrome://browser/content/browser.xhtml"){
 	#sidebar-switcher-history > .toolbarbutton-icon, #sidebar-box[sidebarcommand="viewHistorySidebar"] > #sidebar-header > #sidebar-switcher-target > #sidebar-icon {
 	fill: blue !important;}
 	}   
@@ -40,11 +35,7 @@
 
 
 	@-moz-document url("chrome://browser/content/history/history-panel.xhtml"),
-				   url("chrome://browser/content/browser.xhtml") 
-	{
+		       url("chrome://browser/content/browser.xhtml"){
 	#sidebar-switcher-tabs > .toolbarbutton-icon, #sidebar-box[sidebarcommand="viewTabsSidebar"] > #sidebar-header > #sidebar-switcher-target > #sidebar-icon {
 	fill: brown !important;}
 	}
-
-
-
