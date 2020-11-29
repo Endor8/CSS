@@ -1,31 +1,24 @@
-/* AGENT_SHEET */
-@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
-@-moz-document url(chrome://browser/content/browser.xul){
+	/* AGENT_SHEET */
+	@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+	@-moz-document url(chrome://browser/content/browser.xhtml){
 
-  /*Sonstiges - Anfang*/
-  
-  #appMenu-taskmanager-button{
-  list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAs1JREFUeNqEUltLVFEU/vY+58xMpY7UQw8ZJKUR9BiFGt7Ly4TphKkgFdH1Oeol8D/0FpgopJjZg5cxxiBMyFHx+tCYVEIXITU0dJwZz8w5Z7f2NkKhaLEXC9Ze61vfurCOh+WAHcfWiTuorqpEa0vzM13X6gAGy7K6rly7Xt8/MAjP+8eAtofcHDtFd4ToEbZ9kSwEqf9SLdK9qepz7ed6nQDqpN+xbYCLXs5QvZ0qqAThtd0vFtW1jQh9iuLzugHh2LsqMK7hiDeJ3GP70NPdDt0wGGMSy1Yguk3IujcDm3uTuNtQib9Jd+9LijFg2xY0jUNjFsIpRMRKUAuOAzO2AcdxqeCv3xahSiiCAoczDilWiVicrAVmC4S9NdCESf8WMaFAc2vzT7XpqUm43W7MzkyRTiufpjE45gY0J4l5bzUlJ1QLTLYABzDjUap6QAUXFBYqBoVFReCcQw53LjyHUCgKI60K3IzKcb+mTdUwISJyCwQQITSmAIaHhnCurAxvyFo0n5GRMZSWliC/IB8vnnfhcl09+UIlg4OvNtwudxqnfJpBlFreBqj0XYDLcMHn82FlZZWSi5GXl0NsgKamJrIMOblnUFFxHgkr2cshGLYkg98AgUA/DENHMBjE9PQMSktKwOl4dN2QK4SuafC43CjIz4dtWUWKQTy2CU4BUvx+v7Ll5eVqE09aWugAPZD3J8eWlZ2NzMxMtLc/pc3RJQpiYNKK+Np79AS5ujhJxtA1CE3HrZs3aFlQLS7IajtkauYBAVBwzIwj+TEA8aGXVu+oT4cJHPQcx9vZMM6eOkn+3cmjY+NImOYE34zZw4tfVrG8bNLQklj5YStdWrGwPzKPzrZWjE6+U0nN1I5KHh1HR0cnBgJ9t+XkjpKm4x+SkpJqNDRefUTDOy0vUz7LSk709/XcW1r6HmL4v8iYLNLUHb4I6YKc6y8BBgDxB0A9RYqhVgAAAABJRU5ErkJggg==") !important;
-  padding-left:15px !important; }
-	
-  #appMenu-taskmanager-button .toolbarbutton-icon{
-  padding-left:5px !important;  margin-right: 14px !important; width: 22px !important;}
+	/*Sonstiges - Anfang*/
 
-  #appMenu-characterencoding-button{
-  list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALVJREFUeNpi/P//PwMlgImBQjDwBjACATJ/OpTOxKEeQx7ZBfJA/AuIJaBsdIBVHtkAFyA+CcSsUDY6wCqPbIA9EB+HKrLHYgBWeZgBSkD8G4j5gfgxEMtCxRgIyTNDAzEGiB2A2BuIjUHiUP+eghqAWx5kABBvBmIVKBuEu6BiBOVBJq2CmqoBxEeB2AqIK4FYHIj5oP71xCFvBXI/BxCzATE7NISJAaDw+AnyBuPQz0wAAQYAL1coXndu90UAAAAASUVORK5CYII=") !important;
-  -moz-image-region: rect(0px 16px 16px 0px) !important;
-  margin-left:4px !important;}
+	#appMenu-characterencoding-button{
+	list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALVJREFUeNpi/P//PwMlgImBQjDwBjACATJ/OpTOxKEeQx7ZBfJA/AuIJaBsdIBVHtkAFyA+CcSsUDY6wCqPbIA9EB+HKrLHYgBWeZgBSkD8G4j5gfgxEMtCxRgIyTNDAzEGiB2A2BuIjUHiUP+eghqAWx5kABBvBmIVKBuEu6BiBOVBJq2CmqoBxEeB2AqIK4FYHIj5oP71xCFvBXI/BxCzATE7NISJAaDw+AnyBuPQz0wAAQYAL1coXndu90UAAAAASUVORK5CYII=") !important;
+	-moz-image-region: rect(0px 16px 16px 0px) !important;
+	margin-left:4px !important;}
 
-  #appMenu-characterencoding-button .toolbarbutton-icon{
-  padding-left:5px !important;} 				
-               
-  #appMenu-workoffline-button{
-  list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA1xJREFUeNpMUl1oHFUYPTN3/mdnsz/J7mY2NpvEdDdIscRqoASRikUpqPhk34RWffKtPvgiLaKCT+KrL/raCCq0EfuQKramrBIxVE10t0lIyCbZv9md7O7sZH78NqXQOxzuZeaeM993zsfxV5YBJoCLxABBUug8D447D2CSMERoER4gDG/B9+7Ac53w0AKdMVgCHq0wyNHHD86McM+9XtDGxuOSEREgZTOau1Z17a+K1ktLZbdI9z6l25uPaIw7exngkDNY8Pk7s8a5N08b089MD2m1titYvYBL6EyYTCvaKzNGZsKAubxeO+UeefeoIuuhwKk3VHhHn707P/qCmVBGc6YBVRJQbzkwFAaN4IccXI6HOawaY1oYW1rZzsLp3ILb8/iw03q+EAvmrL6f2Wg6qLQ9LP6+i7X9DlwieoKMG3c3sb7Twd4hcDI3kpnSvbkBL7Qb5EGndeHMVMHc7/jwewEqxR0oMjXPeNTsGux7G2jbPcTHTuCf3Qb2GjaeLWTMUmnrAnXwoxB22yeTGVPf3qyh4fahqjKY41FvHIK+i8lMGjPTaZQPHKze30Lb82EaTB/wHqbgOvHl4n1BH59B19pB3x94Sg9Hwfg+uuU9bG63cH7yV+RjX+Nf/2X8aZ075g0E+IGbTB/yHuxsI+TJsID+HFDMJBSCwXZdePCR8X/Gqy9ewtOpEtLpUe84hTAkASb+Z9XrXVHWIJBhsiBBFSXosgyNoKsqCuodjCfjyCY1PJlKIG5/3xvwCCQgKjcru9UDQ9GgSSqiJJTQdIzoGlIRHZmojtP6bTyVm8DFt64jb6Yw5V8PZYX9QJNLHkjqTw27W0zVG3Ez+8RwROahSxxVwpGRQCr4BfkEVcLXsLCwgC8+SiKf6jvfXbwWKMyhCtRID4r+YWlj8w+rUa/FFJkqUJA8hoxpbhG5UQO7zSJu3ngfVWcNExOSIMJ57egIHMNf3wLVtWYQNe9WXPFEvd1RIoomqJLIhsMVlmOLyKb3wYdNzM1/gyvvJSFJvtaxbK/fc/9mg3FGpzqM0lIU5durbccprx+Kh79tVZuz/ifRs/mqmDRaTOJdXLv6NtBfpSFzyXBeOqjYOnccJaASNIKIx9aXH+MqbbOPv6P5CHkePk9p077yvwADAAfjXvCVasKaAAAAAElFTkSuQmCC") !important;
-  -moz-image-region: rect(0px 16px 16px 0px) !important;
-  margin-left:4px !important;}
+	#appMenu-characterencoding-button .toolbarbutton-icon{
+	padding-left:5px !important;} 				
 
-  #appMenu-workoffline-button .toolbarbutton-icon{
-  padding-left:5px !important;}  
-	
-  /*Sonstiges - Ende*/
-  }
+	#appMenu-workoffline-button{
+	list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA1xJREFUeNpMUl1oHFUYPTN3/mdnsz/J7mY2NpvEdDdIscRqoASRikUpqPhk34RWffKtPvgiLaKCT+KrL/raCCq0EfuQKramrBIxVE10t0lIyCbZv9md7O7sZH78NqXQOxzuZeaeM993zsfxV5YBJoCLxABBUug8D447D2CSMERoER4gDG/B9+7Ac53w0AKdMVgCHq0wyNHHD86McM+9XtDGxuOSEREgZTOau1Z17a+K1ktLZbdI9z6l25uPaIw7exngkDNY8Pk7s8a5N08b089MD2m1titYvYBL6EyYTCvaKzNGZsKAubxeO+UeefeoIuuhwKk3VHhHn707P/qCmVBGc6YBVRJQbzkwFAaN4IccXI6HOawaY1oYW1rZzsLp3ILb8/iw03q+EAvmrL6f2Wg6qLQ9LP6+i7X9DlwieoKMG3c3sb7Twd4hcDI3kpnSvbkBL7Qb5EGndeHMVMHc7/jwewEqxR0oMjXPeNTsGux7G2jbPcTHTuCf3Qb2GjaeLWTMUmnrAnXwoxB22yeTGVPf3qyh4fahqjKY41FvHIK+i8lMGjPTaZQPHKze30Lb82EaTB/wHqbgOvHl4n1BH59B19pB3x94Sg9Hwfg+uuU9bG63cH7yV+RjX+Nf/2X8aZ075g0E+IGbTB/yHuxsI+TJsID+HFDMJBSCwXZdePCR8X/Gqy9ewtOpEtLpUe84hTAkASb+Z9XrXVHWIJBhsiBBFSXosgyNoKsqCuodjCfjyCY1PJlKIG5/3xvwCCQgKjcru9UDQ9GgSSqiJJTQdIzoGlIRHZmojtP6bTyVm8DFt64jb6Yw5V8PZYX9QJNLHkjqTw27W0zVG3Ez+8RwROahSxxVwpGRQCr4BfkEVcLXsLCwgC8+SiKf6jvfXbwWKMyhCtRID4r+YWlj8w+rUa/FFJkqUJA8hoxpbhG5UQO7zSJu3ngfVWcNExOSIMJ57egIHMNf3wLVtWYQNe9WXPFEvd1RIoomqJLIhsMVlmOLyKb3wYdNzM1/gyvvJSFJvtaxbK/fc/9mg3FGpzqM0lIU5durbccprx+Kh79tVZuz/ifRs/mqmDRaTOJdXLv6NtBfpSFzyXBeOqjYOnccJaASNIKIx9aXH+MqbbOPv6P5CHkePk9p077yvwADAAfjXvCVasKaAAAAAElFTkSuQmCC") !important;
+	-moz-image-region: rect(0px 16px 16px 0px) !important;
+	margin-left:4px !important;}
+
+	#appMenu-workoffline-button .toolbarbutton-icon{
+	padding-left:5px !important;}  
+
+	/*Sonstiges - Ende*/
+	}
