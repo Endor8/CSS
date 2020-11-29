@@ -42,13 +42,13 @@ Sieht dann so aus:
 
 ### CSS Codes ###
 
-* [Hamburger.css](https://github.com/Endor8/CSS/blob/master/Firefox/Hamburger-Panel/Hamburger.css)
-* [Submenu-Chronik.css](https://github.com/Endor8/CSS/blob/master/Firefox/Hamburger-Panel/Submenu-Chronik.css)
-* [Submenu-Hilfe.css](https://github.com/Endor8/CSS/blob/master/Firefox/Hamburger-Panel/Submenu-Hilfe.css)
-* [Submenu-Sonstige.css](https://github.com/Endor8/CSS/blob/master/Firefox/Hamburger-Panel/Submenu-Sonstige.css)
-* [Submenu-Titel.css](https://github.com/Endor8/CSS/blob/master/Firefox/Hamburger-Panel/Submenu-Titel.css)
-* [Submenu-WebEntwickler.css](https://github.com/Endor8/CSS/blob/master/Firefox/Hamburger-Panel/Submenu-WebEntwickler.css)
+* [Hamburger.css](https://github.com/Endor8/CSS/blob/master/Firefox%2083/Browser/Hamburgermenu/Hamburger.css)
+* [Submenu-Chronik.css](https://github.com/Endor8/CSS/blob/master/Firefox%2083/Browser/Hamburgermenu/Submenu-Chronik.css)
+* [Submenu-Hilfe.css](https://github.com/Endor8/CSS/blob/master/Firefox%2083/Browser/Hamburgermenu/Submenu-Hilfe.css)
+* [Submenu-Sonstige.css](https://github.com/Endor8/CSS/blob/master/Firefox%2083/Browser/Hamburgermenu/Submenu-Sonstige.css)
+* [Submenu-Titel.css](https://github.com/Endor8/CSS/blob/master/Firefox%2083/Browser/Hamburgermenu/Submenu-Titel.css)
+* [Submenu-WebEntwickler.css](https://github.com/Endor8/CSS/blob/master/Firefox%2083/Browser/Hamburgermenu/Submenu-WebEntwickler.css)
 
 ### UC Script ###
 
-* [Hamburger-Symbol.uc.js](https://github.com/Endor8/CSS/blob/master/Firefox/Hamburger-Panel/Hamburger-Symbol.uc.js)
+* [Hamburger-Symbol.uc.js](https://github.com/Endor8/CSS/blob/master/Firefox%2083/Browser/Hamburgermenu/Hamburger-Symbol.uc.js)
