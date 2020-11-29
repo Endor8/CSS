@@ -2,9 +2,9 @@
 
 ### Symbole für die Einzelnen Einträge ###
 
-CSS Code ***Hamburger.css*** muss über die ***userChrome.css*** Datei   
+CSS Code ***Hamburger-Panel.css*** muss über die ***userChrome.css*** Datei   
 geladen oder Importiert werden. Alle anderen CSS Codes im selber Verzeichnis     
-ablegen wie ***Hamburger.css*** dann werden sie automatisch importiert.    
+ablegen wie ***Hamburger-Panel.css*** dann werden sie automatisch importiert.    
 
 So sollte es dann aussehen:    
 ![Screenshot](Screeen-001.png)      
@@ -42,7 +42,7 @@ Sieht dann so aus:
 
 ### CSS Codes ###
 
-* [Hamburger.css](https://github.com/Endor8/CSS/blob/master/Firefox%2083/Browser/Hamburgermenu/Hamburger.css)
+* [Hamburger.css](https://github.com/Endor8/CSS/blob/master/Firefox%2083/Browser/Hamburgermenu/Hamburger-Panel.css)
 * [Submenu-Chronik.css](https://github.com/Endor8/CSS/blob/master/Firefox%2083/Browser/Hamburgermenu/Submenu-Chronik.css)
 * [Submenu-Hilfe.css](https://github.com/Endor8/CSS/blob/master/Firefox%2083/Browser/Hamburgermenu/Submenu-Hilfe.css)
 * [Submenu-Sonstige.css](https://github.com/Endor8/CSS/blob/master/Firefox%2083/Browser/Hamburgermenu/Submenu-Sonstige.css)
