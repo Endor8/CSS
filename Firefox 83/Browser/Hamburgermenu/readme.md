@@ -42,7 +42,7 @@ Sieht dann so aus:
 
 ### CSS Codes ###
 
-* [Hamburger.css](https://github.com/Endor8/CSS/blob/master/Firefox%2083/Browser/Hamburgermenu/Hamburger-Panel.css)
+* [Hamburger-Panel.css](https://github.com/Endor8/CSS/blob/master/Firefox%2083/Browser/Hamburgermenu/Hamburger-Panel.css)
 * [Submenu-Chronik.css](https://github.com/Endor8/CSS/blob/master/Firefox%2083/Browser/Hamburgermenu/Submenu-Chronik.css)
 * [Submenu-Hilfe.css](https://github.com/Endor8/CSS/blob/master/Firefox%2083/Browser/Hamburgermenu/Submenu-Hilfe.css)
 * [Submenu-Sonstige.css](https://github.com/Endor8/CSS/blob/master/Firefox%2083/Browser/Hamburgermenu/Submenu-Sonstige.css)
