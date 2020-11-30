@@ -2045,6 +2045,7 @@
 	padding-left:3px!important;
 	background-position:5px 4px!important;}
 
+	#context_unpinSelectedTabs,
 	#context_unpinTabs,
 	#context_unpinTab{
 	appearance: none !important;
@@ -2053,6 +2054,7 @@
 	padding-left:4px!important;
 	background-position:6px 5px!important;}
 
+	#context_unpinSelectedTabs:hover,
 	#context_unpinTabs:hover,
 	#context_unpinTab:hover{
 	appearance: none !important;
